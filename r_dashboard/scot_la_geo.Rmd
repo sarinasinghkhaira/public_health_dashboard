@@ -1,0 +1,37 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(sf)
+```
+
+```{r}
+uk_la <- st_read("possible_topics/geo data/Local_Authority_Districts__December_2017__Boundaries_GB_BSC.shp") %>% 
+  clean_names() %>% 
+  st_transform(32617)
+```
+```{r}
+scot_la_geo <- uk_la %>% 
+  filter(str_detect(lad17cd, "^S12"))
+```
+
+```{r}
+plot(scot_la_geo)
+
+ggplot(data = scot_la_geo, aes(fill = lad17nm)) + 
+  geom_sf() +
+  theme_bw()
+```
+
+```{r}
+sf_cent <- st_centroid(scot_la_geo)
+
+ggplot() + 
+  geom_sf(data = scot_la_geo, fill = 'white') +
+  geom_sf(data = sf_cent, color = 'red')
+```
+

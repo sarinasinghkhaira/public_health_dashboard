@@ -36,7 +36,8 @@ lookup <- read_csv("raw_data/Datazone2011lookup.csv") %>% clean_names()
 
 lookup_la <- lookup %>% # create LA lookup table 
   select(la_code, la_name) %>% 
-  distinct()
+  distinct() %>% 
+  write_csv("clean_data/la_lookup.csv")
 
 
 shs_la <- shs %>% 
@@ -47,7 +48,8 @@ shs_la <- shs %>%
   filter(measurement == "Percent") %>% 
   group_by(la_name) %>% 
   pivot_wider(names_from = scottish_health_survey_indicator, values_from = value) %>% 
-  select(1:6,sort(names(.)))
+  select(1:6,sort(names(.))) %>% 
+  write_csv("clean_data/shs_clean.csv")
 
 
 
@@ -58,7 +60,8 @@ g_b_space_la <- g_b_space %>%
   relocate(la_name, .after = la_code) %>% 
   filter(measurement == "Percent") %>% 
   group_by(la_name) %>% 
-  pivot_wider(names_from = distance_to_nearest_green_or_blue_space, values_from = value)
+  pivot_wider(names_from = distance_to_nearest_green_or_blue_space, values_from = value) %>% 
+  write_csv("clean_data/g_b_space_clean.csv")
 
 
 
@@ -74,16 +77,19 @@ mh_la <- mental_health %>% # filter only local authority areas and clean up
   mutate(la_name = str_replace(la_name, "&", "and")) 
 
 mh_la_4yr_agg <- mh_la %>% # filter only 4 yr aggregates
-  filter(grepl(".*4-year aggregate.*", period))
+  filter(grepl(".*4-year aggregate.*", period)) %>% 
+  write_csv("clean_data/mh_la_4yr_agg.csv")
 
 mh_la_5yr_agg <-  mh_la %>% # filter only 5 yr aggregates
-  filter(grepl(".*5-year aggregates.*", period))
+  filter(grepl(".*5-year aggregates.*", period)) %>% 
+  write_csv("clean_data/mh_la_5yr_agg.csv")
 
 swemwbs_la <- swemwbs %>% # filter to only local authority rows and match s12 code to LA name
   filter(str_detect(feature_code, "^S12")) %>% 
   rename(la_code = feature_code) %>% 
   left_join(lookup_la, by= "la_code") %>% 
-  relocate(la_name, .after = la_code)
+  relocate(la_name, .after = la_code) %>% 
+  write_csv("clean_data/swembs_la.csv")
 
 gen_health_la <- gen_health %>% 
   filter(str_detect(feature_code, "^S12")) %>% 
@@ -92,7 +98,8 @@ gen_health_la <- gen_health %>%
   relocate(la_name, .after = la_code) %>% 
   filter(measurement == "Percent") %>% 
   group_by(la_name) %>% 
-  pivot_wider(names_from = self_assessed_general_health, values_from = value)
+  pivot_wider(names_from = self_assessed_general_health, values_from = value) %>% 
+  write_csv("clean_data/gen_health_la.csv")
 
 simd_la_2016 <- simd2016 %>% 
   rename(la_name = council_area) %>%
@@ -220,4 +227,5 @@ simd_la_2012 <- simd_la_2012  %>%
   mutate(la_workpop_total_rank = rank(desc(la_workpop_total))) %>% 
   relocate(la_workpop_total_rank, .after = la_workpop_total)
 
-simd_la_2012_2020 <- bind_rows(simd_la, simd_la_2016, simd_la_2012)
+simd_la_2012_2020 <- bind_rows(simd_la, simd_la_2016, simd_la_2012) %>% 
+  write_csv("clean_data/simd_la_2012_2020.csv")

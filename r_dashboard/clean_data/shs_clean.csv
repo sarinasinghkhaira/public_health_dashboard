@@ -1,0 +1,85 @@
+la_code,la_name,date_code,measurement,units,sex,Alcohol consumption: Hazardous/Harmful drinker,Alcohol consumption: Moderate drinker,Alcohol consumption: Non-drinker,Any cardiovascular condition: Has a cardiovascular condition,Any cardiovascular condition: No cardiovascular condition,Doctor-diagnosed asthma: No,Doctor-diagnosed asthma: Yes,E-cigarette use: Currently using,E-cigarette use: Ever previously used,E-cigarette use: Never used,Fruit & vegetable consumption: 5 portions or more,Fruit & vegetable consumption: Less than 5 portions,Fruit & vegetable consumption: None,General health questionnaire (GHQ-12): Score 0,General health questionnaire (GHQ-12): Score 1-3,General health questionnaire (GHQ-12): Score 4+,Life satisfaction: Above the mode (9 to 10-Extremely satisfied),Life satisfaction: Below the mode (0-Extremely dissatisfied to 7),Life satisfaction: Mode (8),Long-term illness: Limiting long-term illness,Long-term illness: No long-term illness,Long-term illness: Non-limiting long-term illness,Obesity: Not obese,Obesity: Obese,Overweight: Not overweight or obese,Overweight: Overweight (including obese),"Provide any regular help or care for any sick, disabled or frail person: No","Provide any regular help or care for any sick, disabled or frail person: Yes",Self-assessed general health: Bad/Very bad,Self-assessed general health: Fair,Self-assessed general health: Very good/Good,Smoking status: Current smoker,Smoking status: Never smoked/Used to smoke occasionally,Smoking status: Used to smoke regularly,Summary activity levels: Low activity,Summary activity levels: Meets recommendations,Summary activity levels: Some activity,Summary activity levels: Very low activity
+S12000047,Fife,2016-2019,Percent,Percent Of Adults,Female,18,67,15,14,86,80,20,9,11,81,23,68,9,53,27,20,36,35,29,40,46,14,66,34,33,67,85,15,10,21,69,18,56,26,5,58,12,25
+S12000027,Shetland Islands,2016-2019,Percent,Percent Of Adults,Female,11,65,24,14,86,81,19,4,8,88,15,78,7,59,26,15,39,21,40,33,52,15,65,35,34,66,85,15,4,20,75,14,65,21,4,60,12,24
+S12000047,Fife,2015-2018,Percent,Percent Of Adults,Female,16,66,18,15,85,NA,NA,9,10,82,24,67,9,55,28,17,NA,NA,NA,37,49,14,68,32,34,66,NA,NA,9,20,71,19,58,23,5,58,13,24
+S12000027,Shetland Islands,2015-2018,Percent,Percent Of Adults,Female,14,64,22,11,89,NA,NA,2,8,90,17,76,7,56,25,18,NA,NA,NA,33,52,16,62,38,32,68,NA,NA,6,18,76,18,62,20,5,58,14,24
+S12000028,South Ayrshire,2015-2018,Percent,Percent Of Adults,Female,16,66,18,20,80,NA,NA,NA,NA,NA,17,75,7,NA,NA,NA,NA,NA,NA,47,42,10,NA,NA,NA,NA,NA,NA,11,18,72,16,60,24,3,57,12,28
+S12000029,South Lanarkshire,2016-2019,Percent,Percent Of Adults,Female,17,64,19,11,89,83,17,6,8,85,20,70,10,56,26,18,32,36,32,39,49,11,71,29,34,66,77,23,9,24,67,17,60,24,7,56,13,25
+S12000029,South Lanarkshire,2015-2018,Percent,Percent Of Adults,Female,17,65,18,11,89,NA,NA,6,9,85,21,68,10,59,22,19,NA,NA,NA,36,51,13,71,29,35,65,NA,NA,9,21,71,17,60,23,6,59,12,23
+S12000026,Scottish Borders,2016-2019,Percent,Percent Of Adults,Female,18,70,12,18,82,82,18,9,10,81,25,68,7,60,24,16,40,33,27,27,56,18,74,26,41,59,82,18,7,20,73,18,58,24,6,62,15,17
+S12000026,Scottish Borders,2015-2018,Percent,Percent Of Adults,Female,16,72,11,16,84,NA,NA,10,7,82,25,69,5,62,22,16,NA,NA,NA,25,53,22,73,27,40,60,NA,NA,6,20,74,16,59,24,6,59,16,19
+S12000023,Orkney Islands,2015-2018,Percent,Percent Of Adults,Female,12,71,18,18,82,NA,NA,2,5,93,22,70,8,59,24,17,NA,NA,NA,39,39,22,68,32,29,71,NA,NA,6,15,79,10,67,23,9,55,12,25
+S12000023,Orkney Islands,2016-2019,Percent,Percent Of Adults,Female,14,66,20,21,79,76,24,1,5,93,23,70,7,56,24,20,43,25,33,41,38,21,67,33,28,72,82,18,6,17,77,9,70,21,7,55,12,25
+S12000034,Aberdeenshire,2016-2019,Percent,Percent Of Adults,Female,13,70,17,17,83,82,18,3,9,88,19,75,6,62,23,15,41,26,33,28,60,11,66,34,34,66,85,15,6,17,77,14,63,23,5,59,10,25
+S12000036,City of Edinburgh,2016-2019,Percent,Percent Of Adults,Female,22,63,15,11,89,84,16,5,7,88,37,57,5,55,29,16,33,31,36,29,60,11,81,19,53,47,87,13,6,15,79,15,65,20,4,70,10,16
+S12000034,Aberdeenshire,2015-2018,Percent,Percent Of Adults,Female,13,70,17,15,85,NA,NA,3,7,89,20,73,7,64,23,13,NA,NA,NA,28,60,12,66,34,35,65,NA,NA,5,16,79,15,63,22,6,59,13,22
+S12000036,City of Edinburgh,2015-2018,Percent,Percent Of Adults,Female,20,64,16,12,88,NA,NA,4,7,89,37,58,5,55,30,15,NA,NA,NA,27,59,14,80,20,53,47,NA,NA,5,15,80,15,65,21,4,68,12,17
+S12000033,Aberdeen City,2016-2019,Percent,Percent Of Adults,Female,20,58,22,11,89,83,17,4,10,87,22,71,7,54,28,18,34,35,31,28,60,12,77,23,45,55,87,13,6,17,77,17,65,18,5,64,10,21
+S12000033,Aberdeen City,2015-2018,Percent,Percent Of Adults,Female,19,59,22,13,87,NA,NA,4,9,87,23,70,7,54,29,17,NA,NA,NA,29,57,14,77,23,45,55,NA,NA,6,19,76,19,64,17,5,63,10,22
+S12000049,Glasgow City,2016-2019,Percent,Percent Of Adults,Female,14,60,26,16,84,83,17,8,14,78,25,65,10,45,31,23,30,45,26,38,49,13,68,32,37,63,82,18,13,19,67,20,59,21,5,56,13,26
+S12000006,Dumfries and Galloway,2015-2018,Percent,Percent Of Adults,Female,11,75,14,11,89,NA,NA,8,13,79,19,73,8,57,28,15,NA,NA,NA,30,60,11,67,33,31,69,NA,NA,10,17,73,18,57,24,3,64,10,22
+S12000049,Glasgow City,2015-2018,Percent,Percent Of Adults,Female,15,61,24,17,83,NA,NA,8,14,78,24,66,10,44,31,25,NA,NA,NA,38,51,12,67,33,38,62,NA,NA,12,20,68,22,57,21,6,56,12,26
+S12000006,Dumfries and Galloway,2016-2019,Percent,Percent Of Adults,Female,10,78,12,10,90,81,19,8,13,80,23,70,7,57,29,14,43,32,25,30,57,13,68,32,32,68,83,17,9,19,72,15,60,25,3,65,12,20
+S12000008,East Ayrshire,2015-2018,Percent,Percent Of Adults,Female,16,64,20,20,80,NA,NA,NA,NA,NA,18,66,15,57,22,20,NA,NA,NA,47,44,9,60,40,28,72,NA,NA,13,19,68,20,52,28,5,54,11,31
+S12000013,Na h-Eileanan Siar,2016-2019,Percent,Percent Of Adults,Female,8,66,26,16,84,82,18,3,9,88,20,72,8,68,14,18,46,22,32,36,45,19,71,29,30,70,84,16,7,25,68,13,59,27,2,61,11,26
+S12000013,Na h-Eileanan Siar,2015-2018,Percent,Percent Of Adults,Female,9,61,29,16,84,NA,NA,2,8,90,21,73,6,65,17,17,NA,NA,NA,35,49,16,67,33,27,73,NA,NA,9,24,67,14,59,27,3,57,11,29
+S12000050,North Lanarkshire,2015-2018,Percent,Percent Of Adults,Female,16,62,21,17,83,NA,NA,9,12,80,16,72,12,59,21,20,NA,NA,NA,39,50,11,67,33,32,68,NA,NA,12,19,68,24,52,24,6,54,16,24
+S12000050,North Lanarkshire,2016-2019,Percent,Percent Of Adults,Female,14,66,21,15,85,84,16,8,13,78,16,73,11,58,21,22,32,37,31,38,51,11,68,32,31,69,78,22,12,22,66,22,55,23,5,54,17,23
+S12000021,North Ayrshire,2015-2018,Percent,Percent Of Adults,Female,16,56,28,21,79,NA,NA,NA,NA,NA,16,74,10,51,27,22,NA,NA,NA,46,43,12,61,39,31,69,NA,NA,13,20,68,18,53,29,3,55,12,30
+S12000017,Highland,2015-2018,Percent,Percent Of Adults,Female,12,70,18,17,83,NA,NA,NA,NA,NA,25,68,7,NA,NA,NA,NA,NA,NA,39,42,20,NA,NA,NA,NA,NA,NA,9,19,72,16,60,25,5,61,11,23
+S12000050,North Lanarkshire,2016-2019,Percent,Percent Of Adults,Male,39,48,13,16,84,88,12,6,11,83,15,72,13,59,22,18,27,44,29,34,53,13,66,34,29,71,89,11,12,23,65,25,48,27,2,66,10,22
+S12000050,North Lanarkshire,2015-2018,Percent,Percent Of Adults,Male,40,46,14,15,85,NA,NA,7,8,85,13,74,12,61,20,19,NA,NA,NA,31,56,13,64,36,26,74,NA,NA,11,21,68,24,49,27,2,65,11,23
+S12000049,Glasgow City,2016-2019,Percent,Percent Of Adults,Male,30,51,19,14,86,82,18,8,16,76,25,61,14,51,27,22,28,42,31,33,56,12,78,22,42,58,86,14,10,20,70,27,53,20,4,69,8,19
+S12000049,Glasgow City,2015-2018,Percent,Percent Of Adults,Male,31,53,15,16,84,NA,NA,8,15,77,19,66,15,50,30,20,NA,NA,NA,32,55,13,76,24,38,62,NA,NA,10,20,69,29,48,23,4,70,8,18
+S12000047,Fife,2015-2018,Percent,Percent Of Adults,Male,28,61,12,20,80,NA,NA,7,11,82,19,67,13,64,22,14,NA,NA,NA,29,56,15,69,31,28,72,NA,NA,8,21,72,21,51,28,4,68,8,20
+S12000047,Fife,2016-2019,Percent,Percent Of Adults,Male,28,61,12,21,79,84,16,7,10,83,18,68,14,64,22,13,40,32,28,30,55,15,71,29,31,69,89,11,7,21,71,18,53,29,5,68,9,19
+S12000013,Na h-Eileanan Siar,2016-2019,Percent,Percent Of Adults,Male,26,54,21,16,84,83,17,6,9,85,17,76,6,66,24,10,42,23,36,36,44,20,74,26,27,73,85,15,6,27,67,19,52,29,1,73,5,20
+S12000013,Na h-Eileanan Siar,2015-2018,Percent,Percent Of Adults,Male,30,48,22,18,82,NA,NA,6,7,88,19,73,8,66,24,10,NA,NA,NA,38,47,16,71,29,27,73,NA,NA,6,29,65,18,51,31,2,69,8,21
+S12000033,Aberdeen City,2016-2019,Percent,Percent Of Adults,Male,31,53,16,16,84,84,16,6,14,80,19,72,9,60,26,14,31,39,30,19,72,9,78,22,36,64,91,9,4,14,82,20,61,19,2,77,7,14
+S12000033,Aberdeen City,2015-2018,Percent,Percent Of Adults,Male,34,52,15,15,85,NA,NA,7,12,81,14,75,11,57,29,14,NA,NA,NA,20,70,10,77,23,37,63,NA,NA,5,14,82,23,57,20,3,72,9,16
+S12000034,Aberdeenshire,2015-2018,Percent,Percent Of Adults,Male,26,58,16,18,82,NA,NA,6,11,83,17,73,10,68,22,10,NA,NA,NA,27,57,16,68,32,27,73,NA,NA,7,15,78,15,55,30,4,68,11,17
+S12000034,Aberdeenshire,2016-2019,Percent,Percent Of Adults,Male,24,60,16,19,81,86,14,6,12,82,18,72,10,67,22,10,38,28,34,27,58,16,68,32,27,73,89,11,5,18,77,13,58,29,4,67,12,17
+S12000021,North Ayrshire,2015-2018,Percent,Percent Of Adults,Male,42,39,19,19,81,NA,NA,NA,NA,NA,13,72,16,62,20,18,NA,NA,NA,36,53,11,71,29,27,73,NA,NA,11,21,68,28,45,28,3,65,10,22
+S12000017,Highland,2015-2018,Percent,Percent Of Adults,Male,29,57,14,16,84,NA,NA,NA,NA,NA,22,66,12,NA,NA,NA,NA,NA,NA,36,50,14,NA,NA,NA,NA,NA,NA,5,18,78,25,47,29,5,68,9,18
+S12000036,City of Edinburgh,2015-2018,Percent,Percent Of Adults,Male,44,47,9,9,91,NA,NA,7,14,79,29,64,7,57,24,18,NA,NA,NA,21,65,15,82,18,45,55,NA,NA,5,14,81,19,60,21,2,79,7,12
+S12000036,City of Edinburgh,2016-2019,Percent,Percent Of Adults,Male,43,47,10,8,92,85,15,7,13,79,29,64,6,57,24,19,32,37,31,22,65,14,81,19,42,58,92,8,4,14,82,20,61,19,1,81,7,11
+S12000008,East Ayrshire,2015-2018,Percent,Percent Of Adults,Male,33,52,15,22,78,NA,NA,NA,NA,NA,11,68,20,62,21,17,NA,NA,NA,48,43,9,66,34,26,74,NA,NA,11,20,69,19,55,26,3,58,6,32
+S12000027,Shetland Islands,2015-2018,Percent,Percent Of Adults,Male,34,53,13,14,86,NA,NA,4,11,85,16,75,10,67,20,13,NA,NA,NA,29,56,16,62,38,24,76,NA,NA,6,20,74,22,58,20,3,66,12,18
+S12000023,Orkney Islands,2016-2019,Percent,Percent Of Adults,Male,32,57,10,18,82,85,15,2,14,84,29,62,10,65,23,12,45,24,31,32,46,21,67,33,21,79,86,14,5,12,82,15,60,25,3,67,11,19
+S12000027,Shetland Islands,2016-2019,Percent,Percent Of Adults,Male,29,60,11,12,88,86,14,4,10,86,15,76,9,68,19,13,37,29,34,31,54,16,67,33,30,70,87,13,5,21,74,21,57,22,4,65,11,20
+S12000026,Scottish Borders,2016-2019,Percent,Percent Of Adults,Male,31,55,14,22,78,85,15,5,12,83,21,71,8,60,26,14,37,36,26,38,52,11,68,32,28,72,85,15,10,15,75,19,53,28,4,66,9,21
+S12000023,Orkney Islands,2015-2018,Percent,Percent Of Adults,Male,33,56,11,19,81,NA,NA,3,11,87,24,65,11,68,22,11,NA,NA,NA,32,46,22,69,31,24,76,NA,NA,6,12,82,17,51,31,3,67,10,20
+S12000026,Scottish Borders,2015-2018,Percent,Percent Of Adults,Male,30,59,11,20,80,NA,NA,6,10,84,20,71,8,61,24,15,NA,NA,NA,35,51,14,69,31,28,72,NA,NA,7,17,76,19,50,31,6,64,9,22
+S12000029,South Lanarkshire,2015-2018,Percent,Percent Of Adults,Male,34,54,12,15,85,NA,NA,4,10,86,17,66,17,63,21,16,NA,NA,NA,31,55,14,69,31,31,69,NA,NA,8,18,73,20,58,22,4,64,10,21
+S12000029,South Lanarkshire,2016-2019,Percent,Percent Of Adults,Male,34,56,10,16,84,76,24,4,13,83,14,69,16,60,24,16,27,39,33,33,51,16,66,34,27,73,84,16,10,18,72,20,57,23,3,67,10,20
+S12000028,South Ayrshire,2015-2018,Percent,Percent Of Adults,Male,33,52,15,20,80,NA,NA,NA,NA,NA,16,76,8,NA,NA,NA,NA,NA,NA,53,37,10,NA,NA,NA,NA,NA,NA,11,16,73,17,53,30,1,66,8,25
+S12000006,Dumfries and Galloway,2016-2019,Percent,Percent Of Adults,Male,30,56,13,21,79,83,17,6,13,81,17,71,12,67,20,14,40,34,26,34,52,14,66,34,24,76,88,12,8,26,66,23,50,27,2,66,11,20
+S12000006,Dumfries and Galloway,2015-2018,Percent,Percent Of Adults,Male,29,52,19,21,79,NA,NA,5,13,82,19,71,10,66,23,12,NA,NA,NA,35,53,13,63,37,25,75,NA,NA,9,29,62,22,51,26,2,66,8,23
+S12000023,Orkney Islands,2015-2018,Percent,Percent Of Adults,All,22,64,14,19,81,NA,NA,2,8,90,23,68,9,63,23,14,NA,NA,NA,36,42,22,69,31,27,73,NA,NA,6,14,81,13,60,27,6,61,11,22
+S12000050,North Lanarkshire,2016-2019,Percent,Percent Of Adults,All,26,57,17,16,84,86,14,7,12,81,15,73,12,59,22,20,29,40,30,36,52,12,67,33,30,70,84,16,12,22,66,24,51,25,3,60,14,23
+S12000026,Scottish Borders,2016-2019,Percent,Percent Of Adults,All,24,64,13,20,80,84,16,8,11,82,23,70,7,60,25,15,39,34,27,32,54,14,72,28,35,65,84,16,8,18,74,18,56,26,5,64,12,19
+S12000023,Orkney Islands,2016-2019,Percent,Percent Of Adults,All,23,62,16,19,81,80,20,1,10,89,25,66,8,60,24,16,44,24,32,37,42,21,67,33,25,75,84,16,6,15,79,12,65,23,5,61,12,22
+S12000026,Scottish Borders,2015-2018,Percent,Percent Of Adults,All,22,66,11,18,82,NA,NA,8,9,83,23,70,7,62,23,16,NA,NA,NA,30,52,19,71,29,35,65,NA,NA,6,19,75,17,55,27,6,61,13,20
+S12000050,North Lanarkshire,2015-2018,Percent,Percent Of Adults,All,28,54,18,16,84,NA,NA,8,10,82,15,73,12,60,20,20,NA,NA,NA,35,53,12,66,34,29,71,NA,NA,12,20,68,24,51,26,4,59,13,23
+S12000013,Na h-Eileanan Siar,2016-2019,Percent,Percent Of Adults,All,17,60,23,16,84,83,17,5,9,87,19,74,7,67,19,14,44,22,34,36,44,20,72,28,29,71,84,16,6,26,68,16,55,28,2,67,8,23
+S12000006,Dumfries and Galloway,2015-2018,Percent,Percent Of Adults,All,19,64,16,15,85,NA,NA,7,13,80,19,72,9,61,26,14,NA,NA,NA,32,56,12,65,35,28,72,NA,NA,9,22,68,20,54,25,3,65,9,23
+S12000049,Glasgow City,2015-2018,Percent,Percent Of Adults,All,22,58,20,16,84,NA,NA,8,15,77,22,66,12,47,31,23,NA,NA,NA,35,53,12,72,28,38,62,NA,NA,11,20,69,25,53,22,5,62,10,22
+S12000013,Na h-Eileanan Siar,2015-2018,Percent,Percent Of Adults,All,19,55,26,17,83,NA,NA,4,7,89,20,73,7,65,21,14,NA,NA,NA,36,48,16,69,31,27,73,NA,NA,8,26,66,16,55,29,2,63,10,25
+S12000049,Glasgow City,2016-2019,Percent,Percent Of Adults,All,21,56,23,15,85,83,17,8,15,77,25,63,12,48,29,23,29,43,28,35,52,13,73,27,39,61,84,16,12,20,69,23,56,20,4,62,11,23
+S12000006,Dumfries and Galloway,2016-2019,Percent,Percent Of Adults,All,21,67,13,16,84,82,18,7,13,80,20,70,9,62,24,14,41,33,26,32,55,14,67,33,28,72,86,14,8,22,69,19,55,26,3,66,12,20
+S12000008,East Ayrshire,2015-2018,Percent,Percent Of Adults,All,24,58,18,21,79,NA,NA,NA,NA,NA,15,67,18,60,22,19,NA,NA,NA,48,43,9,63,37,27,73,NA,NA,12,19,68,20,54,27,4,56,9,31
+S12000021,North Ayrshire,2015-2018,Percent,Percent Of Adults,All,28,48,24,20,80,NA,NA,NA,NA,NA,14,73,13,56,24,20,NA,NA,NA,41,47,11,66,34,29,71,NA,NA,12,20,68,23,49,28,3,60,11,26
+S12000017,Highland,2015-2018,Percent,Percent Of Adults,All,20,64,16,17,83,NA,NA,NA,NA,NA,23,67,10,NA,NA,NA,NA,NA,NA,37,46,17,NA,NA,NA,NA,NA,NA,7,18,75,20,53,27,5,65,10,21
+S12000036,City of Edinburgh,2016-2019,Percent,Percent Of Adults,All,32,55,12,9,91,84,16,6,10,84,33,61,6,56,27,17,32,34,33,25,62,12,81,19,47,53,89,11,5,14,81,18,63,19,3,75,8,14
+S12000036,City of Edinburgh,2015-2018,Percent,Percent Of Adults,All,33,55,12,11,89,NA,NA,6,11,84,33,61,6,56,27,17,NA,NA,NA,24,62,14,81,19,49,51,NA,NA,5,15,80,17,62,21,3,74,9,14
+S12000034,Aberdeenshire,2016-2019,Percent,Percent Of Adults,All,18,65,16,18,82,84,16,5,10,85,18,74,8,65,22,13,40,27,33,27,59,13,67,33,30,70,87,13,6,17,77,14,61,26,4,63,11,21
+S12000034,Aberdeenshire,2015-2018,Percent,Percent Of Adults,All,19,64,17,17,83,NA,NA,5,9,87,19,73,8,66,22,12,NA,NA,NA,27,59,14,67,33,31,69,NA,NA,6,16,79,15,59,26,5,63,12,20
+S12000028,South Ayrshire,2015-2018,Percent,Percent Of Adults,All,24,60,17,20,80,NA,NA,NA,NA,NA,17,76,8,NA,NA,NA,NA,NA,NA,50,40,10,NA,NA,NA,NA,NA,NA,11,17,72,17,57,27,2,61,10,27
+S12000027,Shetland Islands,2015-2018,Percent,Percent Of Adults,All,23,59,18,13,87,NA,NA,3,9,88,16,75,8,61,23,16,NA,NA,NA,31,54,16,62,38,28,72,NA,NA,6,19,75,20,60,20,4,62,13,21
+S12000027,Shetland Islands,2016-2019,Percent,Percent Of Adults,All,20,63,17,13,87,84,16,4,9,87,15,77,8,63,23,14,38,25,37,32,53,15,66,34,32,68,86,14,5,20,75,17,62,21,4,62,11,22
+S12000047,Fife,2015-2018,Percent,Percent Of Adults,All,21,64,15,17,83,NA,NA,8,10,82,22,67,11,59,25,16,NA,NA,NA,33,52,15,68,32,31,69,NA,NA,8,20,71,20,55,25,5,63,11,22
+S12000047,Fife,2016-2019,Percent,Percent Of Adults,All,22,64,14,17,83,82,18,8,11,81,21,68,11,58,25,17,38,33,29,36,50,14,69,31,32,68,87,13,9,21,70,18,55,27,5,63,11,22
+S12000029,South Lanarkshire,2015-2018,Percent,Percent Of Adults,All,25,60,15,13,87,NA,NA,5,9,86,19,67,14,61,22,18,NA,NA,NA,33,53,13,70,30,33,67,NA,NA,9,19,72,18,59,23,5,62,11,22
+S12000029,South Lanarkshire,2016-2019,Percent,Percent Of Adults,All,25,60,15,13,87,80,20,5,10,84,18,69,13,58,25,17,30,38,33,36,50,13,69,31,31,69,80,20,9,22,69,18,59,23,5,61,11,22
+S12000033,Aberdeen City,2015-2018,Percent,Percent Of Adults,All,26,55,19,14,86,NA,NA,5,10,84,19,72,9,56,29,15,NA,NA,NA,25,63,12,77,23,41,59,NA,NA,5,16,79,21,61,18,4,67,9,19
+S12000033,Aberdeen City,2016-2019,Percent,Percent Of Adults,All,25,56,19,13,87,83,17,5,12,83,21,71,8,57,27,16,33,36,31,24,65,11,77,23,41,59,89,11,5,15,80,18,63,19,4,70,9,18

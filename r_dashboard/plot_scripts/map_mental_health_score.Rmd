@@ -1,0 +1,61 @@
+---
+title: "Untitled"
+author: "Sarina Singh Khaira"
+date: "23/01/2021"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+library(sf)
+```
+
+```{r}
+#read in shapefile
+scot_la <- st_read("clean_data/scot_la.shp")
+
+#read in mental health data
+all_time_mental <- read_csv("clean_data/all_time_mental.csv")
+
+#Join mental health data to shapefile
+scot_la <- scot_la %>%
+  left_join(all_time_mental, by = c("area_cod_1" = "feature_code"))
+
+#Check projection, for use with leaflet must be WGS84
+#st_crs(scot_la)
+
+#Transform projection from Transverse Mercator to WGS84
+transformed <- st_transform(scot_la, '+proj=longlat +datum=WGS84')
+```
+
+
+```{r}
+transformed %>% 
+ggplot(aes(fill = swem_score)) + 
+  geom_sf() +
+  theme_minimal() +
+  scale_fill_viridis_c(option = "plasma")
+```
+
+
+```{r}
+library(leaflet)
+```
+
+```{r}
+bins <- c(23.5, 24, 24.5, 25, 25.5, 26, Inf)
+pal <- colorBin("plasma", domain = transformed$swem_score, bins = bins)
+
+leaflet(transformed) %>% 
+  addProviderTiles("CartoDB.Positron") %>% 
+  addPolygons(fillColor = ~pal(swem_score),
+              color = "white",
+              weight = 0.5,
+              smoothFactor = 0.5,
+              opacity = 0.8,
+              fillOpacity = 1,
+              highlightOptions = highlightOptions(color = "black",
+                                                  weight = 1,
+                                                  bringToFront = TRUE))
+```

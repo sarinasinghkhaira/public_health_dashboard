@@ -1,5 +1,7 @@
+library(here)
 library(tidyverse)
 library(janitor)
+
 
 #SWEMBS values (https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fmental-wellbeing-sscq)
 swemwbs <- read_csv("raw_data/ment_wellbeing.csv") %>% clean_names() 
@@ -12,7 +14,7 @@ gen_health <- read_csv("raw_data/General_Health_Surveys.csv") %>% clean_names()
 # 2020 (https://www.gov.scot/publications/scottish-index-of-multiple-deprivation-2020v2-ranks/)
 # 2016 (https://www.webarchive.org.uk/wayback/archive/20200117165925mp_/https://www2.gov.scot/Resource/0053/00534450.xlsx)
 # 2012 ()
-simd2020 <- read_csv("raw_data/SIMD+2020v2+-+datazone+lookup.xlsx - SIMD 2020v2 DZ lookup data.csv") %>% 
+simd2020 <- read_csv(here"raw_data/SIMD+2020v2+-+datazone+lookup.xlsx - SIMD 2020v2 DZ lookup data.csv") %>% 
   clean_names() %>% 
   rename(la_code = l_acode) %>% 
   rename(la_name = l_aname)

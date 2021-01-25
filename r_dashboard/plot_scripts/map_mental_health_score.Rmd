@@ -5,7 +5,6 @@ date: "23/01/2021"
 output: html_document
 ---
 
-
 ```{r}
 library(tidyverse)
 library(sf)

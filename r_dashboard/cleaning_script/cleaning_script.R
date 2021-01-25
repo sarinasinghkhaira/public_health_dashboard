@@ -2,25 +2,34 @@ library(tidyverse)
 library(janitor)
 
 #SWEMBS values (https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fmental-wellbeing-sscq)
-swemwbs <- read_csv("possible_topics/ment_wellbeing.csv") %>% clean_names() 
+swemwbs <- read_csv("raw_data/ment_wellbeing.csv") %>% clean_names() 
 
-gen_health <- read_csv("possible_topics/General_Health_Surveys.csv") %>% clean_names()
+
+# (https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fgeneral-health-sscq)
+gen_health <- read_csv("raw_data/General_Health_Surveys.csv") %>% clean_names()
 
 #SIMD data from 2012,2016,2020
-simd2020 <- read_csv("possible_topics/SIMD+2020v2+-+datazone+lookup.xlsx - SIMD 2020v2 DZ lookup data.csv") %>% 
+# 2020 (https://www.gov.scot/publications/scottish-index-of-multiple-deprivation-2020v2-ranks/)
+# 2016 (https://www.webarchive.org.uk/wayback/archive/20200117165925mp_/https://www2.gov.scot/Resource/0053/00534450.xlsx)
+# 2012 ()
+simd2020 <- read_csv("raw_data/SIMD+2020v2+-+datazone+lookup.xlsx - SIMD 2020v2 DZ lookup data.csv") %>% 
   clean_names() %>% 
   rename(la_code = l_acode) %>% 
   rename(la_name = l_aname)
-simd2016 <- read_csv("possible_topics/00534450 - SIMD16 ranks.csv") %>% clean_names()
-simd2012 <- read_csv("possible_topics/00410767 - SIMD 2012.csv") %>% clean_names()
+simd2016 <- read_csv("raw_data/00534450 - SIMD16 ranks.csv") %>% clean_names()
+simd2012 <- read_csv("raw_data/00410767 - SIMD 2012.csv") %>% clean_names()
 
-mental_health <-read_csv("possible_topics/mntl_hlth_shs_4yr_agg.csv") %>% clean_names()
+# (https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fmental-wellbeing-sscq)
+mental_health <-read_csv("raw_data/mntl_hlth_shs_4yr_agg.csv") %>% clean_names()
 
-g_b_space <- read_csv("possible_topics/green_blue_space.csv") %>% clean_names()
+# (https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fgreen-or-blue-space-shs)
+g_b_space <- read_csv("raw_data/green_blue_space.csv") %>% clean_names()
 
-shs <- read_csv("possible_topics/scottish_health_survey.csv") %>% clean_names()
+# (https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fscottish-health-survey-local-area-level-data)
+shs <- read_csv("raw_data/scottish_health_survey.csv") %>% clean_names()
 
-lookup <- read_csv("possible_topics/Datazone2011lookup.csv") %>% clean_names()
+# (https://statistics.gov.scot/data/data-zone-lookup)
+lookup <- read_csv("raw_data/Datazone2011lookup.csv") %>% clean_names()
 
 
 

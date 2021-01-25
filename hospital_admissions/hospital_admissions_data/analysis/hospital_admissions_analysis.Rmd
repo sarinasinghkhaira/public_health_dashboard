@@ -2,6 +2,10 @@
 title: "R Notebook"
 output: html_notebook
 ---
+```{r}
+# Link to the raw data:- https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fhospital-admissions
+```
+
 
 ```{r}
 library(tidyverse)

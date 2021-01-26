@@ -9,6 +9,7 @@ output: html_document
 library(tidyverse)
 library(sf)
 library(here)
+library(scales)
 ```
 
 ```{r}
@@ -21,7 +22,7 @@ all_time_mental <- read_csv(here::here("clean_data/all_time_mental.csv"))
 #read in simd data 
 simd <- read_csv(here::here("clean_data/simd_la_2012_2020.csv")) %>%
   filter(year == "2016") %>%
-  select(-la_name)
+  select(la_code, la_simd_mean, la_simd_rank)
 
 #read in suicide data
 suicide_drug_alcohol <- read_csv(here::here("clean_data/mh_la_5yr_agg.csv"))
@@ -34,12 +35,20 @@ suicide_drug_alcohol <- suicide_drug_alcohol %>%
              values_from = measure) %>% clean_names() %>%
   pivot_wider(names_from = sex,
               values_from = c("alcohol_specific_deaths", "drug_related_deaths", "deaths_from_suicide")) %>%
-  mutate(total_suicide_deaths = deaths_from_suicide_females + deaths_from_suicide_males)
+  mutate(total_suicide_deaths = (deaths_from_suicide_females + deaths_from_suicide_males)/2)
 
 #join mental health data together
 all_time_mental <- all_time_mental %>% 
   left_join(simd, by = c("feature_code" = "la_code")) %>% 
   left_join(suicide_drug_alcohol, by = c("feature_code" = "la_code"))
+
+#add labels
+all_time_mental<- all_time_mental %>%
+  mutate(leaflet_lb = paste(
+    "<b>",	la_name, "</b>" , br(), 
+    " WEMWBS Score: ", swem_score, br(),
+    "SIMD Ranking: ", ordinal(la_simd_rank), " out of 32", br(), 
+    "Suicide deaths per 100,000: ", total_suicide_deaths))
 
 #Join mental health data to shapefile
 scot_la <- scot_la %>%
@@ -52,14 +61,9 @@ scot_la <- scot_la %>%
 transformed <- st_transform(scot_la, '+proj=longlat +datum=WGS84')
 ```
 
-
-```{r}
-transformed %>% 
-ggplot(aes(fill = swem_score)) + 
-  geom_sf() +
-  theme_minimal() +
-  scale_fill_viridis_c(option = "plasma")
-```
+### Add labels with SIMD data 
+#Find life satisfaction data
+# Figure out what suicide data is
 
 
 ```{r}
@@ -68,12 +72,6 @@ library(htmltools)
 ```
 
 ```{r}
-#make labels
-transformed <- transformed %>%
-  mutate(leaflet_lb = HTML(paste(
-    la_name, "<br>" ,"WEMWBS Score: ", swem_score)))
-
-
 # Set pallete for SWEM score
 pal_swem <- colorNumeric(
   palette = "YlGnBu",
@@ -86,6 +84,7 @@ pal_suicide<- colorNumeric(
   domain = transformed$total_suicide_deaths
 )
 
+#Set boundaries of scotland
 bbox <- st_bbox(transformed) %>% 
   as.vector()
 
@@ -100,7 +99,7 @@ leaflet(transformed) %>%
     smoothFactor = 0.9,
     opacity = 0.8,
     fillOpacity = 0.9,
-    label = ( ~ la_name),
+    label = ~lapply(leaflet_lb, HTML),
     labelOptions = labelOptions(
       style = list("font-weight" = "normal", padding = "3px 8px"),
       textsize = "15px",
@@ -111,7 +110,7 @@ leaflet(transformed) %>%
       weight = 1,
       bringToFront = TRUE
     ),
-    group = "wemwbs_score"
+    group = "Mental Health Score"
   ) %>%
   #add suicide layer
   addPolygons(
@@ -121,7 +120,7 @@ leaflet(transformed) %>%
     smoothFactor = 0.9,
     opacity = 0.8,
     fillOpacity = 0.9,
-    label = ( ~ la_name),
+    label =  ~lapply(leaflet_lb, HTML),
     labelOptions = labelOptions(
       style = list("font-weight" = "normal", padding = "3px 8px"),
       textsize = "15px",
@@ -132,7 +131,7 @@ leaflet(transformed) %>%
       weight = 1,
       bringToFront = TRUE
     ),
-    group = "suicide"
+    group = "Deaths due to Suicide"
   ) %>% 
   #add legend for swem score 
   addLegend(
@@ -141,7 +140,7 @@ leaflet(transformed) %>%
     values = ~ swem_score,
     title = "Average WEMWBS Score",
     opacity = 1,
-    group = "wemwbs_score"
+    group = "Mental Health Score"
   ) %>%
     #add legend for suicide 
   addLegend(
@@ -150,10 +149,11 @@ leaflet(transformed) %>%
     values = ~ total_suicide_deaths,
     title = "Deaths from Suicide",
     opacity = 1,
-    group = "suicide"
+    group = "Deaths due to Suicide", 
+    bins = 6
   ) %>%
   addLayersControl(position = c("bottomleft"),
-                   baseGroups = c("wemwbs_score", "suicide"),
+                   baseGroups = c("Mental Health Score", "Deaths due to Suicide"),
                    options = layersControlOptions(collapsed = FALSE)) %>%
   #set bounds of map
   fitBounds(bbox[1], bbox[2], bbox[3], bbox[4])

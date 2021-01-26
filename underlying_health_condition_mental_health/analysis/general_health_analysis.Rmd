@@ -94,10 +94,10 @@ general_health %>%
   ggplot() +
   geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = value, fill = self_assessed_general_health)) +
   facet_grid(~date_code) +
-  labs(title = "Self Assessed General Health",
+  labs(title = "Self Assessed General Health in Scotland",
        subtitle = "2012 - 2019",
        x = "Limiting Long Term Physical or Mental Health Condition",
-       y = "Count",
+       y = "Number of Respondents",
        fill = "Self Assessed General Health") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
 ```
@@ -110,10 +110,10 @@ general_health %>%
   ggplot() +
   geom_bar(aes(x = limiting_long_term_physical_or_mental_health_condition, fill = self_assessed_general_health)) +
   facet_grid(~age) +
-  labs(title = "Self Assessed General Health",
+  labs(title = "Self Assessed General Health by Age",
        subtitle = "2012 - 2019",
-       x = "Limiting Long Term Physical or Mental Health Condition",
-       y = "Count",
+       x = "All Respondents",
+       y = "Number of Respondents",
        fill = "Self Assessed General Health") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
 ```
@@ -143,7 +143,7 @@ general_health_limiting_conditions_female <- general_health %>%
     geom_line() +
   geom_line(aes(colour = "Male")) +
     geom_line(data =general_health_limiting_conditions_female, aes(group = measurement, colour = "Female")) +
-     labs(title = "Self Assessed General Health in Scotland",
+     labs(title = "Self Assessed General Health in Scotland by Gender",
        subtitle = "2012 - 2019",
        x = "Year",
        y = "Mean Self Assessment Value (Percent)",

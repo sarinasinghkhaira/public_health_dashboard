@@ -1,0 +1,27 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+
+
+```
+#alcohol
+```{r}
+shs_la_nopivot%>% 
+  filter(str_detect(scottish_health_survey_indicator, "^Alcohol consumption*")) %>% 
+  filter(la_name == "All") %>%
+  filter(sex == "All") %>% 
+  ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
+  geom_bar(stat="identity") +
+  geom_text(aes(y=value, label = "percentage"),
+    position = position_stack(vjust = 0.5), colour="white")
+```
+#cardiovascular
+```{r}
+
+```
+
+#

@@ -1,5 +1,7 @@
+library(here)
 library(tidyverse)
 library(janitor)
+
 
 #SWEMBS values (https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fmental-wellbeing-sscq)
 swemwbs <- read_csv("raw_data/ment_wellbeing.csv") %>% clean_names() 
@@ -51,6 +53,14 @@ shs_la <- shs %>%
   select(1:6,sort(names(.))) %>% 
   write_csv("clean_data/shs_clean.csv")
 
+shs_la_nopivot <- shs %>% 
+  filter(str_detect(feature_code, "^S12")) %>% 
+  rename(la_code = feature_code) %>% 
+  left_join(lookup_la, by= "la_code") %>% 
+  relocate(la_name, .after = la_code) %>% 
+  filter(measurement == "Percent") %>% 
+  group_by(la_name) %>% 
+  write_csv("clean_data/shs_clean_nopivot.csv")
 
 
 g_b_space_la <- g_b_space %>%

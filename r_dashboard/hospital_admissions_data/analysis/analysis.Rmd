@@ -115,7 +115,7 @@ chd_admissions %>%
 #Checking for missing values across all columns
 ddd_admissions %>% 
   summarise(across(.fns = ~sum(is.na(.x))))
-#2477 missing admission numbers
+#2573 missing admission numbers
 ```
 
 ```{r}

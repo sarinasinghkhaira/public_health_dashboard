@@ -1,65 +1,58 @@
----
-title: "Untitled"
-author: "Sarina Singh Khaira"
-date: "23/01/2021"
-output: html_document
----
-
-```{r}
 library(tidyverse)
 library(sf)
 library(here)
 library(scales)
 library(leaflet)
 library(htmltools)
-```
 
-```{r}
 #read in shapefile
 scot_la <- st_read(here::here("clean_data/scot_la.shp"))
 
 #read in mental health data
-all_time_mental <- read_csv(here::here("clean_data/all_time_mental.csv"))
+all_time_mental <-
+  read_csv(here::here("clean_data/all_time_mental.csv"))
 
 #add labels
-all_time_mental<- all_time_mental %>%
-  mutate(leaflet_lb = paste(
-    "<b>",	la_name, "</b>" , br(), 
-    " WEMWBS Score: ", swem_score, br(),
-    "SIMD Ranking: ", ordinal(la_simd_rank), " out of 32", br(), 
-    "Suicide deaths per 100,000: ", total_suicide_deaths))
+all_time_mental <- all_time_mental %>%
+  mutate(
+    leaflet_lb = paste(
+      "<b>",
+      la_name,
+      "</b>" ,
+      br(),
+      " WEMWBS Score: ",
+      swem_score,
+      br(),
+      "SIMD Ranking: ",
+      ordinal(la_simd_rank),
+      " out of 32",
+      br(),
+      "Suicide deaths per 100,000: ",
+      total_suicide_deaths
+    )
+  )
 
 
 #Join mental health data to shapefile
 scot_la <- scot_la %>%
-  left_join(all_time_mental, by = c("area_cod_1" = "feature_code")) 
+  left_join(all_time_mental, by = c("area_cod_1" = "feature_code"))
 
 #Check projection, for use with leaflet must be WGS84
 #st_crs(scot_la)
 
 #Transform projection from Transverse Mercator to WGS84
 transformed <- st_transform(scot_la, '+proj=longlat +datum=WGS84')
-```
 
-### Add labels with SIMD data 
-#Find life satisfaction data
-# Figure out what suicide data is
-
-```{r}
 # Set pallete for SWEM score
-pal_swem <- colorNumeric(
-  palette = "YlGnBu",
-  domain = transformed$swem_score
-)
+pal_swem <- colorNumeric(palette = "YlGnBu",
+                         domain = transformed$swem_score)
 
 # Set pallete for suicide  deaths
-pal_suicide<- colorNumeric(
-  palette = "plasma",
-  domain = transformed$total_suicide_deaths
-)
+pal_suicide <- colorNumeric(palette = "plasma",
+                            domain = transformed$total_suicide_deaths)
 
 #Set boundaries of scotland
-bbox <- st_bbox(transformed) %>% 
+bbox <- st_bbox(transformed) %>%
   as.vector()
 
 leaflet(transformed) %>%
@@ -73,7 +66,7 @@ leaflet(transformed) %>%
     smoothFactor = 0.9,
     opacity = 0.8,
     fillOpacity = 0.9,
-    label = ~lapply(leaflet_lb, HTML),
+    label = ~ lapply(leaflet_lb, HTML),
     labelOptions = labelOptions(
       style = list("font-weight" = "normal", padding = "3px 8px"),
       textsize = "15px",
@@ -94,7 +87,7 @@ leaflet(transformed) %>%
     smoothFactor = 0.9,
     opacity = 0.8,
     fillOpacity = 0.9,
-    label =  ~lapply(leaflet_lb, HTML),
+    label =  ~ lapply(leaflet_lb, HTML),
     labelOptions = labelOptions(
       style = list("font-weight" = "normal", padding = "3px 8px"),
       textsize = "15px",
@@ -106,8 +99,8 @@ leaflet(transformed) %>%
       bringToFront = TRUE
     ),
     group = "Deaths due to Suicide"
-  ) %>% 
-  #add legend for swem score 
+  ) %>%
+  #add legend for swem score
   addLegend(
     "bottomright",
     pal = pal_swem,
@@ -116,24 +109,20 @@ leaflet(transformed) %>%
     opacity = 1,
     group = "Mental Health Score"
   ) %>%
-    #add legend for suicide 
+  #add legend for suicide
   addLegend(
     "bottomright",
     pal = pal_suicide,
     values = ~ total_suicide_deaths,
     title = "Deaths from Suicide",
     opacity = 1,
-    group = "Deaths due to Suicide", 
+    group = "Deaths due to Suicide",
     bins = 6
   ) %>%
-  addLayersControl(position = c("bottomleft"),
-                   baseGroups = c("Mental Health Score", "Deaths due to Suicide"),
-                   options = layersControlOptions(collapsed = FALSE)) %>%
+  addLayersControl(
+    position = c("bottomleft"),
+    baseGroups = c("Mental Health Score", "Deaths due to Suicide"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
   #set bounds of map
   fitBounds(bbox[1], bbox[2], bbox[3], bbox[4])
-```
-
-
-
-
-

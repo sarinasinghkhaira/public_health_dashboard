@@ -1,6 +1,8 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 # Link to the raw data:-
@@ -20,7 +22,6 @@ here::here()
 ```{r}
 #Reading in the cleaned data
 general_health <- read_csv(here("clean_data/general_health.csv"))
-
 ```
 
 ```{r}
@@ -65,8 +66,8 @@ limiting_condition
 #No limiting condition = n
 general_health <- general_health %>% 
   mutate(
-    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "Limiting condition", "Y", limiting_long_term_physical_or_mental_health_condition),
-    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "No limiting condition", "N", limiting_long_term_physical_or_mental_health_condition)
+    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "Limiting condition", "Yes", limiting_long_term_physical_or_mental_health_condition),
+    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "No limiting condition", "No", limiting_long_term_physical_or_mental_health_condition)
   )
 ```
 
@@ -86,68 +87,80 @@ general_health <- general_health %>%
 ```
 
 
-```{r}
-general_health %>% 
-  #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column to show the terms "limiting condition" and "no limiting condition"
-  filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 
- # mutate(ratio)
-  ggplot() +
-  geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = value, fill = self_assessed_general_health)) +
-  facet_grid(~date_code) +
-  labs(title = "Self Assessed General Health in Scotland",
-       subtitle = "2012 - 2019",
-       x = "Limiting Long Term Physical or Mental Health Condition",
-       y = "Number of Respondents",
-       fill = "Self Assessed General Health") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
-```
 
 ```{r}
 general_health %>% 
-  #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column
-  filter(!age == "All") %>% 
+  filter(measurement == "Percent") %>%  
     #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
+  filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 
+  select(-household_type, -type_of_tenure, -age, -feature_code, -units) %>% 
+  group_by(gender, value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+  summarise() %>% 
+  group_by(self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+  summarise(mean_self_assessment_value = mean(value)) %>% 
   ggplot() +
-  geom_bar(aes(x = limiting_long_term_physical_or_mental_health_condition, fill = self_assessed_general_health)) +
-  facet_grid(~age) +
-  labs(title = "Self Assessed General Health by Age",
+  geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = mean_self_assessment_value, fill = self_assessed_general_health)) +
+  labs(title = "Self Assessed General Health in Scotland",
        subtitle = "2012 - 2019",
-       x = "All Respondents",
-       y = "Number of Respondents",
-       fill = "Self Assessed General Health") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+       x = "Limiting Long Term Physical or Mental Health Condition",
+       y = "Mean Self Assessment Value",
+       fill = "Self Assessed General Health") 
+```
+
+```{r}
+general_health_limiting_conditions_all <- general_health %>% 
+  filter(measurement == "Percent") %>%  
+  select(-household_type, -type_of_tenure, -age, -feature_code, -units) %>% 
+  group_by(gender, date_code, value, self_assessed_general_health) %>% 
+  summarise() %>% 
+  filter(gender == "All") %>% 
+  group_by(date_code, self_assessed_general_health) %>% 
+  summarise(mean_self_assessment_value = mean(value)) 
+```
+
+```{r}
+ggplot(general_health_limiting_conditions_all, aes(x = date_code, y = mean_self_assessment_value, colour = self_assessed_general_health)) +
+    geom_line() +
+     labs(title = "Self Assessed General Health in Scotland",
+       subtitle = "2012 - 2019",
+       x = "Year",
+       y = "Mean Self Assessment Value",
+       colour = "Self Assessment") +
+    scale_x_continuous(breaks = c(2012:2019)) 
 ```
 
 ```{r}
 general_health_limiting_conditions_male <- general_health %>% 
-  #filter(limiting_long_term_physical_or_mental_health_condition == "Y") %>% 
+  filter(measurement == "Percent") %>% 
   select(-household_type, -type_of_tenure, -age, -feature_code, -units) %>% 
   group_by(gender, date_code, measurement, value) %>% 
   summarise() %>% 
   filter(gender == "Male") %>% 
-  filter(measurement == "Percent") %>% 
-  group_by(date_code, measurement) %>% 
-  summarise(mean_percentage = mean(value))
+  group_by(date_code) %>% 
+  summarise(mean_self_assessment_value = mean(value))
 
 general_health_limiting_conditions_female <- general_health %>% 
-  #filter(limiting_long_term_physical_or_mental_health_condition == "Y") %>% 
+  filter(measurement == "Percent") %>% 
   select(-household_type, -type_of_tenure, -age, -feature_code, -units) %>% 
   group_by(gender, date_code, measurement, value) %>% 
   summarise() %>% 
   filter(gender == "Female") %>% 
-  filter(measurement == "Percent") %>% 
-  group_by(date_code, measurement) %>% 
-  summarise(mean_percentage = mean(value))
+  group_by(date_code) %>% 
+  summarise(mean_self_assessment_value = mean(value))
 
-  ggplot(general_health_limiting_conditions_male, aes(x = date_code, y = mean_percentage, group = measurement)) +
+
+  ggplot(general_health_limiting_conditions_male, aes(x = date_code, y = mean_self_assessment_value)) +
     geom_line() +
   geom_line(aes(colour = "Male")) +
-    geom_line(data =general_health_limiting_conditions_female, aes(group = measurement, colour = "Female")) +
+    geom_line(data =general_health_limiting_conditions_female, aes(colour = "Female")) +
      labs(title = "Self Assessed General Health in Scotland by Gender",
        subtitle = "2012 - 2019",
        x = "Year",
-       y = "Mean Self Assessment Value (Percent)",
+       y = "Mean Self Assessment Value",
        colour = "Gender") +
     scale_x_continuous(breaks = c(2012:2019))
 ```
+
+
+
 

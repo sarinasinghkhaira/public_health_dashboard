@@ -2,8 +2,6 @@ library(tidyverse)
 library(janitor)
 library(stringr)
 
-# Link to the raw data:- https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fhospital-admissions
-
 #Cleaning cerebrovascular disease dataset
 cerebrovascular_disease_admissions_raw <- read_csv("raw_data/cerebrovascular_disease_hospital_admissions.csv") %>%  
   clean_names() %>% 

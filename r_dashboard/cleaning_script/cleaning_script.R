@@ -14,7 +14,7 @@ gen_health <- read_csv("raw_data/General_Health_Surveys.csv") %>% clean_names()
 # 2020 (https://www.gov.scot/publications/scottish-index-of-multiple-deprivation-2020v2-ranks/)
 # 2016 (https://www.webarchive.org.uk/wayback/archive/20200117165925mp_/https://www2.gov.scot/Resource/0053/00534450.xlsx)
 # 2012 ()
-simd2020 <- read_csv(here"raw_data/SIMD+2020v2+-+datazone+lookup.xlsx - SIMD 2020v2 DZ lookup data.csv") %>% 
+simd2020 <- read_csv("raw_data/SIMD+2020v2+-+datazone+lookup.xlsx - SIMD 2020v2 DZ lookup data.csv") %>% 
   clean_names() %>% 
   rename(la_code = l_acode) %>% 
   rename(la_name = l_aname)
@@ -53,6 +53,14 @@ shs_la <- shs %>%
   select(1:6,sort(names(.))) %>% 
   write_csv("clean_data/shs_clean.csv")
 
+shs_la_nopivot <- shs %>% 
+  filter(str_detect(feature_code, "^S12")) %>% 
+  rename(la_code = feature_code) %>% 
+  left_join(lookup_la, by= "la_code") %>% 
+  relocate(la_name, .after = la_code) %>% 
+  filter(measurement == "Percent") %>% 
+  group_by(la_name) %>% 
+  write_csv("clean_data/shs_clean_nopivot.csv")
 
 
 g_b_space_la <- g_b_space %>%

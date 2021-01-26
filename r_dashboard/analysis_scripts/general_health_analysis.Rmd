@@ -66,8 +66,8 @@ limiting_condition
 #No limiting condition = n
 general_health <- general_health %>% 
   mutate(
-    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "Limiting condition", "Y", limiting_long_term_physical_or_mental_health_condition),
-    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "No limiting condition", "N", limiting_long_term_physical_or_mental_health_condition)
+    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "Limiting condition", "Yes", limiting_long_term_physical_or_mental_health_condition),
+    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "No limiting condition", "No", limiting_long_term_physical_or_mental_health_condition)
   )
 ```
 
@@ -94,19 +94,17 @@ general_health %>%
     #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
   filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 
   select(-household_type, -type_of_tenure, -age, -feature_code, -units) %>% 
-  group_by(gender, date_code, value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+  group_by(gender, value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
   summarise() %>% 
-  group_by(date_code, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+  group_by(self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
   summarise(mean_self_assessment_value = mean(value)) %>% 
   ggplot() +
   geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = mean_self_assessment_value, fill = self_assessed_general_health)) +
-  facet_grid(~date_code) +
   labs(title = "Self Assessed General Health in Scotland",
        subtitle = "2012 - 2019",
        x = "Limiting Long Term Physical or Mental Health Condition",
        y = "Mean Self Assessment Value",
-       fill = "Self Assessed General Health") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+       fill = "Self Assessed General Health") 
 ```
 
 ```{r}

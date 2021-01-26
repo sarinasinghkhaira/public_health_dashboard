@@ -38,7 +38,7 @@ ui <- dashboardPage(
                         
                         box(
                             title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
+                            plotOutput("longterm_conditions_output", height = 250)
                         ),
                         
                         box(

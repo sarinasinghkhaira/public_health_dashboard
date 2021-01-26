@@ -50,6 +50,7 @@ all_time_mental<- all_time_mental %>%
     "SIMD Ranking: ", ordinal(la_simd_rank), " out of 32", br(), 
     "Suicide deaths per 100,000: ", total_suicide_deaths))
 
+
 #Join mental health data to shapefile
 scot_la <- scot_la %>%
   left_join(all_time_mental, by = c("area_cod_1" = "feature_code")) 
@@ -158,6 +159,7 @@ leaflet(transformed) %>%
   #set bounds of map
   fitBounds(bbox[1], bbox[2], bbox[3], bbox[4])
 ```
+
 
 
 

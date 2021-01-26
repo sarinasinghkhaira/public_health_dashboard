@@ -109,7 +109,7 @@ gen_health_la <- gen_health %>%
   filter(measurement == "Percent") %>% 
   group_by(la_name) %>% 
   pivot_wider(names_from = self_assessed_general_health, values_from = value) %>% 
-  write_csv("clean_data/gen_health_la.csv")
+  write_csv("clean_data/gen_health_la.csv") 
 
 simd_la_2016 <- simd2016 %>% 
   rename(la_name = council_area) %>%

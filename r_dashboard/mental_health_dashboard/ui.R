@@ -10,6 +10,7 @@
 
 library(shiny)
 library(shinydashboard)
+library(leaflet)
 
 ui <- dashboardPage(
     dashboardHeader(title = "Mental Health Dashboard"),
@@ -43,12 +44,12 @@ ui <- dashboardPage(
                         
                         box(
                             title = "Self-Reported Health", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
+                            plotOutput("plot1", height = 250)
                         ),
                         
                         box(
                             title = "Quality of Life", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
+                            plotOutput("plot2", height = 250)
                         )
                         
                         
@@ -61,7 +62,7 @@ ui <- dashboardPage(
                     fluidRow(
                         box(
                             title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            plotOutput("plot4", height = 250),
                         )
                     )
             ),
@@ -70,10 +71,9 @@ ui <- dashboardPage(
             tabItem(tabName = "geo",
                     h2("Where are the problems?"),
                     fluidRow(
-                        box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
-                        )
+                        
+                            leafletOutput("map", height = 250),
+                        
                     )
             ),
             
@@ -83,17 +83,17 @@ ui <- dashboardPage(
                     fluidRow(
                         box(
                             title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            plotOutput("plot5", height = 250),
                         ),
                         
                         box(
                             title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            plotOutput("plot6", height = 250),
                         ),
                         
                         box(
                             title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            plotOutput("plot7", height = 250),
                         )
                     )
             ),
@@ -104,7 +104,7 @@ ui <- dashboardPage(
                     fluidRow(
                         box(
                             title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            plotOutput("plot8", height = 250),
                         )
                     )
             ),

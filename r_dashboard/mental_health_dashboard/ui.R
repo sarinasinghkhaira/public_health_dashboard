@@ -39,15 +39,15 @@ ui <- dashboardPage(
                             tabPanel("Scotland", plotOutput("le_plot")),
                             tabPanel("UK", plotOutput("le_da_plot"))
                         ),
-                                    #tabPanel("Plot2", plotOutput("le_da_plot"))
+                        #tabPanel("Plot2", plotOutput("le_da_plot"))
                         
                         
                         box(
-
-
+                            
+                            
                             title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
                             plotOutput("longterm_conditions_output", height = 320)
-
+                            
                         ),
                         
                         box(
@@ -127,5 +127,3 @@ ui <- dashboardPage(
         )
     )
 )
-
-

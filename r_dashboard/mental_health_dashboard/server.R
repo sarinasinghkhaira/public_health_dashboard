@@ -96,7 +96,7 @@ bbox <- st_bbox(scot_la_mh) %>%
 
 
 server <- function(input, output) {
-
+  
   ####### Overview life expectancy plot 
   
   output$le_plot <- renderPlot({
@@ -169,7 +169,7 @@ server <- function(input, output) {
   })
   #First tab content, longterm conditions plot
   output$longterm_conditions_output <- renderPlot({
-
+    
     longterm_conditions_all %>% 
       ggplot() +
       aes(x = year, y = admissions_count, colour = longterm_condition) +
@@ -185,12 +185,12 @@ server <- function(input, output) {
       theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
       scale_y_continuous(breaks = c(0, 25000, 50000, 75000, 100000, 125000, 150000, 175000)) +
       theme_light()
-      
+    
   })
   
   
   
-######## Overview: Mental Health Over Time Plot  
+  ######## Overview: Mental Health Over Time Plot  
   output$mh_time <- renderPlot({
     
     npf_mental_wellbeing %>% 
@@ -211,9 +211,9 @@ server <- function(input, output) {
     
   })
   
-####### Where: mental health map  
+  ####### Where: mental health map  
   output$map <- renderLeaflet({
- 
+    
     leaflet(scot_la_mh) %>%
       #add base tiles
       addProviderTiles("CartoDB.Positron") %>%
@@ -293,23 +293,23 @@ server <- function(input, output) {
   #Fourth tab content - Mental Health & Longterm Conditions
   output$longterm_conditions_mental_health_plot <- renderPlot({
     
-  longterm_conditions_mental_health %>% 
-    filter(measurement == "Percent") %>%  
-    #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
-    filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 
-    select(-household_type, -type_of_tenure, -age, -feature_code, -units) %>% 
-    group_by(gender, value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
-    summarise() %>% 
-    group_by(self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
-    summarise(mean_self_assessment_value = mean(value)) %>% 
-    ggplot() +
-    geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = mean_self_assessment_value, fill = self_assessed_general_health)) +
-    labs(title = "Self Assessed General Health in Scotland",
-         subtitle = "2012 - 2019",
-         x = "Limiting Long Term Physical or Mental Health Condition",
-         y = "Mean Self Assessment Value",
-         fill = "Self Assessed General Health") 
-
-})
+    longterm_conditions_mental_health %>% 
+      filter(measurement == "Percent") %>%  
+      #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
+      filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 
+      select(-household_type, -type_of_tenure, -age, -feature_code, -units) %>% 
+      group_by(gender, value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+      summarise() %>% 
+      group_by(self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+      summarise(mean_self_assessment_value = mean(value)) %>% 
+      ggplot() +
+      geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = mean_self_assessment_value, fill = self_assessed_general_health)) +
+      labs(title = "Self Assessed General Health in Scotland",
+           subtitle = "2012 - 2019",
+           x = "Limiting Long Term Physical or Mental Health Condition",
+           y = "Mean Self Assessment Value",
+           fill = "Self Assessed General Health") 
+    
+  })
   
 }

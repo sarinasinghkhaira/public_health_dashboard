@@ -21,7 +21,7 @@ ui <- dashboardPage(
     dashboardSidebar(
         sidebarMenu(
             menuItem("Overview", tabName = "overview"),
-            menuItem("Changes over time", tabName = "temporal"),
+            menuItem("Mental wellness problems over time", tabName = "temporal"),
             menuItem("Where are the problems?", tabName = "geo"),
             menuItem("Who is affected", tabName = "demographics"),
             menuItem("Self Assessed Health", tabName = "self_assessed"),
@@ -69,13 +69,19 @@ ui <- dashboardPage(
             ),
             
             # Second tab content
-            tabItem(tabName = "temporal",
-                    h2("Changes over time"),
+            tabItem(tabName = "temporal", 
+                    h2("Mental wellness problems over time"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", 
-                            plotOutput("plot4", height = 250),
+                            title = "Deaths by Suicide", status = "primary", solidHeader = TRUE,
+                            plotOutput("mw_deaths_s", height = 320),
+                        ),
+                        
+                        box(
+                          title = "Deaths by Dementia & Alzheimers", status = "primary", solidHeader = TRUE,
+                          plotOutput("mw_deaths_d_a", height = 320),
                         )
+                        
                     )
             ),
             

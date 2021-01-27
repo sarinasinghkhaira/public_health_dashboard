@@ -44,6 +44,8 @@ all_time_mental <-read_csv(here::here("clean_data/all_time_mental.csv"))
 npf_mental_wellbeing <- read_csv(
   here::here("clean_data/npf_mental_health.csv"))
 
+death <- read_csv(here("clean_data/mw_deaths_clean.csv"))
+
 #add labels
 all_time_mental <- all_time_mental %>%
   mutate(
@@ -209,6 +211,55 @@ server <- function(input, output) {
     
     
   })
+  
+  
+  ################### Changes Over time: MW related deaths by suicide
+  
+  output$mw_deaths_s <- renderPlot({
+  #plot graph for deaths by suicide split by gender
+  death %>% 
+    filter(issue == "Suicide") %>% 
+    group_by(gender, year) %>% 
+    summarise(count = sum(number)) %>% 
+    ggplot(aes(x = year, y = count, group = gender, colour = gender)) +
+    geom_line() +
+    geom_point(size=2, shape=21, fill="white") +
+    theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
+    labs(
+      y = "Suicide Number",
+      x = "Year"
+    ) +
+    ggtitle("Suicide Rates") +
+    theme(plot.title=element_text(hjust = 0.5, family="serif",
+                                  colour="darkred", size= 18, face = "bold")) +
+      scale_x_continuous(breaks = seq(min(death$year), 
+                                      max(death$year)))
+  
+  })
+  
+  ################### Changes Over time: MW related deaths by dementia & Alzheimers
+  output$mw_deaths_d_a <- renderPlot({
+    
+    death %>% 
+      filter(issue == "Dementia_and_Alzheimers") %>% 
+      group_by(gender, year) %>% 
+      summarise(count = sum(number)) %>% 
+      ggplot(aes(x = year, y = count, group = gender, colour = gender)) +
+      geom_line() +
+      geom_point(size=2, shape=21, fill="white") +
+      theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
+      labs(
+        y = "Number of Deaths",
+        x = "Year"
+      ) +
+      ggtitle("Dementia & Alzheimers Rates") +
+      theme(plot.title=element_text(hjust = 0.5, family="serif",
+                                    colour="darkred", size= 18, face = "bold")) +
+      scale_x_continuous(breaks = seq(min(death$year), 
+                                      max(death$year)))
+    
+    })
+  
   
 ################## Where: mental health map  
   output$map <- renderLeaflet({

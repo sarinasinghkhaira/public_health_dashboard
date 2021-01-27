@@ -11,6 +11,8 @@
 library(shiny)
 library(shinydashboard)
 
+
+
 ui <- dashboardPage(
     dashboardHeader(title = "Mental Health Dashboard"),
     ## Sidebar content
@@ -26,85 +28,121 @@ ui <- dashboardPage(
     ),
     ## Body content
     dashboardBody(
+        #Tab 1 
         tabItems(
-            # First tab content
-            tabItem(tabName = "overview",
-                    h2("How is Scotland doing?"),
+            tabItem(tabName = "overview", 
+                    h2("Overview"),
                     fluidRow(
                         box(
-                        title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                        plotOutput("plot3", height = 250),
+                            title = "Life Expectancy", solidHeader = TRUE,
+                            plotOutput("")
                         ),
-                        
                         box(
-                            title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
+                            title = "Longterm Conditions", solidHeader = TRUE,
+                            plotOutput("")
                         ),
-                        
                         box(
-                            title = "Self-Reported Health", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
-                        ),
-                        
-                        box(
-                            title = "Quality of Life", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
+                            title = "Decision Variables", solidHeader = TRUE,
+                            plotOutput("")
                         )
-                        
-                        
                     )
             ),
-            
-            # Second tab content
+            #Tab 2 
             tabItem(tabName = "temporal",
                     h2("Changes over time"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "CHanges over time", solidHeader = TRUE,
+                            plotOutput("")
                         )
                     )
             ),
             
-            # Third tab content
+            #Tab 3 
             tabItem(tabName = "geo",
                     h2("Where are the problems?"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Life Expectancy", solidHeader = TRUE,
+                            plotOutput("")
                         )
                     )
             ),
             
-            # Fourth tab content
+            #Tab 4 Freshwater Expert
             tabItem(tabName = "demographics",
                     h2("Who is affected"),
+                    
                     fluidRow(
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Alcohol Consumption", solidHeader = TRUE,
+                            plotOutput("alc_shs_la_plot", height = 250), 
+                            selectInput(
+                                           inputId = "la_name_al",
+                                           label = "Local Authority",
+                                           choices = shs_la_nopivot$la_name,
+                                           selected = NULL,
+                                           multiple = FALSE,
+                                           selectize = TRUE,
+                                           width = NULL,
+                                           size = NULL
+                            ),
+                                       
+                            selectInput(
+                                           inputId = "sex_al",
+                                           label = "Sex",
+                                           choices = shs_la_nopivot$sex,
+                                           selected = NULL,
+                                           multiple = FALSE,
+                                           selectize = TRUE,
+                                           width = NULL,
+                                           size = NULL
+                            )           
+                        ), 
+                            
+                            
+                        
+                        
+                        box(
+                            title = "General Health", solidHeader = TRUE,
+                            plotOutput("gh_shs_la_plot", height = 250), 
+                            selectInput(
+                                inputId = "la_name",
+                                label = "Local Authority",
+                                choices = shs_la_nopivot$la_name,
+                                selected = NULL,
+                                multiple = FALSE,
+                                selectize = TRUE,
+                                width = NULL,
+                                size = NULL
+                            ),
+                            
+                            selectInput(
+                                inputId = "sex",
+                                label = "Sex",
+                                choices = shs_la_nopivot$sex,
+                                selected = NULL,
+                                multiple = FALSE,
+                                selectize = TRUE,
+                                width = NULL,
+                                size = NULL
+                            )           
                         ),
                         
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
-                        ),
-                        
-                        box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Life Expectancy", solidHeader = TRUE,
+                            plotOutput("")
                         )
                     )
             ),
             
-            # Fifth tab content
+            #Tab 5 Environmental Damages
             tabItem(tabName = "summary",
                     h2("Summary"),
                     fluidRow(
                         box(
                             title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            plotOutput("", height = 250)
                         )
                     )
             ),
@@ -118,5 +156,4 @@ ui <- dashboardPage(
             )
         )
     )
-)
-
+)   

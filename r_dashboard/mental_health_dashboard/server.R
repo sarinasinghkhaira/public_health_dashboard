@@ -283,7 +283,8 @@ server <- function(input, output) {
         options = layersControlOptions(collapsed = FALSE)
       ) %>%
       #set bounds of map
-      fitBounds(bbox[1], bbox[2], bbox[3], bbox[4])
+      fitBounds(bbox[1], bbox[2], bbox[3], bbox[4]) %>%
+      setView(lat = 56.610003, lng = -4.2, zoom = 7)
     
     
     

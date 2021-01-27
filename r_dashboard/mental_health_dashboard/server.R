@@ -193,8 +193,9 @@ server <- function(input, output) {
     
     npf_mental_wellbeing %>% 
       filter(characteristic == "Total") %>% 
-      ggplot() +
-      geom_line(aes(x = year, y = figure)) +
+      ggplot(aes(x = year, y = figure)) +
+      geom_line() +
+      geom_point(size=2, shape=21, fill="white") +
       scale_x_continuous(breaks = seq(min(npf_mental_wellbeing$year), 
                                       max(npf_mental_wellbeing$year)),  
                          labels = seq(min(npf_mental_wellbeing$year), 

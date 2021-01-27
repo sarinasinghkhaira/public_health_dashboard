@@ -36,34 +36,34 @@ ui <- dashboardPage(
             tabItem(tabName = "overview",
                     h2("How is Scotland doing?"),
                     fluidRow(
+                        
+                        
+                        box(
+ 
+                            title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
+                            plotOutput("longterm_conditions_output", height = 400)
+                            
+                        ),
+                        
+                        box(
+                            title = "Self-Reported Health", status = "primary", solidHeader = TRUE,
+                            plotOutput("plot2", height = 400)
+                        ),
+                        
+                    
                         tabBox(
                             title = "Life Expectancy",
                             side = "right",
-                            id = "tabset1", height = 320,
+                            id = "tabset1", 
                             tabPanel("Scotland", plotOutput("le_plot")),
                             tabPanel("UK", plotOutput("le_da_plot"))
                         ),
                         #tabPanel("Plot2", plotOutput("le_da_plot"))
                         
-                        
-                        box(
-                            
-                            
-                            title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
-                            plotOutput("longterm_conditions_output", height = 320)
-                            
-                        ),
-                        
-                        box(
-                            title = "Self-Reported Health", 
-                            plotOutput("plot2", height = 320)
-                        ),
-                        
                         box(
                             title = "Mental Health", status = "primary", solidHeader = TRUE,
-                            plotOutput("mh_time", height = 320)
+                            plotOutput("mh_time", height = 400)
                         )
-                        
                         
                     )
             ),

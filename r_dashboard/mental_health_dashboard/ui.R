@@ -10,6 +10,7 @@
 
 library(shiny)
 library(shinydashboard)
+library(leaflet)
 
 ui <- dashboardPage(
     dashboardHeader(title = "Mental Health Dashboard"),

@@ -189,7 +189,12 @@ respiratory_admissions_scotland <- read_csv("/users/user/group_health_project/ho
   filter(reference_area == "Scotland") %>% 
   mutate(longterm_condition = "respiratory_conditions")
 
-longterm_conditions_all <- bind_rows(cancer_admissions_scotland, cbd_admissions_scotland, chd_admissions_scotland, ddd_admissions_scotland, respiratory_admissions_scotland)
+#longterm_conditions_all <- bind_rows(cancer_admissions_scotland, cbd_admissions_scotland, chd_admissions_scotland, ddd_admissions_scotland, respiratory_admissions_scotland)
+```
+
+```{r}
+#Reading in the longterm_conditions dataset
+longterm_conditions_all <- read_csv(here("r_dashboard/clean_data/longterm_conditions_all.csv"))
 ```
 
 
@@ -200,9 +205,11 @@ ggplot(longterm_conditions_all, aes(x = year, y = admissions_count, colour = lon
   labs(title = "Hospital Admissions by Long Term Condition",
        subtitle = "2002 - 2012",
        x = "Year",
-       y = "Admissions Count",
-       color = "Hospital Admissions") +
+       y = "Admissions Count") +
   scale_x_continuous(breaks = c(2002:2012)) +
+  scale_color_manual(name = "Longterm Condition",
+                     labels = c("Cancer", "Cerebrovascular Disease", "Coronary Heart Disease", "Disease Digestive System", "Respiratory Conditions"),
+                     values = c("red", "dark green", "blue", "orange", "purple")) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_y_continuous(breaks = c(0, 25000, 50000, 75000, 100000, 125000, 150000, 175000))
 ```

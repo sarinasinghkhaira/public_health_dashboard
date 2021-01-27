@@ -17,6 +17,10 @@ library(leaflet)
 library(htmltools)
 library(janitor)
 
+#Reading in longterm conditions dataset
+longterm_conditions_all <- read_csv(here("clean_data/longterm_conditions_all.csv"))
+
+
 #read in life expectancy data
 life <- read_csv(here("clean_data/le.csv"))
 life_da <- read_csv(here("clean_data/le_da.csv"))
@@ -79,8 +83,6 @@ bbox <- st_bbox(scot_la_mh) %>%
 
 
 # Define server logic required to draw a histogram
-
-
 
 
 server <- function(input, output) {
@@ -150,6 +152,29 @@ server <- function(input, output) {
       ggtitle("Life Expectancy for UK Nations") +
       theme(plot.title=element_text(hjust = 0.5, family="serif",
                                     colour="darkred", size= 18, face = "bold"))
+    
+    
+    
+    
+  })
+  
+  output$longterm_conditions_output <- renderPlot({
+
+    longterm_conditions_all %>% 
+      ggplot() +
+      aes(x = year, y = admissions_count, colour = longterm_condition) +
+      geom_line() +
+      labs(title = "Hospital Admissions by Long Term Condition",
+           subtitle = "2002 - 2012",
+           x = "Year",
+           y = "Admissions Count") +
+      scale_x_continuous(breaks = c(2002:2012)) +
+      scale_color_manual(name = "Longterm Condition",
+                         labels = c("Cancer", "Cerebrovascular Disease", "Coronary Heart Disease", "Disease Digestive System", "Respiratory Conditions"),
+                         values = c("red", "dark green", "blue", "orange", "purple")) +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      scale_y_continuous(breaks = c(0, 25000, 50000, 75000, 100000, 125000, 150000, 175000))
+      
   })
   
   

@@ -47,11 +47,21 @@ shs_la <- shs %>%
   rename(la_code = feature_code) %>% 
   left_join(lookup_la, by= "la_code") %>% 
   relocate(la_name, .after = la_code) %>% 
-  filter(measurement == "Percent") %>% 
+  filter(measurement == "Percent" | measurement == "Mean") %>% 
   group_by(la_name) %>% 
   pivot_wider(names_from = scottish_health_survey_indicator, values_from = value) %>% 
   select(1:6,sort(names(.))) %>% 
   write_csv("clean_data/shs_clean.csv")
+
+wembs_la <- shs %>% 
+  filter(str_detect(feature_code, "^S12")) %>% 
+  rename(la_code = feature_code) %>% 
+  left_join(lookup_la, by= "la_code") %>% 
+  relocate(la_name, .after = la_code) %>% 
+  filter(units == "WEMWBS Score") %>%
+  filter(measurement == "Mean") %>% 
+  group_by(la_name) %>% 
+  write_csv("clean_data/wembs_la_clean.csv")
 
 shs_la_nopivot <- shs %>% 
   filter(str_detect(feature_code, "^S12")) %>% 

@@ -1,0 +1,161 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+```{r}
+shs_la_nopivot %>% 
+  filter(date_code == "2016-2019") %>% 
+  select(-date_code) %>%
+  distinct(la_code)
+```
+
+
+```{r}
+shs <- read_csv("raw_data/scottish_health_survey.csv") %>% clean_names()
+```
+
+
+```{r}
+shs %>%
+filter(date_code == "2016-2019",
+      scottish_health_survey_indicator %in% c("Life satisfaction: Below the mode (0-Extremely dissatisfied to 7)",
+"Alcohol consumption: Hazardous/Harmful drinker",
+"Long-term illness: Limiting long-term illness",
+"Mental wellbeing"),
+       measurement %in% c("Percent", "Mean"),
+       str_detect(feature_code, "^S12|^S92")) %>% 
+  select(-date_code)
+```
+
+```{r}
+shs %>% distinct(scottish_health_survey_indicator)
+```
+life satisfaction
+Mental wellbeing
+
+Life satisfaction: Below the mode (0-Extremely dissatisfied to 7)
+Alcohol consumption: Hazardous/Harmful drinker
+Long-term illness: Limiting long-term illness
+
+
+
+
+
+# Cleaning Script
+```{r}
+mental_wb <- read_csv("raw_data/mental_wb_scottish_surveys.csv") %>% 
+  clean_names() %>%
+  rename("limiting_cond" = limiting_long_term_physical_or_mental_health_condition)
+
+data_zones <- read_csv(here::here("raw_data/Datazone2011lookup.csv")) %>% 
+  clean_names() %>% 
+  select(la_code, la_name) %>%
+  unique()
+
+scotland <- c("S92000003", "Scotland")  
+names(scotland) <- c("la_code", "la_name")
+
+data_zones <- bind_rows(data_zones, scotland)
+
+mental_wb <- mental_wb %>%
+  filter(str_detect(feature_code, "^S12|^S92")) %>%
+  left_join(data_zones, by = c("feature_code" = "la_code"))  %>% 
+  select(-units) %>%
+  mutate(measurement = recode(measurement, 
+                              "Lower 95% Confidence Limit, Mean" = "lower_ci",
+                              "Upper 95% Confidence Limit, Mean" = "upper_ci",
+                              "Mean" = "mean")) %>%
+  pivot_wider(names_from = "measurement",
+              values_from = "value") 
+
+write_csv(mental_wb, "clean_data/demographic_mh.csv")
+```
+
+```{r}
+area_input <- "Dumfries and Galloway"
+date_input <- "2016"
+mental_wb_to_plot <- mental_wb %>% 
+  filter(la_name == area_input,
+         date_code == date_input)
+
+
+mental_wb_to_plot %>%
+  filter(type_of_tenure != "All") %>%
+  ggplot() +
+  aes(x = type_of_tenure, y = mean) +
+  geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+  theme_bw() +
+  labs(x = "Type of Tenure",
+       y = "Mean SWEMWBS Score")
+```
+
+```{r}
+mental_wb_to_plot %>%
+  filter(age != "All") %>%
+  ggplot() +
+  aes(x = age, y = mean) +
+  geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+    theme_bw() +
+  labs(x = "Age",
+       y = "Mean SWEMWBS Score")
+
+```
+
+```{r}
+mental_wb_to_plot %>%
+  filter(gender != "All") %>%
+  ggplot() +
+  aes(x = gender, y = mean) +
+  geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+  labs(x = "Gender",
+       y = "Mean SWEMWBS Score")
+
+```
+
+
+```{r}
+mental_wb_to_plot %>%
+  filter(limiting_cond != "All") %>%
+  ggplot() +
+  aes(x = limiting_cond, y = mean) +
+  geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+  theme_bw() +
+  labs(x = "Presence of Limiting Health Condition",
+       y = "Mean SWEMWBS Score")
+
+```
+
+
+
+
+
+
+UI that worked
+
+```{r}
+fluidRow(
+                        
+                        box( width = 12, 
+                            selectInput(inputId = "area",
+                                        label = "Area",
+                                        choices = unique(mental_wb$la_name),
+                                        selected = "Scotland",
+                                        width = "30%"),
+                            radioButtons(inputId = "year",
+                                         label = "Year",
+                                         choices = c(2014:2017),
+                                         selected = "2016",
+                                         width = "50%",
+                                         inline = TRUE) 
+                            
+                        )
+```
+

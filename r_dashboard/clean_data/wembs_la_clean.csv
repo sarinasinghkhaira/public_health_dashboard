@@ -1,0 +1,82 @@
+la_code,la_name,date_code,measurement,units,value,scottish_health_survey_indicator,sex
+S12000027,Shetland Islands,2016-2019,Mean,WEMWBS Score,50.9,Mental wellbeing,Female
+S12000047,Fife,2016-2019,Mean,WEMWBS Score,49.3,Mental wellbeing,Female
+S12000047,Fife,2015-2018,Mean,WEMWBS Score,49.5,Mental wellbeing,Female
+S12000027,Shetland Islands,2015-2018,Mean,WEMWBS Score,50.7,Mental wellbeing,Female
+S12000029,South Lanarkshire,2016-2019,Mean,WEMWBS Score,49.7,Mental wellbeing,Female
+S12000028,South Ayrshire,2015-2018,Mean,WEMWBS Score,50.5,Mental wellbeing,Female
+S12000029,South Lanarkshire,2015-2018,Mean,WEMWBS Score,50,Mental wellbeing,Female
+S12000026,Scottish Borders,2015-2018,Mean,WEMWBS Score,50.7,Mental wellbeing,Female
+S12000026,Scottish Borders,2016-2019,Mean,WEMWBS Score,49.8,Mental wellbeing,Female
+S12000034,Aberdeenshire,2015-2018,Mean,WEMWBS Score,51.1,Mental wellbeing,Female
+S12000034,Aberdeenshire,2016-2019,Mean,WEMWBS Score,51.2,Mental wellbeing,Female
+S12000033,Aberdeen City,2015-2018,Mean,WEMWBS Score,50.1,Mental wellbeing,Female
+S12000033,Aberdeen City,2016-2019,Mean,WEMWBS Score,50.2,Mental wellbeing,Female
+S12000036,City of Edinburgh,2015-2018,Mean,WEMWBS Score,50.8,Mental wellbeing,Female
+S12000036,City of Edinburgh,2016-2019,Mean,WEMWBS Score,50.7,Mental wellbeing,Female
+S12000049,Glasgow City,2015-2018,Mean,WEMWBS Score,48.5,Mental wellbeing,Female
+S12000049,Glasgow City,2016-2019,Mean,WEMWBS Score,48.4,Mental wellbeing,Female
+S12000013,Na h-Eileanan Siar,2015-2018,Mean,WEMWBS Score,51.4,Mental wellbeing,Female
+S12000008,East Ayrshire,2015-2018,Mean,WEMWBS Score,48.7,Mental wellbeing,Female
+S12000050,North Lanarkshire,2015-2018,Mean,WEMWBS Score,49.1,Mental wellbeing,Female
+S12000050,North Lanarkshire,2016-2019,Mean,WEMWBS Score,48.8,Mental wellbeing,Female
+S12000006,Dumfries and Galloway,2015-2018,Mean,WEMWBS Score,48.8,Mental wellbeing,Female
+S12000006,Dumfries and Galloway,2016-2019,Mean,WEMWBS Score,49.1,Mental wellbeing,Female
+S12000021,North Ayrshire,2015-2018,Mean,WEMWBS Score,47.3,Mental wellbeing,Female
+S12000023,Orkney Islands,2016-2019,Mean,WEMWBS Score,50,Mental wellbeing,Female
+S12000023,Orkney Islands,2015-2018,Mean,WEMWBS Score,50.2,Mental wellbeing,Female
+S12000013,Na h-Eileanan Siar,2016-2019,Mean,WEMWBS Score,52,Mental wellbeing,Female
+S12000050,North Lanarkshire,2015-2018,Mean,WEMWBS Score,47.9,Mental wellbeing,Male
+S12000050,North Lanarkshire,2016-2019,Mean,WEMWBS Score,47.6,Mental wellbeing,Male
+S12000049,Glasgow City,2016-2019,Mean,WEMWBS Score,48.4,Mental wellbeing,Male
+S12000049,Glasgow City,2015-2018,Mean,WEMWBS Score,48.5,Mental wellbeing,Male
+S12000047,Fife,2016-2019,Mean,WEMWBS Score,50.7,Mental wellbeing,Male
+S12000047,Fife,2015-2018,Mean,WEMWBS Score,50.5,Mental wellbeing,Male
+S12000033,Aberdeen City,2016-2019,Mean,WEMWBS Score,50.7,Mental wellbeing,Male
+S12000033,Aberdeen City,2015-2018,Mean,WEMWBS Score,50.4,Mental wellbeing,Male
+S12000021,North Ayrshire,2015-2018,Mean,WEMWBS Score,48.4,Mental wellbeing,Male
+S12000008,East Ayrshire,2015-2018,Mean,WEMWBS Score,50,Mental wellbeing,Male
+S12000013,Na h-Eileanan Siar,2015-2018,Mean,WEMWBS Score,51.5,Mental wellbeing,Male
+S12000034,Aberdeenshire,2016-2019,Mean,WEMWBS Score,50.6,Mental wellbeing,Male
+S12000013,Na h-Eileanan Siar,2016-2019,Mean,WEMWBS Score,51,Mental wellbeing,Male
+S12000034,Aberdeenshire,2015-2018,Mean,WEMWBS Score,51,Mental wellbeing,Male
+S12000027,Shetland Islands,2015-2018,Mean,WEMWBS Score,50.5,Mental wellbeing,Male
+S12000023,Orkney Islands,2016-2019,Mean,WEMWBS Score,51.2,Mental wellbeing,Male
+S12000027,Shetland Islands,2016-2019,Mean,WEMWBS Score,51.3,Mental wellbeing,Male
+S12000026,Scottish Borders,2015-2018,Mean,WEMWBS Score,50.1,Mental wellbeing,Male
+S12000026,Scottish Borders,2016-2019,Mean,WEMWBS Score,49.7,Mental wellbeing,Male
+S12000023,Orkney Islands,2015-2018,Mean,WEMWBS Score,50.6,Mental wellbeing,Male
+S12000028,South Ayrshire,2015-2018,Mean,WEMWBS Score,49.4,Mental wellbeing,Male
+S12000029,South Lanarkshire,2015-2018,Mean,WEMWBS Score,49.9,Mental wellbeing,Male
+S12000029,South Lanarkshire,2016-2019,Mean,WEMWBS Score,49.8,Mental wellbeing,Male
+S12000006,Dumfries and Galloway,2016-2019,Mean,WEMWBS Score,49.9,Mental wellbeing,Male
+S12000006,Dumfries and Galloway,2015-2018,Mean,WEMWBS Score,50,Mental wellbeing,Male
+S12000036,City of Edinburgh,2016-2019,Mean,WEMWBS Score,50,Mental wellbeing,Male
+S12000036,City of Edinburgh,2015-2018,Mean,WEMWBS Score,49.8,Mental wellbeing,Male
+S12000023,Orkney Islands,2016-2019,Mean,WEMWBS Score,50.6,Mental wellbeing,All
+S12000023,Orkney Islands,2015-2018,Mean,WEMWBS Score,50.4,Mental wellbeing,All
+S12000050,North Lanarkshire,2016-2019,Mean,WEMWBS Score,48.2,Mental wellbeing,All
+S12000050,North Lanarkshire,2015-2018,Mean,WEMWBS Score,48.5,Mental wellbeing,All
+S12000013,Na h-Eileanan Siar,2015-2018,Mean,WEMWBS Score,51.5,Mental wellbeing,All
+S12000013,Na h-Eileanan Siar,2016-2019,Mean,WEMWBS Score,51.5,Mental wellbeing,All
+S12000049,Glasgow City,2015-2018,Mean,WEMWBS Score,48.5,Mental wellbeing,All
+S12000049,Glasgow City,2016-2019,Mean,WEMWBS Score,48.4,Mental wellbeing,All
+S12000008,East Ayrshire,2015-2018,Mean,WEMWBS Score,49.3,Mental wellbeing,All
+S12000021,North Ayrshire,2015-2018,Mean,WEMWBS Score,47.8,Mental wellbeing,All
+S12000006,Dumfries and Galloway,2015-2018,Mean,WEMWBS Score,49.4,Mental wellbeing,All
+S12000006,Dumfries and Galloway,2016-2019,Mean,WEMWBS Score,49.5,Mental wellbeing,All
+S12000036,City of Edinburgh,2016-2019,Mean,WEMWBS Score,50.4,Mental wellbeing,All
+S12000036,City of Edinburgh,2015-2018,Mean,WEMWBS Score,50.3,Mental wellbeing,All
+S12000027,Shetland Islands,2015-2018,Mean,WEMWBS Score,50.6,Mental wellbeing,All
+S12000028,South Ayrshire,2015-2018,Mean,WEMWBS Score,50,Mental wellbeing,All
+S12000047,Fife,2016-2019,Mean,WEMWBS Score,49.9,Mental wellbeing,All
+S12000027,Shetland Islands,2016-2019,Mean,WEMWBS Score,51.1,Mental wellbeing,All
+S12000047,Fife,2015-2018,Mean,WEMWBS Score,50,Mental wellbeing,All
+S12000029,South Lanarkshire,2016-2019,Mean,WEMWBS Score,49.7,Mental wellbeing,All
+S12000029,South Lanarkshire,2015-2018,Mean,WEMWBS Score,49.9,Mental wellbeing,All
+S12000026,Scottish Borders,2016-2019,Mean,WEMWBS Score,49.7,Mental wellbeing,All
+S12000026,Scottish Borders,2015-2018,Mean,WEMWBS Score,50.4,Mental wellbeing,All
+S12000033,Aberdeen City,2016-2019,Mean,WEMWBS Score,50.4,Mental wellbeing,All
+S12000034,Aberdeenshire,2015-2018,Mean,WEMWBS Score,51.1,Mental wellbeing,All
+S12000034,Aberdeenshire,2016-2019,Mean,WEMWBS Score,50.9,Mental wellbeing,All
+S12000033,Aberdeen City,2015-2018,Mean,WEMWBS Score,50.3,Mental wellbeing,All

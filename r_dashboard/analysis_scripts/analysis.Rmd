@@ -20,11 +20,11 @@ here::here()
 
 ```{r}
 #Reading in the cleaned data
-cbd_admissions <- read_csv(here("clean_data/cerebrovascular_disease_admissions.csv"))
-respiratory_admissions <- read_csv(here("clean_data/respiratory_disease_hospital_admissions.csv"))
-chd_admissions <- read_csv(here("clean_data/coronary_heart_disease_admissions.csv"))
-ddd_admissions <- read_csv(here("clean_data/disease_digestive_system_admissions.csv"))
-cancer_admissions <- read_csv(here("clean_data/cancer_admissions.csv"))
+cbd_admissions <- read_csv(here("r_dashboard/clean_data/cerebrovascular_disease_admissions.csv"))
+respiratory_admissions <- read_csv(here("r_dashboard/clean_data/respiratory_disease_hospital_admissions.csv"))
+chd_admissions <- read_csv(here("r_dashboard/clean_data/coronary_heart_disease_admissions.csv"))
+ddd_admissions <- read_csv(here("r_dashboard/clean_data/disease_digestive_system_admissions.csv"))
+cancer_admissions <- read_csv(here("r_dashboard/clean_data/cancer_admissions.csv"))
 ```
 
 ```{r}
@@ -164,28 +164,39 @@ cancer_admissions %>%
   geom_line(aes(x = year, y = admissions_count, group = reference_area))
 ```
 ```{r}
-#Filtering datasets to show total for Scotland as a whole over the years
-cancer_admissions_scotland <- cancer_admissions %>% 
-  filter(reference_area == "Scotland") 
-ddd_admissions_scotland <- ddd_admissions %>% 
-  filter(reference_area == "Scotland") 
-chd_admissions_scotland <- chd_admissions %>% 
-  filter(reference_area == "Scotland") 
-respiratory_admissions_scotland <- respiratory_admissions %>% 
-  filter(reference_area == "Scotland") 
-cbd_admissions_scotland <- cbd_admissions %>% 
-  filter(reference_area == "Scotland") 
+#Filtering datasets to show total for Scotland as a whole over the years and combining all datasets
+cancer_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/cancer_admissions.csv") %>% drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "cancer")
+
+cbd_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/cerebrovascular_disease_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "cerebrovascular_disease")
+
+chd_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/coronary_heart_disease_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>%
+    mutate(longterm_condition = "coronary_heart_disease")
+
+ddd_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/disease_digestive_system_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "disease_digestive_system")
+
+respiratory_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/respiratory_disease_hospital_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "respiratory_conditions")
+
+longterm_conditions_all <- bind_rows(cancer_admissions_scotland, cbd_admissions_scotland, chd_admissions_scotland, ddd_admissions_scotland, respiratory_admissions_scotland)
 ```
 
 
 ```{r}
 #Creating a plot of all the hospital admissions
-ggplot(cancer_admissions_scotland, aes(x = year, y = admissions_count, group = reference_area)) +
-  geom_line(aes(color = "Cancer")) +
-  geom_line(data = respiratory_admissions_scotland, aes(group = reference_area, color = "Respiratory Disease")) +
-  geom_line(data = ddd_admissions_scotland, aes(group = reference_area, color = "Disease of the Digestive System")) +
-  geom_line(data = cbd_admissions_scotland, aes(group = reference_area, color = "Cerebrovascular Disease")) +
-  geom_line(data = chd_admissions_scotland, aes(group = reference_area, color = "Coronary Heart Disease")) +
+ggplot(longterm_conditions_all, aes(x = year, y = admissions_count, colour = longterm_condition)) +
+  geom_line() +
   labs(title = "Hospital Admissions by Long Term Condition",
        subtitle = "2002 - 2012",
        x = "Year",

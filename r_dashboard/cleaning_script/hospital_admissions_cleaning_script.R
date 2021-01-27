@@ -128,3 +128,29 @@ write_csv(disease_digestive_system_admissions_clean, "clean_data/disease_digesti
 write_csv(respiratory_disease_hospital_admissions_clean, "clean_data/respiratory_disease_hospital_admissions.csv")
 
 write_csv(cancer_admissions, "clean_data/cancer_admissions.csv")
+
+
+#Filtering datasets to show total for Scotland as a whole over the years and combining all datasets
+cancer_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/cancer_admissions.csv") %>% drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "cancer")
+cbd_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/cerebrovascular_disease_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "cerebrovascular_disease")
+chd_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/coronary_heart_disease_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>%
+  mutate(longterm_condition = "coronary_heart_disease")
+ddd_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/disease_digestive_system_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "disease_digestive_system")
+respiratory_admissions_scotland <- read_csv("/users/user/group_health_project/hospital_admissions_data/clean_data/respiratory_disease_hospital_admissions.csv")  %>% 
+  drop_na() %>% 
+  filter(reference_area == "Scotland") %>% 
+  mutate(longterm_condition = "respiratory_conditions")
+
+longterm_conditions_all <- bind_rows(cancer_admissions_scotland, cbd_admissions_scotland, chd_admissions_scotland, ddd_admissions_scotland, respiratory_admissions_scotland)
+
+write_csv(longterm_conditions_all, "/Users/user/group_health_project/hospital_admissions_data/clean_data/longterm_conditions_all.csv")

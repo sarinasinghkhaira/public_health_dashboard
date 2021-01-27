@@ -42,13 +42,11 @@ ui <- dashboardPage(
                         
                         
                         box(
-<<<<<<< HEAD
-                            title = "Longterm Conditions",
-                            plotOutput("plot25", height = 250)
-=======
+
+
                             title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
                             plotOutput("longterm_conditions_output", height = 250)
->>>>>>> main
+
                         ),
                         
                         box(

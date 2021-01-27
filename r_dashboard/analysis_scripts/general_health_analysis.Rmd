@@ -21,7 +21,7 @@ here::here()
 
 ```{r}
 #Reading in the cleaned data
-general_health <- read_csv(here("r_dashboard/clean_data/general_health.csv"))
+general_health <- read_csv(here("clean_data/general_health.csv"))
 ```
 
 ```{r}
@@ -80,16 +80,11 @@ self_assessment <-
 self_assessment
 ```
 
-```{r}
-#Removing missing values
-general_health <- general_health %>% 
-  drop_na()
-```
-
 
 
 ```{r}
 general_health %>% 
+  drop_na() %>% 
   filter(measurement == "Percent") %>%  
     #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
   filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 

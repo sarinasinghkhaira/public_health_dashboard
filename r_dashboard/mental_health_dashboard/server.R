@@ -354,6 +354,7 @@ server <- function(input, output) {
   output$longterm_conditions_mental_health_plot <- renderPlot({
     
     longterm_conditions_mental_health %>% 
+      drop_na() %>% 
       filter(measurement == "Percent") %>%  
       #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
       filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 

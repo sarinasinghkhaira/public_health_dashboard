@@ -90,8 +90,8 @@ ui <- dashboardPage(
                     h2("Who is affected"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", 
-                            plotOutput("plot6", height = 250),
+                            title = "Longterm Conditions and Mental Health", 
+                            plotOutput("longterm_conditions_mental_health_plot", height = 250),
                         ),
                         
                         box(

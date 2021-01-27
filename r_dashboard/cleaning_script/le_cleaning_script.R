@@ -76,6 +76,8 @@ devolved_admins <- devolved_admins %>%
 devolved_admins <- devolved_admins %>% 
   mutate(year = str_remove(year, "x"))
 
+devolved_admins <- devolved_admins %>% clean_names()
+
 #write out to file le_da.csv
 write.csv(devolved_admins, "clean_data/le_da.csv")
 

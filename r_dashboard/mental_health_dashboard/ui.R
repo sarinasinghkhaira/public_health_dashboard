@@ -31,24 +31,32 @@ ui <- dashboardPage(
             tabItem(tabName = "overview",
                     h2("How is Scotland doing?"),
                     fluidRow(
-                        box(
-                        title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                        plotOutput("plot3", height = 250),
+                        tabBox(
+                            title = "Life Expectancy",
+                            side = "right",
+                            id = "tabset1", height = 320,
+                            tabPanel("Scotland", plotOutput("le_plot")),
+                            tabPanel("UK", plotOutput("le_da_plot"))
                         ),
+                                    #tabPanel("Plot2", plotOutput("le_da_plot"))
+                        
                         
                         box(
+
+
                             title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
-                            plotOutput("longterm_conditions_output", height = 250)
+                            plotOutput("longterm_conditions_output", height = 320)
+
                         ),
                         
                         box(
-                            title = "Self-Reported Health", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
+                            title = "Self-Reported Health", 
+                            plotOutput("plot2", height = 320)
                         ),
                         
                         box(
-                            title = "Quality of Life", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250)
+                            title = "Mental Health", status = "primary", solidHeader = TRUE,
+                            plotOutput("mh_time", height = 320)
                         )
                         
                         
@@ -60,8 +68,8 @@ ui <- dashboardPage(
                     h2("Changes over time"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Life Expectancy", 
+                            plotOutput("plot4", height = 250),
                         )
                     )
             ),
@@ -70,10 +78,9 @@ ui <- dashboardPage(
             tabItem(tabName = "geo",
                     h2("Where are the problems?"),
                     fluidRow(
-                        box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
-                        )
+                        
+                        leafletOutput("map", height = 500),
+                        
                     )
             ),
             
@@ -82,18 +89,18 @@ ui <- dashboardPage(
                     h2("Who is affected"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Life Expectancy", 
+                            plotOutput("plot6", height = 250),
                         ),
                         
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Life Expectancy",
+                            plotOutput("plot7", height = 250),
                         ),
                         
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Life Expectancy", 
+                            plotOutput("plot8", height = 250),
                         )
                     )
             ),
@@ -103,8 +110,8 @@ ui <- dashboardPage(
                     h2("Summary"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot3", height = 250),
+                            title = "Life Expectancy",
+                            plotOutput("plot9", height = 250),
                         )
                     )
             ),
@@ -119,4 +126,5 @@ ui <- dashboardPage(
         )
     )
 )
+
 

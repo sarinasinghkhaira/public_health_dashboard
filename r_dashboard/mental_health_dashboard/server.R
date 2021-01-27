@@ -15,9 +15,18 @@ library(here)
 library(scales)
 library(leaflet)
 library(htmltools)
+library(janitor)
+
+#read in life expectancy data
+life <- read_csv(here("clean_data/le.csv"))
+life_da <- read_csv(here("clean_data/le_da.csv"))
 
 #read in mental health data
 all_time_mental <-read_csv(here::here("clean_data/all_time_mental.csv"))
+
+#read in temporal mh data
+npf_mental_wellbeing <- read_csv(
+  here::here("clean_data/npf_mental_health.csv"))
 
 #add labels
 all_time_mental <- all_time_mental %>%
@@ -67,10 +76,106 @@ bbox <- st_bbox(scot_la_mh) %>%
 
 
 
+
+
 # Define server logic required to draw a histogram
 
+
+
+
 server <- function(input, output) {
+
+  ####### Overview life expectancy plot 
   
+  output$le_plot <- renderPlot({
+    life %>%
+      #filter for Scotland overall data
+      filter(feature_code == "S92000003") %>%
+      group_by(date_code, age_num_first) %>%
+      #filter to include a subset of ages
+      filter(age_num_first == 0 | age_num_first == 25
+             | age_num_first == 50 | age_num_first == 75 |
+               age_num_first == 90) %>%
+      #ind the average life expectancy for each age group
+      summarise(avg_le = mean(life_expectancy)) %>%
+      #plot a line graph, differentiate by age group
+      ggplot(aes(x = date_code, y = avg_le, group = age_num_first, colour = age_num_first)) +
+      geom_line() +
+      #add points
+      geom_point(size=2, shape=21, fill="white") +
+      theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
+      labs(
+        y = "Life Expectancy (years)",
+        x = "Date",
+        colour = "Age"
+      ) +
+      ggtitle("Life Expectancy") +
+      theme(plot.title=element_text(hjust = 0.5, family="serif",
+                                    colour="darkred", size= 18, face = "bold")) +
+      scale_y_continuous(
+        breaks = seq(70, 95, by = 1)
+      ) +
+      #remove legend
+      theme(legend.position="none") +
+      #add labels for each age group included
+      annotate("text", x= 3, y= 93, label="Age 90", family="serif",
+               fontface="italic", colour="darkred", size= 3 ) +
+      annotate("text", x= 3, y= 85, label="Age 75-79", family="serif",
+               fontface="italic", colour="darkred", size= 3) +
+      annotate("text", x= 3, y= 78.5, label="Age 50-54", family="serif",
+               fontface="italic", colour="darkred", size= 3) +
+      annotate("text", x= 3, y= 76.5, label="Age 25-29", family="serif",
+               fontface="italic", colour="darkred", size= 3) +
+      annotate("text", x= 3, y= 74, label="Age 0", family="serif",
+               fontface="italic", colour="darkred", size= 3)
+    
+  })
+  
+  output$le_da_plot <- renderPlot({
+    life_da %>% 
+      group_by(country, year) %>%
+      #include overall data for the UK
+      filter(country != "United Kingdom") %>% 
+      #find average life expectancy
+      summarise(life_expectancy = mean(life_expect_4)) %>% 
+      #plot a line graph, differentiate by country
+      ggplot(aes(x = year, y = life_expectancy, group = country, colour = country)) +
+      geom_line() +
+      geom_point(size=2, shape=21, fill="white") +
+      theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
+      labs(
+        y = "Life Expectancy (years)",
+        x = "Date"
+      ) +
+      ggtitle("Life Expectancy for UK Nations") +
+      theme(plot.title=element_text(hjust = 0.5, family="serif",
+                                    colour="darkred", size= 18, face = "bold"))
+  })
+  
+  
+  
+######## Overview: Mental Health Over Time Plot  
+  output$mh_time <- renderPlot({
+    
+    npf_mental_wellbeing %>% 
+      filter(characteristic == "Total") %>% 
+      ggplot() +
+      geom_line(aes(x = year, y = figure)) +
+      scale_x_continuous(breaks = seq(min(npf_mental_wellbeing$year), 
+                                      max(npf_mental_wellbeing$year)),  
+                         labels = seq(min(npf_mental_wellbeing$year), 
+                                      max(npf_mental_wellbeing$year))) +
+      labs(x = "Year",
+           y = "Average WEMWBS Score", 
+           title = "Average Mental Wellbeing Score in Scotland",
+           subtitle = "Average WEMWBS Score 2006 - 2019") +
+      theme_minimal()
+    
+    
+    
+  })
+  
+####### Where: mental health map  
   output$map <- renderLeaflet({
  
     leaflet(scot_la_mh) %>%
@@ -149,5 +254,5 @@ server <- function(input, output) {
     
   })
   
-    
+
 }

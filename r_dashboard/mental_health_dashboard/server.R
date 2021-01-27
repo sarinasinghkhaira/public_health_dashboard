@@ -17,6 +17,22 @@ library(leaflet)
 library(htmltools)
 library(janitor)
 
+
+
+#Reading in longterm conditions dataset
+longterm_conditions_all <- read_csv(here("clean_data/longterm_conditions_all.csv"))
+
+#Reading in general health survey dataset
+longterm_conditions_mental_health <- read_csv(here("clean_data/general_health.csv"))
+
+longterm_conditions_mental_health <- longterm_conditions_mental_health %>% 
+  mutate(
+    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "Limiting condition", "Yes", limiting_long_term_physical_or_mental_health_condition),
+    limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "No limiting condition", "No", limiting_long_term_physical_or_mental_health_condition)
+  ) %>% 
+  drop_na()
+
+
 #read in life expectancy data
 life <- read_csv(here("clean_data/le.csv"))
 life_da <- read_csv(here("clean_data/le_da.csv"))
@@ -74,18 +90,12 @@ pal_suicide <- colorNumeric(palette = "plasma",
 bbox <- st_bbox(scot_la_mh) %>%
   as.vector()
 
-
-
-
-
 # Define server logic required to draw a histogram
 
 
-
-
 server <- function(input, output) {
-
-  ####### Overview life expectancy plot 
+  
+####### Overview life expectancy plot 
   
   output$le_plot <- renderPlot({
     life %>%
@@ -150,17 +160,42 @@ server <- function(input, output) {
       ggtitle("Life Expectancy for UK Nations") +
       theme(plot.title=element_text(hjust = 0.5, family="serif",
                                     colour="darkred", size= 18, face = "bold"))
+    
+    
+    
+    
+  })
+##################First tab content, longterm conditions plot
+  output$longterm_conditions_output <- renderPlot({
+    
+    longterm_conditions_all %>% 
+      ggplot() +
+      aes(x = year, y = admissions_count, colour = longterm_condition) +
+      geom_line() +
+      labs(title = "Hospital Admissions by Long Term Condition",
+           subtitle = "2002 - 2012",
+           x = "Year",
+           y = "Admissions Count") +
+      scale_x_continuous(breaks = c(2002:2012)) +
+      scale_color_manual(name = "Longterm Condition",
+                         labels = c("Cancer", "Cerebrovascular Disease", "Coronary Heart Disease", "Disease Digestive System", "Respiratory Conditions"),
+                         values = c("red", "dark green", "blue", "orange", "purple")) +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      scale_y_continuous(breaks = c(0, 25000, 50000, 75000, 100000, 125000, 150000, 175000)) +
+      theme_light()
+    
   })
   
   
   
-######## Overview: Mental Health Over Time Plot  
+################## Overview: Mental Health Over Time Plot  
   output$mh_time <- renderPlot({
     
     npf_mental_wellbeing %>% 
       filter(characteristic == "Total") %>% 
-      ggplot() +
-      geom_line(aes(x = year, y = figure)) +
+      ggplot(aes(x = year, y = figure)) +
+      geom_line() +
+      geom_point(size=2, shape=21, fill="white") +
       scale_x_continuous(breaks = seq(min(npf_mental_wellbeing$year), 
                                       max(npf_mental_wellbeing$year)),  
                          labels = seq(min(npf_mental_wellbeing$year), 
@@ -175,9 +210,9 @@ server <- function(input, output) {
     
   })
   
-####### Where: mental health map  
+################## Where: mental health map  
   output$map <- renderLeaflet({
- 
+    
     leaflet(scot_la_mh) %>%
       #add base tiles
       addProviderTiles("CartoDB.Positron") %>%
@@ -248,11 +283,96 @@ server <- function(input, output) {
         options = layersControlOptions(collapsed = FALSE)
       ) %>%
       #set bounds of map
-      fitBounds(bbox[1], bbox[2], bbox[3], bbox[4])
+      fitBounds(bbox[1], bbox[2], bbox[3], bbox[4]) %>%
+      setView(lat = 56.610003, lng = -4.2, zoom = 7)
+
+  })
+  
+################### Demographics
+  
+  mental_wb_to_plot <- reactive({
+    mental_wb %>% 
+      filter(la_name == input$area,
+             date_code == input$year)
+  })
+  
+  
+  output$gender_mh <- renderPlot({
     
-    
+    mental_wb_to_plot() %>%
+      filter(gender != "All") %>%
+      ggplot() +
+      aes(x = gender, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
     
   })
   
-
+  output$age_mh <- renderPlot({
+    
+    mental_wb_to_plot() %>%
+      filter(age != "All") %>%
+      ggplot() +
+      aes(x = age, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
+    
+  })
+  
+  output$limiting_hc <- renderPlot({
+    
+    mental_wb_to_plot() %>%
+      filter(limiting_cond != "All") %>%
+      ggplot() +
+      aes(x = limiting_cond, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
+    
+  })
+  
+  output$tenure_mh <- renderPlot({
+    mental_wb_to_plot() %>%
+      filter(type_of_tenure != "All") %>%
+      ggplot() +
+      aes(x = type_of_tenure, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
+    
+  })
+  
+  
+  
+############Fourth tab content - Self Assessed & Longterm Conditions
+  output$longterm_conditions_mental_health_plot <- renderPlot({
+    
+    longterm_conditions_mental_health %>% 
+      drop_na() %>% 
+      filter(measurement == "Percent") %>%  
+      #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
+      filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 
+      select(-household_type, -type_of_tenure, -feature_code, -units) %>% 
+      group_by(value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+      summarise() %>% 
+      group_by(self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+      summarise(n = n()) %>%
+      mutate(proportion = n / sum(n)) %>% 
+      ggplot() +
+      geom_col(aes(x = self_assessed_general_health, y = proportion, fill = limiting_long_term_physical_or_mental_health_condition)) +
+      labs(title = "Self Assessed General Health in Scotland",
+           subtitle = "2012 - 2019",
+           x = "Self Assessed General Health",
+           y = "Proportion of Respondents",
+           fill = "Limiting Long Term Physical or Mental Health Condition") +
+      theme_light()
+  
+})
+  
 }

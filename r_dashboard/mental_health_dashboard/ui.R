@@ -10,6 +10,10 @@
 
 library(shiny)
 library(shinydashboard)
+library(leaflet)
+
+source("global.R")
+
 
 ui <- dashboardPage(
     dashboardHeader(title = "Mental Health Dashboard"),
@@ -20,6 +24,7 @@ ui <- dashboardPage(
             menuItem("Changes over time", tabName = "temporal"),
             menuItem("Where are the problems?", tabName = "geo"),
             menuItem("Who is affected", tabName = "demographics"),
+            menuItem("Self Assessed Health", tabName = "self_assessed"),
             menuItem("Summary", tabName = "summary"),
             menuItem("About", tabName = "about")
         )
@@ -31,34 +36,34 @@ ui <- dashboardPage(
             tabItem(tabName = "overview",
                     h2("How is Scotland doing?"),
                     fluidRow(
+                        
+                        
+                        box(
+ 
+                            title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
+                            plotOutput("longterm_conditions_output", height = 400)
+                            
+                        ),
+                        
+                        box(
+                            title = "Self-Reported Health", status = "primary", solidHeader = TRUE,
+                            plotOutput("plot2", height = 400)
+                        ),
+                        
+                    
                         tabBox(
                             title = "Life Expectancy",
                             side = "right",
-                            id = "tabset1", height = 320,
+                            id = "tabset1", 
                             tabPanel("Scotland", plotOutput("le_plot")),
                             tabPanel("UK", plotOutput("le_da_plot"))
                         ),
-                                    #tabPanel("Plot2", plotOutput("le_da_plot"))
-                        
-                        
-                        box(
-
-
-                            title = "Longterm Conditions", status = "primary", solidHeader = TRUE,
-                            plotOutput("longterm_conditions_output", height = 320)
-
-                        ),
-                        
-                        box(
-                            title = "Self-Reported Health", 
-                            plotOutput("plot2", height = 320)
-                        ),
+                        #tabPanel("Plot2", plotOutput("le_da_plot"))
                         
                         box(
                             title = "Mental Health", status = "primary", solidHeader = TRUE,
-                            plotOutput("mh_time", height = 320)
+                            plotOutput("mh_time", height = 400)
                         )
-                        
                         
                     )
             ),
@@ -83,14 +88,72 @@ ui <- dashboardPage(
                         
                     )
             ),
-            
-            # Fourth tab content
+            #Tab 4 Freshwater Expert
             tabItem(tabName = "demographics",
-                    h2("Who is affected"),
+                    h1("Who is affected"),
+                    
+                    fluidRow(
+                        box(width = 12,
+                            background = "blue",
+                            column(width = 6, 
+                                   selectInput(inputId = "area",
+                                               label = "Area",
+                                               choices = unique(mental_wb$la_name),
+                                               selected = "Scotland"
+                                   )
+                            ),
+                            
+                            column(width = 6, 
+                                   align = "center",
+                                   radioButtons(inputId = "year",
+                                                label = "Year",
+                                                choices = c(2014:2017),
+                                                selected = "2016",
+                                                inline = TRUE) 
+                            )
+                        )
+                    ),
+                    
+                    fluidRow(
+                        
+                        box(
+                            title = "Gender", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("gender_mh", height = 250)
+                        ), 
+                        
+                        
+                        box(
+                            title = "Age", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("age_mh", height = 250)
+                        ), 
+                        
+                        box(
+                            title = "Limiting Health Condition", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("limiting_hc", height = 250)
+                        ),
+                        
+                        box(
+                            title = "House Ownership", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("tenure_mh", height = 250)
+                        )
+                    )
+            ),
+
+            # Fourth tab content
+            tabItem(tabName = "self_assessed",
+                    h2("Self Assessed General Health"),
                     fluidRow(
                         box(
-                            title = "Life Expectancy", 
-                            plotOutput("plot6", height = 250),
+                            title = "Longterm Conditions and Mental Health", 
+                            plotOutput("longterm_conditions_mental_health_plot", height = 250),
                         ),
                         
                         box(
@@ -104,6 +167,7 @@ ui <- dashboardPage(
                         )
                     )
             ),
+            
             
             # Fifth tab content
             tabItem(tabName = "summary",
@@ -126,5 +190,3 @@ ui <- dashboardPage(
         )
     )
 )
-
-

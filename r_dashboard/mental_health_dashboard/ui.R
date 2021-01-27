@@ -12,6 +12,9 @@ library(shiny)
 library(shinydashboard)
 library(leaflet)
 
+source("global.R")
+
+
 ui <- dashboardPage(
     dashboardHeader(title = "Mental Health Dashboard"),
     ## Sidebar content
@@ -21,6 +24,7 @@ ui <- dashboardPage(
             menuItem("Changes over time", tabName = "temporal"),
             menuItem("Where are the problems?", tabName = "geo"),
             menuItem("Who is affected", tabName = "demographics"),
+            menuItem("Self Assessed Health", tabName = "self_assessed"),
             menuItem("Summary", tabName = "summary"),
             menuItem("About", tabName = "about")
         )
@@ -84,10 +88,68 @@ ui <- dashboardPage(
                         
                     )
             ),
-            
-            # Fourth tab content
+            #Tab 4 Freshwater Expert
             tabItem(tabName = "demographics",
-                    h2("Who is affected"),
+                    h1("Who is affected"),
+                    
+                    fluidRow(
+                        box(width = 12,
+                            background = "blue",
+                            column(width = 6, 
+                                   selectInput(inputId = "area",
+                                               label = "Area",
+                                               choices = unique(mental_wb$la_name),
+                                               selected = "Scotland"
+                                   )
+                            ),
+                            
+                            column(width = 6, 
+                                   align = "center",
+                                   radioButtons(inputId = "year",
+                                                label = "Year",
+                                                choices = c(2014:2017),
+                                                selected = "2016",
+                                                inline = TRUE) 
+                            )
+                        )
+                    ),
+                    
+                    fluidRow(
+                        
+                        box(
+                            title = "Gender", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("gender_mh", height = 250)
+                        ), 
+                        
+                        
+                        box(
+                            title = "Age", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("age_mh", height = 250)
+                        ), 
+                        
+                        box(
+                            title = "Limiting Health Condition", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("limiting_hc", height = 250)
+                        ),
+                        
+                        box(
+                            title = "House Ownership", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("tenure_mh", height = 250)
+                        )
+                    )
+            ),
+
+            # Fourth tab content
+            tabItem(tabName = "self_assessed",
+                    h2("Self Assessed General Health"),
                     fluidRow(
                         box(
                             title = "Longterm Conditions and Mental Health", 
@@ -105,6 +167,7 @@ ui <- dashboardPage(
                         )
                     )
             ),
+            
             
             # Fifth tab content
             tabItem(tabName = "summary",

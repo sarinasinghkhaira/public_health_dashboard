@@ -17,6 +17,8 @@ library(leaflet)
 library(htmltools)
 library(janitor)
 
+
+
 #Reading in longterm conditions dataset
 longterm_conditions_all <- read_csv(here("clean_data/longterm_conditions_all.csv"))
 
@@ -88,16 +90,12 @@ pal_suicide <- colorNumeric(palette = "plasma",
 bbox <- st_bbox(scot_la_mh) %>%
   as.vector()
 
-
-
-
-
 # Define server logic required to draw a histogram
 
 
 server <- function(input, output) {
   
-  ####### Overview life expectancy plot 
+####### Overview life expectancy plot 
   
   output$le_plot <- renderPlot({
     life %>%
@@ -167,7 +165,7 @@ server <- function(input, output) {
     
     
   })
-  #First tab content, longterm conditions plot
+##################First tab content, longterm conditions plot
   output$longterm_conditions_output <- renderPlot({
     
     longterm_conditions_all %>% 
@@ -190,7 +188,7 @@ server <- function(input, output) {
   
   
   
-  ######## Overview: Mental Health Over Time Plot  
+################## Overview: Mental Health Over Time Plot  
   output$mh_time <- renderPlot({
     
     npf_mental_wellbeing %>% 
@@ -211,7 +209,7 @@ server <- function(input, output) {
     
   })
   
-  ####### Where: mental health map  
+################## Where: mental health map  
   output$map <- renderLeaflet({
     
     leaflet(scot_la_mh) %>%
@@ -290,7 +288,69 @@ server <- function(input, output) {
     
   })
   
-  #Fourth tab content - Mental Health & Longterm Conditions
+################### Demographics
+  
+  mental_wb_to_plot <- reactive({
+    mental_wb %>% 
+      filter(la_name == input$area,
+             date_code == input$year)
+  })
+  
+  
+  output$gender_mh <- renderPlot({
+    
+    mental_wb_to_plot() %>%
+      filter(gender != "All") %>%
+      ggplot() +
+      aes(x = gender, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
+    
+  })
+  
+  output$age_mh <- renderPlot({
+    
+    mental_wb_to_plot() %>%
+      filter(age != "All") %>%
+      ggplot() +
+      aes(x = age, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
+    
+  })
+  
+  output$limiting_hc <- renderPlot({
+    
+    mental_wb_to_plot() %>%
+      filter(limiting_cond != "All") %>%
+      ggplot() +
+      aes(x = limiting_cond, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
+    
+  })
+  
+  output$tenure_mh <- renderPlot({
+    mental_wb_to_plot() %>%
+      filter(type_of_tenure != "All") %>%
+      ggplot() +
+      aes(x = type_of_tenure, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score")
+    
+  })
+  
+  
+  
+############Fourth tab content - Self Assessed & Longterm Conditions
   output$longterm_conditions_mental_health_plot <- renderPlot({
     
     longterm_conditions_mental_health %>% 

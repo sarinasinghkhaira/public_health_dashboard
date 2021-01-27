@@ -1,23 +1,12 @@
+
 #load in libraries
 library(tidyverse)
 library(janitor)
+library(here)
 
-# read in data, ignoring the first 4 lines and ignorginrows with a #
-deaths <- read_csv("raw_data/suicides_dementia.csv", 
-                   skip = 4, comment = "#", skip_empty_rows = T) %>% clean_names()
+deaths <- read_csv(here("clean_data/mw_deaths_clean.csv"))
 
-#select the appropriate columns
-deaths <- deaths %>% 
-  select(year, gender, number, issue)
-
-#remove addition text from the year column
-deaths <- deaths %>% 
-  mutate(year = str_remove(year, "- new coding rules"))
-
-
-#write the clean data to a new file
-write_csv(deaths, "clean_data/mw_deaths_clean.csv")
-
+#plot graph for deaths by suicide split by gender
 deaths %>% 
   filter(issue == "Suicide") %>% 
   group_by(gender, year) %>% 
@@ -35,9 +24,8 @@ deaths %>%
                                 colour="darkred", size= 18, face = "bold"))
 
 
-
-
-  deaths %>% 
+#plot graph for deaths by dementia & alzheimers split by gender
+deaths %>% 
   filter(issue == "Dementia_and_Alzheimers") %>% 
   group_by(gender, year) %>% 
   summarise(count = sum(number)) %>% 
@@ -53,4 +41,6 @@ deaths %>%
   theme(plot.title=element_text(hjust = 0.5, family="serif",
                                 colour="darkred", size= 18, face = "bold"))
 
-  
+
+
+

@@ -120,9 +120,9 @@ server <- function(input, output) {
         x = "Date",
         colour = "Age"
       ) +
-      ggtitle("Life Expectancy") +
+      ggtitle("Life Expectancy by Age Group in Scotland") +
       theme_minimal() +
-      theme(plot.title=element_text(hjust = 0.5, size= 18, face = "bold")) +
+#      theme(plot.title=element_text(hjust = 0.5, size= 18, face = "bold")) +
       theme(axis.text.x = element_text( angle = 45,  hjust = 1 )) +
       scale_y_continuous(
         breaks = seq(70, 95, by = 10)
@@ -155,14 +155,17 @@ server <- function(input, output) {
       theme_minimal() +
       geom_line() +
       geom_point(size=2, shape=21, fill="white") +
-      theme(axis.text.x = element_text( angle = 45,  hjust = 1 )) +
+      theme(axis.text.x = element_text( angle = 45,  hjust = 1 ),
+            legend.position = "bottom",
+            legend.title = element_blank()) +
+      guides(colour=guide_legend(nrow=2, byrow=TRUE)) +
       labs(
         y = "Life Expectancy (years)",
-        x = "Date"
+        x = "Date",
+        title = "Life Expectancy for UK Nations"
       ) +
-      ggtitle("Life Expectancy for UK Nations") +
-      theme(plot.title=element_text(hjust = 0.5, family="serif",
-                                    colour="darkred", size= 18, face = "bold"))+
+#      theme(plot.title=element_text(hjust = 0.5, family="serif",
+  #                                  colour="darkred", size= 18, face = "bold"))+
       scale_color_viridis_d() 
       
     
@@ -214,7 +217,8 @@ server <- function(input, output) {
            y = "Average WEMWBS Score", 
            title = "Average Mental Wellbeing Score in Scotland",
            subtitle = "Average WEMWBS Score 2006 - 2019") +
-      theme_minimal()
+      theme_minimal() +
+      theme(axis.text.x = element_text( angle = 45,  hjust = 1 ))
     
     
     
@@ -232,16 +236,20 @@ server <- function(input, output) {
     ggplot(aes(x = year, y = count, group = gender, colour = gender)) +
     geom_line() +
     geom_point(size=2, shape=21, fill="white") +
-    theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
+    theme_minimal()+
+    theme(axis.text.x = element_text( angle = 45,  hjust = 1 ),
+          legend.title = element_blank(),
+          legend.position = "bottom") +
     labs(
       y = "Suicide Number",
       x = "Year"
     ) +
-    ggtitle("Suicide Rates") +
-    theme(plot.title=element_text(hjust = 0.5, family="serif",
-                                  colour="darkred", size= 18, face = "bold")) +
+    ggtitle("Suicide Rates in Scotland by Gender") +
+ #   theme(plot.title=element_text(hjust = 0.5, family="serif",
+  #                                colour="darkred", size= 18, face = "bold")) +
       scale_x_continuous(breaks = seq(min(death$year), 
-                                      max(death$year)))
+                                      max(death$year))) +
+      scale_color_viridis_d(end = 0.8)
   
   })
   
@@ -255,16 +263,21 @@ server <- function(input, output) {
       ggplot(aes(x = year, y = count, group = gender, colour = gender)) +
       geom_line() +
       geom_point(size=2, shape=21, fill="white") +
-      theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
+      theme_minimal() +
+      theme(axis.text.x = element_text( angle = 45,  hjust = 1 ),
+            legend.title = element_blank(),
+            legend.position = "bottom")+
       labs(
         y = "Number of Deaths",
         x = "Year"
       ) +
-      ggtitle("Dementia & Alzheimers Rates") +
-      theme(plot.title=element_text(hjust = 0.5, family="serif",
-                                    colour="darkred", size= 18, face = "bold")) +
+      ggtitle("Dementia & Alzheimers Deaths in Scotland") +
+#      theme(plot.title=element_text(hjust = 0.5, family="serif",
+ #                                   colour="darkred", size= 18, face = "bold")) +
       scale_x_continuous(breaks = seq(min(death$year), 
-                                      max(death$year)))
+                                      max(death$year))) +
+      scale_color_viridis_d(end = 0.8)
+    
     
     })
   

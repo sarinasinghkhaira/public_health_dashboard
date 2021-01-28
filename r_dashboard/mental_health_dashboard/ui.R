@@ -48,7 +48,7 @@ ui <- dashboardPage(
                         
                         box(
                             title = "Self-Reported Health", status = "primary", solidHeader = TRUE,
-                            plotOutput("plot2", height = 400)
+                            plotOutput("general_health_plot", height = 400)
                         ),
                         
                     

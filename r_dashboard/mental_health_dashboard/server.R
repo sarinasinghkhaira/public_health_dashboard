@@ -23,9 +23,9 @@ library(janitor)
 longterm_conditions_all <- read_csv(here("clean_data/longterm_conditions_all.csv"))
 
 #Reading in general health survey dataset
-longterm_conditions_mental_health <- read_csv(here("clean_data/general_health.csv"))
+general_health <- read_csv(here("clean_data/general_health.csv"))
 
-longterm_conditions_mental_health <- longterm_conditions_mental_health %>% 
+general_health %>% 
   mutate(
     limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "Limiting condition", "Yes", limiting_long_term_physical_or_mental_health_condition),
     limiting_long_term_physical_or_mental_health_condition = if_else(limiting_long_term_physical_or_mental_health_condition == "No limiting condition", "No", limiting_long_term_physical_or_mental_health_condition)
@@ -187,6 +187,38 @@ server <- function(input, output) {
       theme_light()
     
   })
+  
+  #Overview of self reported health
+  
+  filtered_data <- 
+    general_health %>% 
+      filter(measurement == "Percent") %>%  
+      drop_na() %>% 
+      #filtering to include "All" in limiting_long_term_physical_or_mental_health_condition column 
+      filter(limiting_long_term_physical_or_mental_health_condition == "All") %>% 
+      filter(age == "All") %>% 
+      filter(gender == "All") %>% 
+      filter(type_of_tenure == "All") %>% 
+      #filter for Scotland overall data
+      filter(feature_code == "S92000003") %>%
+      filter(household_type == "All") %>% 
+      group_by(date_code, value, self_assessed_general_health) %>% 
+      summarise() 
+    
+
+output$general_health_plot <- renderPlot({
+  ggplot(filtered_data) +
+    geom_line(aes(x = date_code, y = value, colour = self_assessed_general_health)) +
+    labs(title = "Self Assessed General Health in Scotland",
+         subtitle = "2012 - 2019",
+         x = "Year",
+         y = "Percentage of Respondents",
+         colour = "Self Assessed General Health") +
+    theme_light() +
+    scale_x_continuous(breaks = c(2012:2019)) +
+    scale_y_continuous(limits = c(0, 100))
+})
+  
   
   
   
@@ -446,19 +478,21 @@ server <- function(input, output) {
 ############Fourth tab content - Self Assessed & Longterm Conditions
   output$longterm_conditions_mental_health_plot <- renderPlot({
     
-    longterm_conditions_mental_health %>% 
+      general_health %>% 
       drop_na() %>% 
       filter(measurement == "Percent") %>%  
       #filtering to remove "All" in limiting_long_term_physical_or_mental_health_condition column 
       filter(!limiting_long_term_physical_or_mental_health_condition == "All") %>% 
-      select(-household_type, -type_of_tenure, -feature_code, -units) %>% 
-      group_by(value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
+      select(-household_type, -type_of_tenure, -units) %>% 
+      group_by(value, self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition, date_code) %>% 
       summarise() %>% 
       group_by(self_assessed_general_health, limiting_long_term_physical_or_mental_health_condition) %>% 
       summarise(n = n()) %>%
+      ungroup() %>% 
+      group_by(limiting_long_term_physical_or_mental_health_condition) %>% 
       mutate(proportion = n / sum(n)) %>% 
       ggplot() +
-      geom_col(aes(x = self_assessed_general_health, y = proportion, fill = limiting_long_term_physical_or_mental_health_condition)) +
+      geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = proportion, fill = self_assessed_general_health )) +
       labs(title = "Self Assessed General Health in Scotland",
            subtitle = "2012 - 2019",
            x = "Self Assessed General Health",

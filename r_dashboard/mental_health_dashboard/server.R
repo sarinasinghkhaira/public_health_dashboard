@@ -54,7 +54,7 @@ all_time_mental <- all_time_mental %>%
       la_name,
       "</b>" ,
       br(),
-      " WEMWBS Score: ",
+      "SWEMWBS Score: ",
       swem_score,
       br(),
       "Change in average score", 
@@ -140,7 +140,7 @@ server <- function(input, output) {
                 size= 3) +
       annotate("text", x= 3, y= 74, label="Age 0", 
                 size= 3)+
-      scale_color_viridis_c()
+      scale_color_viridis_c(end = 0.8)
   })
   
   output$le_da_plot <- renderPlot({
@@ -179,7 +179,7 @@ server <- function(input, output) {
     longterm_conditions_all %>% 
       ggplot() +
       aes(x = year, y = admissions_count, colour = longterm_condition) +
-      geom_line(size = 1.2) +
+      geom_line() +
       geom_point(size=2, shape=21, fill="white") +
       labs(title = "Hospital Admissions by Long Term Condition",
            subtitle = "2002 - 2012",
@@ -219,15 +219,21 @@ server <- function(input, output) {
 
 output$general_health_plot <- renderPlot({
   ggplot(filtered_data) +
-    geom_line(aes(x = date_code, y = value, colour = self_assessed_general_health)) +
+    aes(x = date_code, y = value, colour = self_assessed_general_health)+
+    geom_line() +
+    geom_point( size=2, shape=21, fill="white") +
     labs(title = "Self Assessed General Health in Scotland",
          subtitle = "2012 - 2019",
          x = "Year",
          y = "Percentage of Respondents",
-         colour = "Self Assessed General Health") +
-    theme_light() +
+         colour = "Self Assessed General Health: ") +
+    theme_minimal() +
     scale_x_continuous(breaks = c(2012:2019)) +
-    scale_y_continuous(limits = c(0, 100))
+    scale_y_continuous(limits = c(0, 100)) +
+    scale_color_viridis_d() +
+    guides(colour=guide_legend(nrow=2,byrow=TRUE)) +
+    theme(legend.position = "bottom")
+  
 })
   
   
@@ -239,7 +245,7 @@ output$general_health_plot <- renderPlot({
     npf_mental_wellbeing %>% 
       filter(characteristic == "Total") %>% 
       ggplot(aes(x = year, y = figure)) +
-      geom_line(size = 1.2, col = "#440154ff") +
+      geom_line( col = "#440154ff") +
       geom_point(size=2, shape=21, fill="white") +
       scale_x_continuous(breaks = seq(min(npf_mental_wellbeing$year), 
                                       max(npf_mental_wellbeing$year)),  
@@ -552,13 +558,14 @@ output$general_health_plot <- renderPlot({
       mutate(proportion = n / sum(n)) %>% 
       ggplot() +
       geom_col(aes(x = limiting_long_term_physical_or_mental_health_condition, y = proportion, fill = self_assessed_general_health )) +
-      labs(title = "Self Assessed General Health in Scotland",
-           subtitle = "2012 - 2019",
-           x = "Self Assessed General Health",
+      labs(title = NULL,
+           x = NULL,
            y = "Proportion of Respondents",
-           fill = "Limiting Long Term Physical or Mental Health Condition") +
-      theme_light()
-  
+           fill = "Self Assessed General Health") +
+      scale_fill_viridis_d() +
+      theme_bw() +
+      theme(legend.position = "bottom")
+    
 })
   
 }

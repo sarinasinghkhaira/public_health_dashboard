@@ -23,10 +23,10 @@ ui <- dashboardPage(
     dashboardSidebar(
         sidebarMenu(
             menuItem("Overview", tabName = "overview"),
-            menuItem("Mental wellness over time", tabName = "temporal"),
-            menuItem("Where are the problems?", tabName = "geo"),
-            menuItem("Who is affected", tabName = "demographics"),
-            menuItem("Mental Health Indicators", tabName = "mh_indicators"),
+            menuItem("Mental Health by Area", tabName = "geo"),
+            menuItem("Mental Health by Demographics", tabName = "demographics"),
+            menuItem("Other Mental Health Indicators", tabName = "mh_indicators"),
+            menuItem("Mental Health Deaths", tabName = "temporal"),
             menuItem("About", tabName = "about")
         )
     ),
@@ -36,7 +36,7 @@ ui <- dashboardPage(
         tabItems(
             # First tab content
             tabItem(tabName = "overview",
-                    h2("How is Scotland doing?"),
+                    h2("How is Scotland Doing?"),
                     fluidRow(
                         
                         
@@ -70,26 +70,11 @@ ui <- dashboardPage(
                     )
             ),
             
-            # Second tab content
-            tabItem(tabName = "temporal", 
-                    h2("Mental wellness problems over time"),
-                    fluidRow(
-                        box(
-                            title = "Deaths by Suicide", status = "primary", solidHeader = TRUE,
-                            plotOutput("mw_deaths_s", height = 320),
-                        ),
-                        
-                        box(
-                          title = "Deaths by Dementia & Alzheimers", status = "primary", solidHeader = TRUE,
-                          plotOutput("mw_deaths_d_a", height = 320),
-                        )
-                        
-                    )
-            ),
+          
             
             # Third tab content
             tabItem(tabName = "geo",
-                    h2("Where are the problems?"),
+                    h2("Mental Health Variations by Area"),
                     fluidRow(
                         
                         leafletOutput("map", height = 500),
@@ -98,7 +83,7 @@ ui <- dashboardPage(
             ),
             #Tab 4 Freshwater Expert
             tabItem(tabName = "demographics",
-                    h1("Who is affected"),
+                    h1("Mental Health Scores and Demographic Factors"),
                     
                     fluidRow(
                         box(width = 12,
@@ -157,7 +142,7 @@ ui <- dashboardPage(
             
             #Tab 5
             tabItem(tabName = "mh_indicators",
-                    h1(""),
+                    h1("Other Mental Health Indicators"),
                     
                     fluidRow(
                         box(width = 12,
@@ -206,14 +191,29 @@ ui <- dashboardPage(
                         ),
                         
                         box(
-                            title = "Longterm Conditions and Mental Health", 
+                            title = "Longterm Conditions and General Health in Scotland", 
                             plotOutput("longterm_conditions_mental_health_plot", 
                                        height = 250)
                         )
                     )
             ),
 
-    
+            # Second tab content
+            tabItem(tabName = "temporal", 
+                    h2("Mental Health Related Deaths"),
+                    fluidRow(
+                        box(
+                            title = "Deaths by Suicide", status = "primary", solidHeader = TRUE,
+                            plotOutput("mw_deaths_s", height = 320),
+                        ),
+                        
+                        box(
+                            title = "Deaths by Dementia & Alzheimers", status = "primary", solidHeader = TRUE,
+                            plotOutput("mw_deaths_d_a", height = 320),
+                        )
+                        
+                    )
+            ),
         
             
             # Sixth tab content

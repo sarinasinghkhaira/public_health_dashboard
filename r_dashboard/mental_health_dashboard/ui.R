@@ -241,11 +241,75 @@ ui <- dashboardPage(
             
             # Sixth tab content
             tabItem(tabName = "about",
-                    h2("About"),
+                    h1("About"),
                     fluidRow(
-                        
-                    )
+                        box(title = "Data Sources", solidHeader = TRUE, status = "primary",
+                            h5(strong("Official Statistics Scotland")),
+                            
+                            tags$a(href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fmental-wellbeing-sscq", 
+                                   "Mental Wellbeing Survey"),
+                            br(),
+                            tags$a(href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2FLife-Expectancy", 
+                                   "Life Expectancy"),
+                            br(),
+                            tags$a(href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fgeneral-health-sscq", 
+                                   "General Health Survey"),
+                            br(),
+                            tags$a(href = "https://www.gov.scot/publications/scottish-index-of-multiple-deprivation-2020v2-ranks/)",
+                               "SIMD 2020"),
+                            br(),
+                            tags$a(href = "https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fscottish-health-survey-local-area-level-data",
+                                   "Scottish Health Survey"),
+                            br(),
+                            tags$a(href = "https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fhospital-admissions",
+                                   "Hospital Admissions"),
+                            br(),
+                            br(),
+                            h5(strong("Other Data Sources")),
+                            tags$a(href="nrscotland.gov.uk", 
+                                   "National Records of Scotland"),
+                            br(),
+                            
+                            tags$a(href="https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/deaths/suicides", 
+                                   "NRS: Probable Suicides"),
+                            br(),
+                            tags$a(href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2FLife-Expectancy", 
+                                   "NRS: Life Expectancy"),
+                            br(),
+                            tags$a(href = "https://osdatahub.os.uk/downloads/open/BoundaryLine?_ga=2.224291931.1146669782.1611403147-115211834.1611403147",
+                                   "Ordinance Survey Boundaries"),
+                            br(),
+                            br(),
+                            h5(strong("Additional Resources")),
+                            
+                            tags$a(href="https://www.gov.scot/publications/scotlands-public-health-priorities/pages/6/", 
+                                   "Scotland's public health priority 3: Mental Wellbeing"),
+                            br(),
+                            
+                            tags$a(href="https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/", 
+                                   "Mental Health Score (WEMWBS/SWEMWBS)"),
+                            
+                    ),
+                
+                box(title = "Contributors",
+                    solidHeader = TRUE,
+                    status = "primary",
+                    "Graeme Anderson",
+                    br(),
+                    "Stephanie Duncan",
+                    br(),
+                    "Rashpal Singh",
+                    br(),
+                    "Sarina Singh-Khaira",
+                    br(),
+                    br(),
+                    "Code can be found at our ", tags$a(href = "https://github.com/sarinasinghkhaira/public_health_dashboard/",
+                                                        "Github repo"))
+                
+              
+                
             )
         )
     )
+)
 )

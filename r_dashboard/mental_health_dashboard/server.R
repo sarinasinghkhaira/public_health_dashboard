@@ -115,32 +115,32 @@ server <- function(input, output) {
       geom_line() +
       #add points
       geom_point(size=2, shape=21, fill="white") +
-      theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
       labs(
         y = "Life Expectancy (years)",
         x = "Date",
         colour = "Age"
       ) +
       ggtitle("Life Expectancy") +
-      theme(plot.title=element_text(hjust = 0.5, family="serif",
-                                    colour="darkred", size= 18, face = "bold")) +
+      theme_minimal() +
+      theme(plot.title=element_text(hjust = 0.5, size= 18, face = "bold")) +
+      theme(axis.text.x = element_text( angle = 45,  hjust = 1 )) +
       scale_y_continuous(
-        breaks = seq(70, 95, by = 1)
+        breaks = seq(70, 95, by = 10)
       ) +
       #remove legend
       theme(legend.position="none") +
       #add labels for each age group included
-      annotate("text", x= 3, y= 93, label="Age 90", family="serif",
-               fontface="italic", colour="darkred", size= 3 ) +
-      annotate("text", x= 3, y= 85, label="Age 75-79", family="serif",
-               fontface="italic", colour="darkred", size= 3) +
-      annotate("text", x= 3, y= 78.5, label="Age 50-54", family="serif",
-               fontface="italic", colour="darkred", size= 3) +
-      annotate("text", x= 3, y= 76.5, label="Age 25-29", family="serif",
-               fontface="italic", colour="darkred", size= 3) +
-      annotate("text", x= 3, y= 74, label="Age 0", family="serif",
-               fontface="italic", colour="darkred", size= 3)
-    
+      annotate("text", x= 3, y= 93, label="Age 90", 
+               size= 3 ) +
+      annotate("text", x= 3, y= 85, label="Age 75-79", 
+                size= 3) +
+      annotate("text", x= 3, y= 78.5, label="Age 50-54",
+                size= 3) +
+      annotate("text", x= 3, y= 76.5, label="Age 25-29", 
+                size= 3) +
+      annotate("text", x= 3, y= 74, label="Age 0", 
+                size= 3)+
+      scale_color_viridis_c()
   })
   
   output$le_da_plot <- renderPlot({
@@ -152,16 +152,19 @@ server <- function(input, output) {
       summarise(life_expectancy = mean(life_expect_4)) %>% 
       #plot a line graph, differentiate by country
       ggplot(aes(x = year, y = life_expectancy, group = country, colour = country)) +
+      theme_minimal() +
       geom_line() +
       geom_point(size=2, shape=21, fill="white") +
-      theme(axis.text.x = element_text( angle = 90,  hjust = 1 )) +
+      theme(axis.text.x = element_text( angle = 45,  hjust = 1 )) +
       labs(
         y = "Life Expectancy (years)",
         x = "Date"
       ) +
       ggtitle("Life Expectancy for UK Nations") +
       theme(plot.title=element_text(hjust = 0.5, family="serif",
-                                    colour="darkred", size= 18, face = "bold"))
+                                    colour="darkred", size= 18, face = "bold"))+
+      scale_color_viridis_d() 
+      
     
     
     
@@ -173,18 +176,23 @@ server <- function(input, output) {
     longterm_conditions_all %>% 
       ggplot() +
       aes(x = year, y = admissions_count, colour = longterm_condition) +
-      geom_line() +
+      geom_line(size = 1.2) +
+      geom_point(size=2, shape=21, fill="white") +
       labs(title = "Hospital Admissions by Long Term Condition",
            subtitle = "2002 - 2012",
            x = "Year",
            y = "Admissions Count") +
+      theme_minimal() +
       scale_x_continuous(breaks = c(2002:2012)) +
-      scale_color_manual(name = "Longterm Condition",
+      scale_color_manual(name = NULL,
                          labels = c("Cancer", "Cerebrovascular Disease", "Coronary Heart Disease", "Disease Digestive System", "Respiratory Conditions"),
-                         values = c("red", "dark green", "blue", "orange", "purple")) +
-      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-      scale_y_continuous(breaks = c(0, 25000, 50000, 75000, 100000, 125000, 150000, 175000)) +
-      theme_light()
+                         values = c("#440154FF", "#3B528BFF", "#21908CFF", "#5DC863FF", "#FDE725FF")) +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1),
+            legend.position = "bottom") +
+      scale_y_continuous(breaks = c(0, 25000, 50000, 75000, 100000, 125000, 150000, 175000))+
+      guides(colour=guide_legend(nrow=2,byrow=TRUE))
+      
+      
     
   })
   
@@ -196,7 +204,7 @@ server <- function(input, output) {
     npf_mental_wellbeing %>% 
       filter(characteristic == "Total") %>% 
       ggplot(aes(x = year, y = figure)) +
-      geom_line() +
+      geom_line(size = 1.2, col = "#440154ff") +
       geom_point(size=2, shape=21, fill="white") +
       scale_x_continuous(breaks = seq(min(npf_mental_wellbeing$year), 
                                       max(npf_mental_wellbeing$year)),  

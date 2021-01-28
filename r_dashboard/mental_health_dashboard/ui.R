@@ -11,19 +11,21 @@
 library(shiny)
 library(shinydashboard)
 library(leaflet)
+library(dashboardthemes)
 
 source("global.R")
 
 
 ui <- dashboardPage(
+    
     dashboardHeader(title = "Mental Health Dashboard"),
     ## Sidebar content
     dashboardSidebar(
         sidebarMenu(
             menuItem("Overview", tabName = "overview"),
-            menuItem("Mental wellness problems over time", tabName = "temporal"),
+            menuItem("Mental wellness over time", tabName = "temporal"),
             menuItem("Where are the problems?", tabName = "geo"),
-            menuItem("Who is affected", tabName = "demographics"),
+            menuItem("Who is affected?", tabName = "demographics"),
             menuItem("Self Assessed Health", tabName = "self_assessed"),
             menuItem("Summary", tabName = "summary"),
             menuItem("About", tabName = "about")
@@ -31,6 +33,7 @@ ui <- dashboardPage(
     ),
     ## Body content
     dashboardBody(
+        shinyDashboardThemes(theme = "poor_mans_flatly"),
         tabItems(
             # First tab content
             tabItem(tabName = "overview",

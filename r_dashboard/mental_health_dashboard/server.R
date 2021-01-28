@@ -387,17 +387,53 @@ server <- function(input, output) {
     
   })
   
-  output$tenure_mh <- renderPlot({
-    mental_wb_to_plot() %>%
-      filter(type_of_tenure != "All") %>%
-      ggplot() +
-      aes(x = type_of_tenure, y = mean) +
-      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
-      theme_bw() +
-      labs(x = NULL,
-           y = "Mean SWEMWBS Score")
+  ################### MH Indicators
+  
+  
+  
+  shs_to_plot <- reactive({
+    shs_nopivot %>% 
+      filter(la_name == input$area_shs,
+             sex == input$sex)
+  })
+  
+  
+  output$al_shs <- renderPlot({
+    
+    
+      shs_to_plot()%>% 
+      filter(str_detect(scottish_health_survey_indicator, "^Alcohol consumption*")) %>% 
+      ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
+      geom_bar(stat="identity") +
+      geom_text(aes(y=value, label = ""),
+                position = position_stack(vjust = 0.5), colour="white")
     
   })
+  
+  output$lifesat_shs <- renderPlot({
+    
+    shs_to_plot()%>% 
+      filter(str_detect(scottish_health_survey_indicator, "^Life satisfaction*")) %>% 
+      ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
+      geom_bar(stat="identity") +
+      geom_text(aes(y=value, label = ""),
+                position = position_stack(vjust = 0.5), colour="white")
+    
+    
+    
+  })
+  
+  output$actlevels_shs <- renderPlot({
+    
+    shs_to_plot()%>% 
+      filter(str_detect(scottish_health_survey_indicator, "^Summary activity levels*")) %>% 
+      ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
+      geom_bar(stat="identity") +
+      geom_text(aes(y=value, label = ""),
+                position = position_stack(vjust = 0.5), colour="white")
+    
+  })
+  
   
   
   

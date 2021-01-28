@@ -24,6 +24,7 @@ ui <- dashboardPage(
             menuItem("Mental wellness problems over time", tabName = "temporal"),
             menuItem("Where are the problems?", tabName = "geo"),
             menuItem("Who is affected", tabName = "demographics"),
+            menuItem("Mental Health Indicators", tabName = "mh_indicators"),
             menuItem("Self Assessed Health", tabName = "self_assessed"),
             menuItem("Summary", tabName = "summary"),
             menuItem("About", tabName = "about")
@@ -149,6 +150,58 @@ ui <- dashboardPage(
                             solidHeader = TRUE,
                             status = "warning",
                             plotOutput("tenure_mh", height = 250)
+                        )
+                    )
+            ),
+            
+            #Tab 5
+            tabItem(tabName = "mh_indicators",
+                    h1(""),
+                    
+                    fluidRow(
+                        box(width = 12,
+                            background = "blue",
+                            column(width = 6, 
+                                   selectInput(inputId = "area_shs",
+                                               label = "Area",
+                                               choices = sort(unique(shs_nopivot$la_name)),
+                                               selected = "Aberdeen City"
+                                   )
+                            ),
+                            
+                            column(width = 6, 
+                                   align = "center",
+                                   radioButtons(inputId = "sex",
+                                                label = "Sex",
+                                                choices = unique(shs_nopivot$sex),
+                                                selected = "All",
+                                                inline = TRUE) 
+                            )
+                        )
+                    ),
+                    
+                    fluidRow(
+                        
+                        box(
+                            title = "Alcohol Use", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("al_shs", height = 250)
+                        ), 
+                        
+                        
+                        box(
+                            title = "Life Satisfaction", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("lifesat_shs", height = 250)
+                        ), 
+                        
+                        box(
+                            title = "Activity Levels", 
+                            solidHeader = TRUE,
+                            status = "warning",
+                            plotOutput("actlevels_shs", height = 250)
                         )
                     )
             ),

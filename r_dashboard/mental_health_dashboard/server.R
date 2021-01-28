@@ -469,11 +469,19 @@ output$general_health_plot <- renderPlot({
       shs_to_plot()%>% 
       filter(str_detect(scottish_health_survey_indicator, "^Alcohol consumption*")) %>% 
       ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
-      geom_bar(stat="identity") +
+      geom_bar(stat="identity", position = position_dodge()) +
       geom_text(aes(y=value, label = ""),
                 position = position_stack(vjust = 0.5), colour="white") +
       scale_fill_viridis_d() +
-      theme_bw()
+      theme_bw()+
+      labs(x = "Years",
+           y = "Percentage") +
+      scale_fill_manual(name = "Alcohol consumption",
+                        labels = c("Hazardous/Harmful", 
+                            "Moderate", 
+                            "Non-Drinker"), 
+                        values = c("#440154FF", "#21908CFF" ,"#FDE725FF")) 
+      
     
   })
   
@@ -481,12 +489,21 @@ output$general_health_plot <- renderPlot({
     
     shs_to_plot()%>% 
       filter(str_detect(scottish_health_survey_indicator, "^Life satisfaction*")) %>% 
-      ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
-      geom_bar(stat="identity") +
+      ggplot(aes(x = scottish_health_survey_indicator, 
+                 y = value, 
+                 fill = scottish_health_survey_indicator)) +
+      geom_col(stat="identity") +
       geom_text(aes(y=value, label = ""),
                 position = position_stack(vjust = 0.5), colour="white") +
       scale_fill_viridis_d() +
-      theme_bw()
+      theme_bw() +
+      labs(x = NULL,
+           y = "Percentage") +
+      theme(legend.position = "none") +
+      scale_x_discrete(labels = c("Extremely \n Satisfied", 
+                                  "Extremely \n Dissatisfied", 
+                                  "Average Satisfaction"))
+
     
     
     
@@ -497,11 +514,23 @@ output$general_health_plot <- renderPlot({
     shs_to_plot()%>% 
       filter(str_detect(scottish_health_survey_indicator, "^Summary activity levels*")) %>% 
       ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
-      geom_bar(stat="identity") +
+      geom_bar(stat="identity", position = position_dodge()) +
       geom_text(aes(y=value, label = ""),
                 position = position_stack(vjust = 0.5), colour="white") +
       scale_fill_viridis_d() +
-      theme_bw()
+      theme_bw() +
+      labs(x = "Years",
+           y = "Percentage") +
+      scale_fill_manual(name = "Activity Level",
+                        labels = c("Low Activity", 
+                                   "Meets Recommendations", 
+                                   "Some Activity",
+                                   "Very Low Activity"), 
+                        values = c("#440154FF", 
+                                   "#31688EFF", 
+                                   "#35B779FF", 
+                                   "#FDE725FF")) 
+
     
   })
   

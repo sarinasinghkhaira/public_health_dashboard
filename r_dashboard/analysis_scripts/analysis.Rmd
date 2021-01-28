@@ -25,6 +25,10 @@ respiratory_admissions <- read_csv(here("r_dashboard/clean_data/respiratory_dise
 chd_admissions <- read_csv(here("r_dashboard/clean_data/coronary_heart_disease_admissions.csv"))
 ddd_admissions <- read_csv(here("r_dashboard/clean_data/disease_digestive_system_admissions.csv"))
 cancer_admissions <- read_csv(here("r_dashboard/clean_data/cancer_admissions.csv"))
+<<<<<<< HEAD
+longterm_conditions_all <- read_csv(here("r_dashboard/clean_data/longterm_conditions_all.csv"))
+=======
+>>>>>>> main
 ```
 
 ```{r}
@@ -115,7 +119,11 @@ chd_admissions %>%
 #Checking for missing values across all columns
 ddd_admissions %>% 
   summarise(across(.fns = ~sum(is.na(.x))))
+<<<<<<< HEAD
+#2573 missing admission numbers
+=======
 #2477 missing admission numbers
+>>>>>>> main
 ```
 
 ```{r}
@@ -192,11 +200,14 @@ respiratory_admissions_scotland <- read_csv("/users/user/group_health_project/ho
 #longterm_conditions_all <- bind_rows(cancer_admissions_scotland, cbd_admissions_scotland, chd_admissions_scotland, ddd_admissions_scotland, respiratory_admissions_scotland)
 ```
 
+<<<<<<< HEAD
+=======
 ```{r}
 #Reading in the longterm_conditions dataset
 longterm_conditions_all <- read_csv(here("r_dashboard/clean_data/longterm_conditions_all.csv"))
 ```
 
+>>>>>>> main
 
 ```{r}
 #Creating a plot of all the hospital admissions

@@ -1,0 +1,2080 @@
+feature_code,date_code,type_of_tenure,household_type,age,gender,limiting_cond,la_name,lower_ci,upper_ci,mean
+S12000040,2015,All,All,All,All,All,West Lothian,24.12,25.68,24.9
+S12000029,2015,All,All,All,All,All,South Lanarkshire,23.85,24.49,24.17
+S12000039,2015,All,All,All,All,All,West Dunbartonshire,24.02,24.89,24.46
+S12000008,2016,All,All,16-34 years,All,All,East Ayrshire,23.2,25.66,24.43
+S12000048,2016,All,All,35-64 years,All,All,Perth and Kinross,23.87,25.04,24.45
+S12000033,2015,Owned Mortgage/Loan,All,All,All,All,Aberdeen City,23.91,25.21,24.56
+S12000035,2015,All,All,All,All,All,Argyll and Bute,24.7,25.63,25.16
+S12000036,2015,All,All,All,All,All,City of Edinburgh,24.37,24.97,24.67
+S12000038,2015,All,All,All,All,All,Renfrewshire,24.05,24.81,24.43
+S12000033,2015,All,All,All,All,All,Aberdeen City,24.31,25.07,24.69
+S12000005,2015,Rented,All,All,All,All,Clackmannanshire,22.15,23.64,22.89
+S12000006,2015,Owned Outright,All,All,All,All,Dumfries and Galloway,24.53,25.85,25.19
+S12000028,2015,All,All,All,All,All,South Ayrshire,23.5,24.51,24
+S12000030,2015,All,All,All,All,All,Stirling,23.99,24.84,24.41
+S12000034,2015,All,All,All,All,All,Aberdeenshire,24.65,25.42,25.04
+S12000006,2016,All,All,35-64 years,All,All,Dumfries and Galloway,23.22,24.44,23.83
+S12000035,2015,Owned Outright,All,All,All,All,Argyll and Bute,25.17,26.55,25.86
+S12000033,2015,Owned Outright,All,All,All,All,Aberdeen City,24.76,25.79,25.27
+S12000038,2015,Owned Mortgage/Loan,All,All,All,All,Renfrewshire,24.18,25.44,24.81
+S12000027,2016,All,All,16-34 years,All,All,Shetland Islands,23.84,25.63,24.74
+S12000018,2016,All,All,16-34 years,All,All,Inverclyde,22.4,24.73,23.57
+S12000036,2016,All,Pensioners,All,All,All,City of Edinburgh,23.67,24.49,24.08
+S12000041,2015,Owned Outright,All,All,All,All,Angus,24.52,26.48,25.5
+S12000039,2016,All,Pensioners,All,All,All,West Dunbartonshire,22.88,24.88,23.88
+S12000040,2015,Owned Outright,All,All,All,All,West Lothian,24.29,26.08,25.18
+S12000006,2016,All,All,16-34 years,All,All,Dumfries and Galloway,23.53,25.14,24.34
+S12000033,2016,All,Adults,All,All,All,Aberdeen City,23.83,24.8,24.32
+S12000018,2016,All,All,35-64 years,All,All,Inverclyde,23.69,25.28,24.49
+S12000036,2015,Owned Outright,All,All,All,All,City of Edinburgh,24.65,25.7,25.18
+S12000042,2015,Owned Outright,All,All,All,All,Dundee City,23.98,25.94,24.96
+S12000048,2016,All,All,16-34 years,All,All,Perth and Kinross,23.23,25.93,24.58
+S12000045,2015,Owned Mortgage/Loan,All,All,All,All,East Dunbartonshire,23.92,25.64,24.78
+S12000033,2016,All,Pensioners,All,All,All,Aberdeen City,24.58,25.97,25.28
+S12000033,2016,All,With Children,All,All,All,Aberdeen City,23.77,25.01,24.39
+S12000026,2016,All,All,16-34 years,All,All,Scottish Borders,23.39,26.15,24.77
+S12000038,2015,Owned Outright,All,All,All,All,Renfrewshire,24.24,25.51,24.88
+S12000036,2016,All,With Children,All,All,All,City of Edinburgh,23.55,24.49,24.02
+S12000034,2016,All,Adults,All,All,All,Aberdeenshire,23.85,24.93,24.39
+S12000013,2016,All,All,35-64 years,All,All,Na h-Eileanan Siar,24.11,25.93,25.02
+S12000041,2016,All,Pensioners,All,All,All,Angus,23.51,24.76,24.14
+S12000008,2016,All,All,35-64 years,All,All,East Ayrshire,22.92,24.09,23.51
+S12000040,2016,All,Adults,All,All,All,West Lothian,24.61,26,25.31
+S12000050,2014,All,Pensioners,All,All,All,North Lanarkshire,23.39,24.67,24.03
+S12000047,2016-2017,All,All,All,All,All,Fife,24.28,24.75,24.52
+S92000003,2016,All,All,16-64 years,All,All,Scotland,24.16,24.34,24.25
+S12000047,2016,All,All,16-64 years,All,All,Fife,24.5,25.29,24.9
+S12000008,2015,All,All,All,All,All,East Ayrshire,23.22,24.05,23.63
+S12000048,2016,All,All,16-64 years,All,All,Perth and Kinross,23.89,25.11,24.5
+S12000006,2015,All,All,All,All,All,Dumfries and Galloway,23.94,24.8,24.37
+S12000017,2016,All,All,16-64 years,All,All,Highland,24.16,24.98,24.57
+S12000018,2016,All,All,16-64 years,All,All,Inverclyde,23.49,24.82,24.16
+S12000019,2016,All,All,16-64 years,All,All,Midlothian,24.04,25.28,24.66
+S12000023,2016,All,All,16-64 years,All,All,Orkney Islands,24.26,26.52,25.39
+S12000021,2016,All,All,16-64 years,All,All,North Ayrshire,23.71,24.81,24.26
+S12000019,2015,All,All,All,All,All,Midlothian,25.69,26.99,26.34
+S12000021,2015,All,All,All,All,All,North Ayrshire,24.12,25.05,24.59
+S12000050,2014,All,With Children,All,All,All,North Lanarkshire,25.17,26.6,25.89
+S12000042,2015,All,All,All,All,All,Dundee City,24.07,25.37,24.72
+S12000041,2015,All,All,All,All,All,Angus,23.92,25.1,24.51
+S12000045,2015,All,All,All,All,All,East Dunbartonshire,24.07,25,24.53
+S12000005,2015,Owned Mortgage/Loan,All,All,All,All,Clackmannanshire,23.46,25.37,24.42
+S92000003,2015,All,All,All,All,All,Scotland,24.32,24.48,24.4
+S12000005,2015,Owned Outright,All,All,All,All,Clackmannanshire,24.33,26.15,25.24
+S12000006,2015,Owned Mortgage/Loan,All,All,All,All,Dumfries and Galloway,23.29,24.88,24.08
+S12000008,2015,Owned Outright,All,All,All,All,East Ayrshire,23.03,24.36,23.69
+S12000006,2015,Rented,All,All,All,All,Dumfries and Galloway,22.83,24.34,23.59
+S12000050,2014,All,Adults,All,All,All,North Lanarkshire,23.49,24.65,24.07
+S12000042,2016,All,All,16-64 years,All,All,Dundee City,22.87,23.87,23.37
+S12000010,2015,All,All,All,All,All,East Lothian,24.78,25.91,25.35
+S12000040,2016,All,All,16-64 years,All,All,West Lothian,24.39,25.47,24.93
+S12000045,2016,All,All,16-64 years,All,All,East Dunbartonshire,24.57,25.76,25.17
+S12000041,2016,All,All,16-64 years,All,All,Angus,23.61,24.77,24.19
+S12000005,2015,All,All,All,All,All,Clackmannanshire,23.61,24.75,24.18
+S12000030,2016,All,All,35-64 years,All,All,Stirling,23.67,25.09,24.38
+S12000030,2015,Rented,All,All,All,All,Stirling,22.12,23.86,22.99
+S12000028,2016,All,All,16-34 years,All,All,South Ayrshire,23.11,25.7,24.4
+S12000039,2015,Owned Outright,All,All,All,All,West Dunbartonshire,23.62,25.47,24.54
+S12000039,2016,All,Adults,All,All,All,West Dunbartonshire,24.73,26.19,25.46
+S12000035,2015,Owned Mortgage/Loan,All,All,All,All,Argyll and Bute,24.68,26.52,25.6
+S12000035,2015,Rented,All,All,All,All,Argyll and Bute,23.5,24.81,24.16
+S12000028,2016,All,All,35-64 years,All,All,South Ayrshire,23.39,24.97,24.18
+S12000042,2016,All,With Children,All,All,All,Dundee City,22.75,24.54,23.64
+S12000030,2016,All,With Children,All,All,All,Stirling,23.15,24.94,24.05
+S12000038,2016,All,Adults,All,All,All,Renfrewshire,23.23,24.28,23.76
+S12000017,2016,All,All,35-64 years,All,All,Highland,24.07,25.02,24.54
+S12000039,2016,All,With Children,All,All,All,West Dunbartonshire,23.51,25.37,24.44
+S12000047,2016,All,All,35-64 years,All,All,Fife,24.27,25.14,24.7
+S12000039,2015,Owned Mortgage/Loan,All,All,All,All,West Dunbartonshire,24.6,26.52,25.56
+S12000028,2016,All,Pensioners,All,All,All,South Ayrshire,23.7,25.24,24.47
+S12000033,2016,All,All,16-34 years,All,All,Aberdeen City,23.65,24.67,24.16
+S12000047,2016,All,All,16-34 years,All,All,Fife,24.52,25.94,25.23
+S12000038,2015,Rented,All,All,All,All,Renfrewshire,23.1,24.42,23.76
+S12000029,2016,All,All,16-34 years,All,All,South Lanarkshire,23.22,25.05,24.13
+S12000045,2016,All,Adults,All,All,All,East Dunbartonshire,24.17,25.81,24.99
+S92000003,2016,All,Adults,All,All,All,Scotland,24.08,24.31,24.19
+S92000003,2016,All,Pensioners,All,All,All,Scotland,24.37,24.61,24.49
+S12000038,2016,All,Pensioners,All,All,All,Renfrewshire,23.71,25.03,24.37
+S12000030,2015,Owned Outright,All,All,All,All,Stirling,24.56,26.11,25.33
+S12000029,2016,All,Adults,All,All,All,South Lanarkshire,23.78,25.08,24.43
+S12000041,2015,Owned Mortgage/Loan,All,All,All,All,Angus,23.05,25.03,24.04
+S12000045,2016,All,Pensioners,All,All,All,East Dunbartonshire,24.07,25.63,24.85
+S12000029,2015,Rented,All,All,All,All,South Lanarkshire,22.36,23.6,22.98
+S12000005,2017,All,All,16-64 years,All,All,Clackmannanshire,23.84,24.94,24.39
+S12000014,2016-2017,All,All,All,All,All,Falkirk,23.81,24.41,24.11
+S12000006,2016-2017,All,All,All,All,All,Dumfries and Galloway,24.02,24.63,24.32
+S12000050,2017,All,All,All,Female,All,North Lanarkshire,23.96,24.94,24.45
+S12000027,2016,All,All,35-64 years,All,All,Shetland Islands,23.91,25.31,24.61
+S12000014,2016,All,All,16-34 years,All,All,Falkirk,23.38,25.21,24.3
+S12000030,2015,Owned Mortgage/Loan,All,All,All,All,Stirling,24.23,25.46,24.84
+S12000045,2015,Rented,All,All,All,All,East Dunbartonshire,22.86,24.48,23.67
+S12000030,2016,All,Pensioners,All,All,All,Stirling,23.52,25.1,24.31
+S12000005,2016,All,All,35-64 years,All,All,Clackmannanshire,22.79,24.01,23.4
+S12000030,2016,All,Adults,All,All,All,Stirling,23.19,25.48,24.34
+S12000050,2015,All,All,All,All,All,North Lanarkshire,24.42,25.29,24.85
+S12000042,2016,All,Pensioners,All,All,All,Dundee City,23.14,24.61,23.87
+S12000039,2015,Rented,All,All,All,All,West Dunbartonshire,23.19,24.34,23.76
+S12000041,2015,Rented,All,All,All,All,Angus,23.19,24.91,24.05
+S12000035,2016,All,Pensioners,All,All,All,Argyll and Bute,24.65,25.92,25.29
+S12000034,2015,Owned Mortgage/Loan,All,All,All,All,Aberdeenshire,24.11,25.28,24.7
+S12000040,2016,All,Pensioners,All,All,All,West Lothian,23.31,24.66,23.98
+S12000011,2016,All,All,16-34 years,All,All,East Renfrewshire,22.94,25.81,24.38
+S12000036,2015,Owned Mortgage/Loan,All,All,All,All,City of Edinburgh,24.33,25.19,24.76
+S12000011,2016,All,All,35-64 years,All,All,East Renfrewshire,23.77,24.88,24.32
+S12000035,2016,All,With Children,All,All,All,Argyll and Bute,24.29,25.94,25.11
+S12000040,2016,All,With Children,All,All,All,West Lothian,23.73,25.4,24.57
+S12000034,2016,All,With Children,All,All,All,Aberdeenshire,23.95,25.14,24.54
+S12000019,2016,All,All,16-34 years,All,All,Midlothian,24.54,26.77,25.66
+S12000034,2015,Rented,All,All,All,All,Aberdeenshire,24.16,25.66,24.91
+S12000010,2016,All,All,16-34 years,All,All,East Lothian,22.18,24.38,23.28
+S12000045,2015,Owned Outright,All,All,All,All,East Dunbartonshire,23.99,25.33,24.66
+S12000019,2016,All,All,35-64 years,All,All,Midlothian,23.44,24.8,24.12
+S12000040,2015,Owned Mortgage/Loan,All,All,All,All,West Lothian,24.13,25.67,24.9
+S12000042,2015,Rented,All,All,All,All,Dundee City,22.91,24.74,23.82
+S12000020,2016,All,All,16-34 years,All,All,Moray,22.05,24.5,23.28
+S12000021,2016,All,All,16-34 years,All,All,North Ayrshire,23.03,25.07,24.05
+S12000026,2016,All,All,35-64 years,All,All,Scottish Borders,23.36,24.85,24.11
+S12000042,2016,All,Adults,All,All,All,Dundee City,22.6,23.85,23.23
+S12000042,2015,Owned Mortgage/Loan,All,All,All,All,Dundee City,25.2,27.38,26.29
+S12000034,2015,Owned Outright,All,All,All,All,Aberdeenshire,24.82,25.94,25.38
+S12000020,2016,All,All,35-64 years,All,All,Moray,23.27,24.66,23.97
+S12000040,2015,Rented,All,All,All,All,West Lothian,22.95,26.45,24.7
+S12000035,2016,All,Adults,All,All,All,Argyll and Bute,23.94,25.38,24.66
+S12000013,2016,All,All,16-34 years,All,All,Na h-Eileanan Siar,23.51,25.75,24.63
+S92000003,2016,All,With Children,All,All,All,Scotland,24.2,24.5,24.35
+S12000030,2016,All,All,16-34 years,All,All,Stirling,22.51,25.67,24.09
+S12000029,2016,All,With Children,All,All,All,South Lanarkshire,23.15,24.53,23.84
+S12000017,2016,All,All,16-34 years,All,All,Highland,23.89,25.38,24.63
+S92000003,2015,Owned Mortgage/Loan,All,All,All,All,Scotland,24.62,24.89,24.75
+S92000003,2015,Owned Outright,All,All,All,All,Scotland,24.75,25,24.87
+S12000038,2016,All,With Children,All,All,All,Renfrewshire,23.81,25.31,24.56
+S12000014,2016,All,All,35-64 years,All,All,Falkirk,23.53,24.62,24.08
+S12000029,2016,All,Pensioners,All,All,All,South Lanarkshire,24.03,25.21,24.62
+S12000005,2016,All,All,16-34 years,All,All,Clackmannanshire,23.39,26.59,24.99
+S12000045,2016,All,With Children,All,All,All,East Dunbartonshire,24.63,26.55,25.59
+S12000036,2016,All,Adults,All,All,All,City of Edinburgh,23.71,24.29,24
+S12000021,2016,All,All,35-64 years,All,All,North Ayrshire,23.75,24.99,24.37
+S12000041,2016,All,With Children,All,All,All,Angus,23.74,25.59,24.66
+S12000023,2016,All,All,35-64 years,All,All,Orkney Islands,24.44,26.35,25.39
+S12000033,2015,Rented,All,All,All,All,Aberdeen City,23.76,25.06,24.41
+S12000041,2016,All,Adults,All,All,All,Angus,23.16,24.8,23.98
+S12000010,2016,All,All,35-64 years,All,All,East Lothian,23.68,25.03,24.35
+S12000036,2015,Rented,All,All,All,All,City of Edinburgh,23.81,24.79,24.3
+S12000029,2016,All,All,35-64 years,All,All,South Lanarkshire,23.76,24.7,24.23
+S12000023,2016,All,All,16-34 years,All,All,Orkney Islands,22.63,28.13,25.38
+S12000034,2016,All,Pensioners,All,All,All,Aberdeenshire,24.62,25.65,25.14
+S12000048,2016,All,All,All,Female,All,Perth and Kinross,24.05,25.44,24.74
+S12000018,2015,Rented,All,All,All,All,Inverclyde,22.47,24.13,23.3
+S12000048,2016,All,All,All,Male,All,Perth and Kinross,23.7,24.95,24.32
+S12000019,2015,Owned Mortgage/Loan,All,All,All,All,Midlothian,25.97,27.95,26.96
+S12000027,2016,All,All,All,Male,All,Shetland Islands,23.99,25.47,24.73
+S12000027,2016,All,All,All,Female,All,Shetland Islands,24.24,25.47,24.85
+S12000026,2016,All,All,All,Female,All,Scottish Borders,23.4,24.87,24.13
+S12000030,2016,All,All,All,Female,All,Stirling,23.33,25.19,24.26
+S12000017,2015,Rented,All,All,All,All,Highland,23.34,24.7,24.02
+S12000018,2015,Owned Outright,All,All,All,All,Inverclyde,24.35,25.81,25.08
+S12000018,2015,Owned Mortgage/Loan,All,All,All,All,Inverclyde,23.5,25.63,24.56
+S12000019,2015,Owned Outright,All,All,All,All,Midlothian,25.42,27.53,26.47
+S12000029,2016,All,All,All,Female,All,South Lanarkshire,23.57,24.62,24.09
+S12000026,2016,All,All,All,Male,All,Scottish Borders,24.43,25.86,25.15
+S12000030,2016,All,All,All,Male,All,Stirling,23.5,24.99,24.24
+S12000014,2015,Owned Outright,All,All,All,All,Falkirk,24.73,25.94,25.33
+S12000039,2016,All,All,All,Male,All,West Dunbartonshire,24.01,25.69,24.85
+S12000038,2016,All,All,All,Female,All,Renfrewshire,23.62,24.69,24.16
+S12000033,2016,All,All,All,Male,All,Aberdeen City,23.86,24.74,24.3
+S12000033,2016,All,All,All,Female,All,Aberdeen City,24.27,25.29,24.78
+S12000034,2016,All,All,All,Male,All,Aberdeenshire,24.05,25.03,24.54
+S12000017,2015,Owned Mortgage/Loan,All,All,All,All,Highland,24.06,25.42,24.74
+S12000036,2016,All,All,All,Male,All,City of Edinburgh,23.71,24.34,24.02
+S12000038,2016,All,All,All,Male,All,Renfrewshire,23.58,24.56,24.07
+S12000014,2015,Rented,All,All,All,All,Falkirk,23.07,24.59,23.83
+S12000014,2015,Owned Mortgage/Loan,All,All,All,All,Falkirk,24.64,25.84,25.24
+S12000039,2016,All,All,All,Female,All,West Dunbartonshire,24.16,25.44,24.8
+S12000036,2016,All,All,All,Female,All,City of Edinburgh,23.74,24.3,24.02
+S12000042,2016,All,All,All,Female,All,Dundee City,23,24.23,23.61
+S12000041,2016,All,All,All,Female,All,Angus,23.76,25.13,24.45
+S12000040,2016,All,All,All,Female,All,West Lothian,23.82,25.06,24.44
+S12000013,2015,Owned Mortgage/Loan,All,All,All,All,Na h-Eileanan Siar,24.23,25.84,25.04
+S12000042,2016,All,All,All,Male,All,Dundee City,22.76,23.92,23.34
+S92000003,2016,All,All,All,Female,All,Scotland,24.17,24.37,24.27
+S12000011,2015,Owned Mortgage/Loan,All,All,All,All,East Renfrewshire,23.56,25.21,24.39
+S12000011,2015,Owned Outright,All,All,All,All,East Renfrewshire,23.83,25.68,24.76
+S12000040,2016,All,All,All,Male,All,West Lothian,24.44,25.69,25.06
+S12000013,2015,Rented,All,All,All,All,Na h-Eileanan Siar,23.27,25.06,24.17
+S12000041,2016,All,All,All,Male,All,Angus,23.33,24.49,23.91
+S12000010,2015,Owned Mortgage/Loan,All,All,All,All,East Lothian,25.2,27.06,26.13
+S12000028,2016,All,All,All,Male,All,South Ayrshire,23.81,25.41,24.61
+S12000028,2016,All,All,All,Female,All,South Ayrshire,23.53,24.89,24.21
+S12000029,2016,All,All,All,Male,All,South Lanarkshire,24.05,25.09,24.57
+S12000008,2015,Owned Mortgage/Loan,All,All,All,All,East Ayrshire,23.71,25.11,24.41
+S12000008,2015,Rented,All,All,All,All,East Ayrshire,21.99,23.49,22.74
+S12000010,2015,Owned Outright,All,All,All,All,East Lothian,24.2,25.83,25.01
+S12000010,2015,Rented,All,All,All,All,East Lothian,23.94,25.86,24.9
+S12000047,2015,All,Adults,All,All,All,Fife,23.38,24.44,23.91
+S12000047,2015,All,All,All,All,All,Fife,24.14,24.82,24.48
+S12000030,2015,All,All,16-34 years,All,All,Stirling,23.71,25.42,24.57
+S12000047,2015,Rented,All,All,All,All,Fife,22.85,23.83,23.34
+S12000019,2014-2015,All,All,All,All,All,Midlothian,25.05,26.09,25.57
+S92000003,2015,All,All,All,Male,All,Scotland,24.3,24.53,24.42
+S12000047,2015,Owned Mortgage/Loan,All,All,All,All,Fife,24.5,25.77,25.13
+S12000047,2015,All,All,35-64 years,All,All,Fife,24.22,25.18,24.7
+S12000028,2015,All,All,35-64 years,All,All,South Ayrshire,23.95,25.07,24.51
+S12000047,2015,All,All,All,Female,All,Fife,24.02,24.89,24.45
+S12000030,2015,All,All,35-64 years,All,All,Stirling,23.54,24.71,24.12
+S12000033,2015,All,All,16-34 years,All,All,Aberdeen City,24.08,25.33,24.7
+S12000047,2015,All,All,All,Male,All,Fife,24.01,25.02,24.52
+S12000047,2015,Owned Outright,All,All,All,All,Fife,24.38,25.46,24.92
+S12000040,2015,All,All,35-64 years,All,All,West Lothian,24.13,25.44,24.78
+S12000026,2014-2015,All,All,All,All,All,Scottish Borders,24.23,25,24.62
+S12000021,2014-2015,All,All,All,All,All,North Ayrshire,23.84,24.49,24.16
+S12000010,2014-2015,All,All,All,All,All,East Lothian,24.52,25.38,24.95
+S12000006,2014-2015,All,All,All,All,All,Dumfries and Galloway,23.92,24.53,24.22
+S12000011,2014-2015,All,All,All,All,All,East Renfrewshire,24.19,24.95,24.57
+S12000041,2015,All,All,16-34 years,All,All,Angus,23.31,26.03,24.67
+S12000020,2014-2015,All,All,All,All,All,Moray,24.27,24.98,24.62
+S12000042,2015,All,All,All,Female,All,Dundee City,23.76,25.56,24.66
+S12000023,2014-2015,All,All,All,All,All,Orkney Islands,25.46,26.68,26.07
+S12000018,2014-2015,All,All,All,All,All,Inverclyde,23.74,24.46,24.1
+S12000047,2014,All,All,All,Male,All,Fife,24.12,25.2,24.66
+S12000047,2014,All,Pensioners,All,All,All,Fife,24.3,25.3,24.8
+S12000047,2014,Rented,All,All,All,All,Fife,23.27,24.41,23.84
+S12000034,2015,All,All,35-64 years,All,All,Aberdeenshire,24.52,25.56,25.04
+S12000047,2014,All,With Children,All,All,All,Fife,24.17,25.67,24.92
+S12000047,2014,All,Adults,All,All,All,Fife,23.66,24.76,24.21
+S12000047,2014,All,All,All,All,All,Fife,24.22,24.94,24.58
+S12000033,2015,All,All,35-64 years,All,All,Aberdeen City,24.09,25.23,24.66
+S12000035,2016,All,All,All,Female,All,Argyll and Bute,24.09,25.24,24.66
+S12000035,2016,All,All,All,Male,All,Argyll and Bute,24.68,25.95,25.31
+S12000034,2015,All,All,16-34 years,All,All,Aberdeenshire,24.04,25.57,24.8
+S12000047,2014,All,All,All,Female,All,Fife,24.04,24.98,24.51
+S12000017,2015,Owned Outright,All,All,All,All,Highland,24.52,25.57,25.05
+S12000034,2016,All,All,All,Female,All,Aberdeenshire,24.32,25.19,24.76
+S12000035,2015,All,All,16-34 years,All,All,Argyll and Bute,23.43,25.49,24.46
+S12000047,2015,All,All,16-34 years,All,All,Fife,23.43,24.86,24.14
+S12000047,2014,All,All,35-64 years,All,All,Fife,23.93,24.81,24.37
+S12000045,2015,All,All,All,Female,All,East Dunbartonshire,23.93,25.01,24.47
+S12000047,2015,All,With Children,All,All,All,Fife,24.68,26,25.34
+S12000029,2015,All,All,35-64 years,All,All,South Lanarkshire,23.71,24.62,24.16
+S12000047,2015,All,Pensioners,All,All,All,Fife,24.11,25.09,24.6
+S12000029,2015,All,All,16-34 years,All,All,South Lanarkshire,23.73,25.11,24.42
+S12000045,2014-2015,All,All,All,All,All,East Dunbartonshire,24.25,24.94,24.59
+S12000047,2014,All,All,16-34 years,All,All,Fife,23.94,25.71,24.83
+S12000035,2015,All,All,35-64 years,All,All,Argyll and Bute,24.64,25.9,25.27
+S12000047,2014,Owned Mortgage/Loan,All,All,All,All,Fife,24.45,25.84,25.14
+S92000003,2014-2015,All,All,All,All,All,Scotland,24.38,24.49,24.43
+S12000047,2014,Owned Outright,All,All,All,All,Fife,24.23,25.28,24.75
+S12000021,2015,Owned Mortgage/Loan,All,All,All,All,North Ayrshire,24.14,25.49,24.82
+S12000047,2016,All,All,All,Female,All,Fife,24.21,25.05,24.63
+S12000021,2015,Rented,All,All,All,All,North Ayrshire,23.03,24.64,23.83
+S12000023,2015,Owned Outright,All,All,All,All,Orkney Islands,25.71,27.27,26.49
+S12000014,2016,All,All,All,Female,All,Falkirk,23.6,24.77,24.18
+S12000010,2016,All,All,All,Male,All,East Lothian,23.7,25.19,24.45
+S12000014,2016,All,All,All,Male,All,Falkirk,23.55,24.82,24.18
+S12000047,2016,All,All,All,Male,All,Fife,24.66,25.66,25.16
+S12000017,2015,All,All,All,All,All,Highland,24.28,25,24.64
+S12000029,2016,All,All,16-64 years,All,All,South Lanarkshire,23.73,24.66,24.2
+S12000028,2016,All,All,16-64 years,All,All,South Ayrshire,23.57,24.94,24.25
+S12000011,2016,All,All,All,Female,All,East Renfrewshire,23.94,25.23,24.58
+S12000013,2016,All,All,All,Male,All,Na h-Eileanan Siar,24.39,26.11,25.25
+S12000013,2016,All,All,All,Female,All,Na h-Eileanan Siar,24.27,25.67,24.97
+S12000020,2015,Owned Outright,All,All,All,All,Moray,24.13,25.64,24.89
+S12000021,2016,All,All,All,Male,All,North Ayrshire,24.13,25.62,24.87
+S12000020,2016,All,All,All,Male,All,Moray,23.02,24.62,23.82
+S12000010,2016,All,All,All,Female,All,East Lothian,23.12,24.46,23.79
+S12000023,2016,All,All,All,Female,All,Orkney Islands,24.77,27.72,26.24
+S12000020,2015,Owned Mortgage/Loan,All,All,All,All,Moray,23.56,24.99,24.28
+S12000020,2016,All,All,All,Female,All,Moray,23.71,24.94,24.32
+S12000008,2016,All,All,All,Female,All,East Ayrshire,22.83,23.86,23.34
+S12000006,2016,All,All,All,Female,All,Dumfries and Galloway,23.53,24.62,24.08
+S12000008,2016,All,All,All,Male,All,East Ayrshire,23.72,25.31,24.51
+S12000023,2015,Rented,All,All,All,All,Orkney Islands,24.38,26.47,25.43
+S12000026,2015,Owned Outright,All,All,All,All,Scottish Borders,24.62,25.99,25.31
+S12000023,2015,Owned Mortgage/Loan,All,All,All,All,Orkney Islands,24.27,27.19,25.73
+S12000011,2016,All,All,All,Male,All,East Renfrewshire,23.6,25.03,24.31
+S12000011,2016,All,All,16-64 years,All,All,East Renfrewshire,23.7,24.98,24.34
+S12000023,2015,All,All,All,All,All,Orkney Islands,25.37,26.65,26.01
+S12000014,2016,All,All,16-64 years,All,All,Falkirk,23.65,24.65,24.15
+S12000013,2015,All,All,All,All,All,Na h-Eileanan Siar,24.15,25.19,24.67
+S12000035,2016,All,All,16-64 years,All,All,Argyll and Bute,24.19,25.32,24.75
+S12000034,2016,All,All,16-64 years,All,All,Aberdeenshire,24.03,24.79,24.41
+S12000013,2016,All,All,16-64 years,All,All,Na h-Eileanan Siar,24.17,25.64,24.91
+S12000008,2016,All,All,16-64 years,All,All,East Ayrshire,23.23,24.42,23.82
+S12000010,2016,All,All,16-64 years,All,All,East Lothian,23.4,24.59,23.99
+S12000020,2016,All,All,16-64 years,All,All,Moray,23.11,24.35,23.73
+S12000020,2015,All,All,All,All,All,Moray,23.87,24.8,24.34
+S12000005,2016,All,All,16-64 years,All,All,Clackmannanshire,23.22,24.62,23.92
+S12000006,2016,All,All,16-64 years,All,All,Dumfries and Galloway,23.5,24.49,24
+S12000026,2015,All,All,All,All,All,Scottish Borders,24.11,25.17,24.64
+S12000027,2015,All,All,All,All,All,Shetland Islands,24.64,25.8,25.22
+S12000026,2016,All,All,16-64 years,All,All,Scottish Borders,23.62,24.98,24.3
+S12000018,2015,All,All,All,All,All,Inverclyde,23.71,24.74,24.22
+S12000027,2016,All,All,16-64 years,All,All,Shetland Islands,24.1,25.21,24.66
+S12000048,2016-2017,All,All,All,All,All,Perth and Kinross,23.81,24.49,24.15
+S12000033,2016,All,All,16-64 years,All,All,Aberdeen City,24.03,24.8,24.42
+S12000030,2016,All,All,16-64 years,All,All,Stirling,23.51,25.02,24.26
+S12000039,2016,All,All,16-64 years,All,All,West Dunbartonshire,24.53,25.73,25.13
+S12000011,2015,All,All,All,All,All,East Renfrewshire,23.85,25,24.42
+S12000014,2015,All,All,All,All,All,Falkirk,24.51,25.26,24.88
+S12000038,2016,All,All,16-64 years,All,All,Renfrewshire,23.56,24.42,23.99
+S12000036,2016,All,All,16-64 years,All,All,City of Edinburgh,23.76,24.25,24
+S12000026,2015,Owned Mortgage/Loan,All,All,All,All,Scottish Borders,24.31,26.27,25.29
+S92000003,2016,All,All,16-34 years,All,All,Scotland,24.24,24.56,24.4
+S12000006,2016,All,All,All,Male,All,Dumfries and Galloway,23.46,24.56,24.01
+S12000005,2016,All,All,All,Female,All,Clackmannanshire,22.88,24.5,23.69
+S12000042,2016,All,All,16-34 years,All,All,Dundee City,22.84,24.31,23.57
+S12000035,2016,All,All,35-64 years,All,All,Argyll and Bute,23.93,25.3,24.62
+S12000035,2016,All,All,16-34 years,All,All,Argyll and Bute,24.18,25.9,25.04
+S12000029,2015,Owned Outright,All,All,All,All,South Lanarkshire,23.72,24.71,24.21
+S12000045,2016,All,All,35-64 years,All,All,East Dunbartonshire,24.63,25.89,25.26
+S12000026,2015,Rented,All,All,All,All,Scottish Borders,22.73,24.76,23.74
+S92000003,2016,All,All,35-64 years,All,All,Scotland,24.06,24.26,24.16
+S12000005,2016,All,All,All,Male,All,Clackmannanshire,23.53,25.35,24.44
+S12000011,2015,Rented,All,All,All,All,East Renfrewshire,21.74,24.8,23.27
+S12000042,2016,All,All,35-64 years,All,All,Dundee City,22.49,23.87,23.18
+S12000027,2015,Owned Mortgage/Loan,All,All,All,All,Shetland Islands,24.53,26.89,25.71
+S12000013,2015,Owned Outright,All,All,All,All,Na h-Eileanan Siar,23.92,25.56,24.74
+S12000045,2016,All,All,All,Female,All,East Dunbartonshire,24.42,25.75,25.09
+S92000003,2016,All,All,All,Male,All,Scotland,24.25,24.47,24.36
+S12000045,2016,All,All,All,Male,All,East Dunbartonshire,24.32,25.95,25.14
+S12000041,2016,All,All,35-64 years,All,All,Angus,23.31,24.51,23.91
+S12000040,2016,All,All,35-64 years,All,All,West Lothian,24.17,25.31,24.74
+S12000041,2016,All,All,16-34 years,All,All,Angus,23.59,25.88,24.74
+S12000027,2015,Rented,All,All,All,All,Shetland Islands,23.64,25.46,24.55
+S12000045,2016,All,All,16-34 years,All,All,East Dunbartonshire,23.73,26.2,24.96
+S12000027,2015,Owned Outright,All,All,All,All,Shetland Islands,24.57,26.16,25.36
+S12000019,2016,All,All,All,Female,All,Midlothian,23.75,25.13,24.44
+S12000018,2016,All,All,All,Female,All,Inverclyde,23.6,25.12,24.36
+S12000017,2016,All,All,All,Male,All,Highland,24.08,25.03,24.56
+S12000028,2015,Owned Mortgage/Loan,All,All,All,All,South Ayrshire,23.92,25,24.46
+S12000038,2016,All,All,35-64 years,All,All,Renfrewshire,23.36,24.43,23.89
+S12000020,2015,Rented,All,All,All,All,Moray,22.96,24.7,23.83
+S12000019,2016,All,All,All,Male,All,Midlothian,24.42,26.02,25.22
+S12000019,2015,Rented,All,All,All,All,Midlothian,24.09,26.41,25.25
+S12000023,2016,All,All,All,Male,All,Orkney Islands,24.05,25.93,24.99
+S12000017,2016,All,All,All,Female,All,Highland,24.32,25.28,24.8
+S12000021,2016,All,All,All,Female,All,North Ayrshire,23.62,24.74,24.18
+S12000021,2015,Owned Outright,All,All,All,All,North Ayrshire,24.66,26.11,25.38
+S12000018,2016,All,All,All,Male,All,Inverclyde,23.21,24.64,23.92
+S12000034,2016,All,All,35-64 years,All,All,Aberdeenshire,23.89,24.69,24.29
+S12000039,2016,All,All,35-64 years,All,All,West Dunbartonshire,23.73,25.05,24.39
+S12000029,2015,Owned Mortgage/Loan,All,All,All,All,South Lanarkshire,24.3,25.3,24.8
+S12000036,2016,All,All,16-34 years,All,All,City of Edinburgh,23.66,24.37,24.02
+S12000036,2016,All,All,35-64 years,All,All,City of Edinburgh,23.67,24.31,23.99
+S12000033,2016,All,All,35-64 years,All,All,Aberdeen City,24.1,25.19,24.65
+S12000034,2016,All,All,16-34 years,All,All,Aberdeenshire,23.87,25.44,24.65
+S12000040,2016,All,All,16-34 years,All,All,West Lothian,24.33,26.21,25.27
+S12000038,2016,All,All,16-34 years,All,All,Renfrewshire,23.47,24.85,24.16
+S12000028,2015,Rented,All,All,All,All,South Ayrshire,22,24.32,23.16
+S12000039,2016,All,All,16-34 years,All,All,West Dunbartonshire,25.38,27.44,26.41
+S12000028,2015,Owned Outright,All,All,All,All,South Ayrshire,23.64,25.02,24.33
+S12000049,2015,All,All,All,Male,All,Glasgow City,23.64,24.37,24.01
+S12000034,2014-2017,All,All,All,All,All,Aberdeenshire,24.67,25.03,24.85
+S12000035,2014-2017,All,All,All,All,All,Argyll and Bute,24.94,25.47,25.2
+S12000027,2016-2017,All,All,All,All,All,Shetland Islands,24.39,25.16,24.77
+S12000006,2014-2017,All,All,All,All,All,Dumfries and Galloway,24.06,24.49,24.27
+S12000050,2014-2015,All,All,All,All,All,North Lanarkshire,24.35,24.9,24.63
+S12000033,2014-2017,All,All,All,All,All,Aberdeen City,24.36,24.71,24.53
+S12000049,2015,All,All,All,Female,All,Glasgow City,23.29,23.89,23.59
+S12000034,2016-2017,All,All,All,All,All,Aberdeenshire,24.65,25.14,24.89
+S12000030,2014-2017,All,All,All,All,All,Stirling,24.22,24.76,24.49
+S12000050,2016,All,All,All,Female,All,North Lanarkshire,24.09,24.95,24.52
+S12000049,2015,All,All,35-64 years,All,All,Glasgow City,23.14,23.84,23.49
+S12000033,2016-2017,All,All,All,All,All,Aberdeen City,24.27,24.78,24.53
+S12000049,2014,All,All,All,Female,All,Glasgow City,23.73,24.39,24.06
+S12000049,2014,All,All,All,Male,All,Glasgow City,24.12,24.8,24.46
+S12000008,2014-2017,All,All,All,All,All,East Ayrshire,23.47,23.92,23.7
+S12000050,2016,All,With Children,All,All,All,North Lanarkshire,23.65,24.67,24.16
+S12000050,2016,All,All,16-34 years,All,All,North Lanarkshire,24.13,25.46,24.79
+S12000026,2016-2017,All,All,All,All,All,Scottish Borders,24.09,24.85,24.47
+S12000005,2014-2017,All,All,All,All,All,Clackmannanshire,23.81,24.38,24.1
+S12000049,2015,All,All,All,All,All,Glasgow City,23.55,24.02,23.79
+S12000049,2014,Rented,All,All,All,All,Glasgow City,23.39,24.04,23.71
+S12000010,2014-2017,All,All,All,All,All,East Lothian,24.26,24.8,24.53
+S12000033,2017,All,All,16-64 years,All,All,Aberdeen City,24.05,24.86,24.45
+S12000030,2017,All,All,16-64 years,All,All,Stirling,23.48,24.71,24.1
+S12000049,2015,All,Adults,All,All,All,Glasgow City,23.32,23.96,23.64
+S12000021,2014-2017,All,All,All,All,All,North Ayrshire,23.86,24.33,24.09
+S12000020,2014-2017,All,All,All,All,All,Moray,24.2,24.73,24.47
+S12000050,2016,Owned Mortgage/Loan,All,All,All,All,North Lanarkshire,24.4,25.33,24.87
+S12000049,2014,Owned Outright,All,All,All,All,Glasgow City,23.6,24.63,24.12
+S12000050,2016,All,All,All,Male,All,North Lanarkshire,23.75,24.79,24.27
+S12000030,2016-2017,All,All,All,All,All,Stirling,23.9,24.69,24.29
+S12000027,2014-2017,All,All,All,All,All,Shetland Islands,24.66,25.25,24.95
+S12000050,2016,Owned Outright,All,All,All,All,North Lanarkshire,24.21,25.57,24.89
+S12000049,2015,All,All,16-34 years,All,All,Glasgow City,23.8,24.57,24.19
+S12000050,2016,All,All,All,All,All,North Lanarkshire,24.06,24.75,24.4
+S12000049,2014,All,All,35-64 years,All,All,Glasgow City,23.84,24.53,24.19
+S12000029,2014-2017,All,All,All,All,All,South Lanarkshire,24.21,24.57,24.39
+S12000049,2014,All,All,16-34 years,All,All,Glasgow City,24.06,24.9,24.48
+S12000036,2014-2017,All,All,All,All,All,City of Edinburgh,24.26,24.52,24.39
+S12000038,2014-2017,All,All,All,All,All,Renfrewshire,23.98,24.36,24.17
+S12000028,2017,All,All,16-64 years,All,All,South Ayrshire,23.4,24.68,24.04
+S12000039,2014-2017,All,All,All,All,All,West Dunbartonshire,24.17,24.7,24.43
+S12000050,2015,All,All,16-64 years,All,All,North Lanarkshire,24.36,25.38,24.87
+S12000029,2017,All,All,16-64 years,All,All,South Lanarkshire,24.34,25.13,24.74
+S12000026,2014-2017,All,All,All,All,All,Scottish Borders,24.28,24.82,24.55
+S12000049,2015,All,With Children,All,All,All,Glasgow City,23.69,24.61,24.15
+S12000023,2014-2017,All,All,All,All,All,Orkney Islands,25.26,26.08,25.67
+S12000042,2017,All,All,16-64 years,All,All,Dundee City,23.15,24.31,23.73
+S12000050,2016,All,All,16-64 years,All,All,North Lanarkshire,24.05,24.83,24.44
+S12000050,2017,All,All,16-64 years,All,All,North Lanarkshire,24.15,25.08,24.61
+S12000049,2016,All,With Children,All,All,All,Glasgow City,23.36,24.23,23.79
+S12000050,2015,All,All,16-34 years,All,All,North Lanarkshire,23.94,26.03,24.98
+S12000050,2015,All,All,65 years and over,All,All,North Lanarkshire,24.08,25.49,24.78
+S12000026,2017,All,All,16-64 years,All,All,Scottish Borders,23.83,25.12,24.48
+S12000049,2016,All,Adults,All,All,All,Glasgow City,23.34,24,23.67
+S12000040,2016-2017,All,All,All,All,All,West Lothian,24.13,24.83,24.48
+S12000047,2017,All,All,16-64 years,All,All,Fife,23.62,24.4,24.01
+S12000041,2016-2017,All,All,All,All,All,Angus,23.9,24.6,24.25
+S12000050,2015,All,With Children,All,All,All,North Lanarkshire,24.26,25.46,24.86
+S12000023,2017,All,All,16-64 years,All,All,Orkney Islands,23.79,24.93,24.36
+S12000005,2016-2017,All,All,All,All,All,Clackmannanshire,23.79,24.62,24.21
+S12000035,2017,All,All,16-64 years,All,All,Argyll and Bute,24.85,26.32,25.59
+S12000049,2016,All,All,All,Male,All,Glasgow City,23.27,23.97,23.62
+S12000050,2015,All,All,35-64 years,All,All,North Lanarkshire,24.29,25.32,24.8
+S12000049,2016,All,All,35-64 years,All,All,Glasgow City,22.92,23.62,23.27
+S12000050,2016-2017,All,All,All,All,All,North Lanarkshire,24.25,24.77,24.51
+S12000049,2014,All,Adults,All,All,All,Glasgow City,23.83,24.48,24.15
+S12000039,2016-2017,All,All,All,All,All,West Dunbartonshire,24.24,25.07,24.65
+S12000049,2016,Rented,All,All,All,All,Glasgow City,22.81,23.52,23.16
+S12000017,2014-2017,All,All,All,All,All,Highland,24.44,24.8,24.62
+S12000049,2015,Owned Mortgage/Loan,All,All,All,All,Glasgow City,24.08,24.9,24.49
+S12000050,2016,Rented,All,All,All,All,North Lanarkshire,22.83,23.91,23.37
+S12000018,2014-2017,All,All,All,All,All,Inverclyde,23.76,24.26,24.01
+S12000029,2016-2017,All,All,All,All,All,South Lanarkshire,24.24,24.77,24.51
+S12000050,2016,All,Pensioners,All,All,All,North Lanarkshire,23.69,24.77,24.23
+S12000041,2017,All,All,16-64 years,All,All,Angus,23.52,24.77,24.14
+S12000049,2014,Owned Mortgage/Loan,All,All,All,All,Glasgow City,24.82,25.75,25.29
+S12000050,2016,All,Adults,All,All,All,North Lanarkshire,24.11,25.21,24.66
+S12000014,2014-2017,All,All,All,All,All,Falkirk,24.08,24.5,24.29
+S12000013,2014-2017,All,All,All,All,All,Na h-Eileanan Siar,24.23,24.82,24.53
+S12000028,2016-2017,All,All,All,All,All,South Ayrshire,23.86,24.65,24.26
+S12000049,2015,Owned Outright,All,All,All,All,Glasgow City,23.61,24.5,24.06
+S12000011,2014-2017,All,All,All,All,All,East Renfrewshire,24.28,24.83,24.55
+S12000023,2016-2017,All,All,All,All,All,Orkney Islands,24.66,25.79,25.22
+S12000049,2015,Rented,All,All,All,All,Glasgow City,22.93,23.62,23.27
+S12000019,2014-2017,All,All,All,All,All,Midlothian,24.73,25.37,25.05
+S12000050,2016,All,All,35-64 years,All,All,North Lanarkshire,23.8,24.68,24.24
+S12000049,2016,All,All,65 years and over,All,All,Glasgow City,22.75,23.7,23.23
+S12000021,2017,All,All,16-64 years,All,All,North Ayrshire,22.69,23.72,23.2
+S12000049,2015,All,All,65 years and over,All,All,Glasgow City,23.16,24.16,23.66
+S12000049,2017,All,All,All,Female,All,Glasgow City,23.23,23.85,23.54
+S12000050,2017,Rented,All,All,All,All,North Lanarkshire,23.14,24.54,23.84
+S12000050,2014,All,All,35-64 years,All,All,North Lanarkshire,24.01,25.01,24.51
+S12000050,2014,All,All,65 years and over,All,All,North Lanarkshire,23.24,24.7,23.97
+S12000049,2016,All,All,16-64 years,All,All,Glasgow City,23.4,23.94,23.67
+S12000048,2017,All,All,16-64 years,All,All,Perth and Kinross,23.05,24.16,23.6
+S12000050,2015,Owned Mortgage/Loan,All,All,All,All,North Lanarkshire,24.91,26.46,25.69
+S12000050,2017,All,All,16-34 years,All,All,North Lanarkshire,23.62,25.28,24.45
+S12000050,2014,Owned Outright,All,All,All,All,North Lanarkshire,23.55,24.96,24.25
+S12000049,2017,All,All,All,Male,All,Glasgow City,23.37,24.13,23.75
+S12000013,2017,All,All,16-64 years,All,All,Na h-Eileanan Siar,23.49,24.66,24.08
+S12000018,2017,All,All,16-64 years,All,All,Inverclyde,23.06,24.13,23.6
+S12000011,2016-2017,All,All,All,All,All,East Renfrewshire,24.14,24.94,24.54
+S12000048,2014-2017,All,All,All,All,All,Perth and Kinross,24.09,24.57,24.33
+S12000050,2017,All,Pensioners,All,All,All,North Lanarkshire,23.93,25.2,24.56
+S12000017,2016-2017,All,All,All,All,All,Highland,24.31,24.81,24.56
+S12000050,2015,Rented,All,All,All,All,North Lanarkshire,22.87,24.08,23.48
+S12000045,2016-2017,All,All,All,All,All,East Dunbartonshire,24.39,25.17,24.78
+S12000049,2017,All,All,All,All,All,Glasgow City,23.39,23.9,23.64
+S12000050,2017,All,All,All,All,All,North Lanarkshire,24.22,25.03,24.63
+S12000049,2017,Owned Outright,All,All,All,All,Glasgow City,23.82,24.73,24.27
+S12000049,2014,All,All,65 years and over,All,All,Glasgow City,23.42,24.36,23.89
+S12000039,2017,All,All,16-64 years,All,All,West Dunbartonshire,23.65,25.02,24.34
+S92000003,2016-2017,All,All,All,All,All,Scotland,24.22,24.33,24.28
+S12000050,2015,Owned Outright,All,All,All,All,North Lanarkshire,24.65,26.12,25.38
+S12000049,2016,All,All,All,Female,All,Glasgow City,23.28,23.89,23.58
+S12000042,2016-2017,All,All,All,All,All,Dundee City,23.33,23.98,23.65
+S12000050,2015,All,Adults,All,All,All,North Lanarkshire,24.1,25.62,24.86
+S12000050,2014-2017,All,All,All,All,All,North Lanarkshire,24.38,24.76,24.57
+S12000049,2017,All,All,35-64 years,All,All,Glasgow City,23.14,23.83,23.49
+S12000050,2017,Owned Mortgage/Loan,All,All,All,All,North Lanarkshire,24.59,25.89,25.24
+S12000006,2017,All,All,16-64 years,All,All,Dumfries and Galloway,24.07,25.2,24.64
+S12000049,2017,Owned Mortgage/Loan,All,All,All,All,Glasgow City,23.46,24.3,23.88
+S12000020,2017,All,All,16-64 years,All,All,Moray,23.8,25.2,24.5
+S12000050,2017,All,All,All,Male,All,North Lanarkshire,24.21,25.42,24.82
+S12000049,2017,Rented,All,All,All,All,Glasgow City,22.87,23.63,23.25
+S12000050,2014,All,All,All,Female,All,North Lanarkshire,23.87,24.81,24.34
+S12000047,2014-2017,All,All,All,All,All,Fife,24.33,24.65,24.49
+S12000019,2017,All,All,16-64 years,All,All,Midlothian,23.45,24.66,24.06
+S12000013,2016-2017,All,All,All,All,All,Na h-Eileanan Siar,24.14,24.94,24.54
+S12000049,2017,All,All,16-34 years,All,All,Glasgow City,23.27,24.12,23.7
+S12000050,2017,All,All,35-64 years,All,All,North Lanarkshire,24.2,25.21,24.71
+S12000028,2014-2017,All,All,All,All,All,South Ayrshire,23.86,24.35,24.11
+S12000021,2016-2017,All,All,All,All,All,North Ayrshire,23.68,24.35,24.02
+S12000050,2014,Rented,All,All,All,All,North Lanarkshire,23.5,24.67,24.09
+S12000049,2015,All,Pensioners,All,All,All,Glasgow City,23.32,24.25,23.78
+S12000011,2017,All,All,16-64 years,All,All,East Renfrewshire,23.79,25.27,24.53
+S12000049,2017,All,All,65 years and over,All,All,Glasgow City,23.46,24.46,23.96
+S12000008,2016-2017,All,All,All,All,All,East Ayrshire,23.4,24.09,23.75
+S12000050,2014,Owned Mortgage/Loan,All,All,All,All,North Lanarkshire,24.65,26.03,25.34
+S12000010,2017,All,All,16-64 years,All,All,East Lothian,23.45,24.38,23.91
+S12000049,2017,All,Pensioners,All,All,All,Glasgow City,23.36,24.23,23.79
+S12000050,2017,All,Adults,All,All,All,North Lanarkshire,24.05,25.33,24.69
+S12000014,2017,All,All,16-64 years,All,All,Falkirk,23.53,24.46,23.99
+S12000049,2017,All,All,16-64 years,All,All,Glasgow City,23.31,23.86,23.59
+S12000038,2017,All,All,16-64 years,All,All,Renfrewshire,23.04,23.86,23.45
+S12000050,2014,All,All,16-34 years,All,All,North Lanarkshire,24.37,26.04,25.21
+S12000049,2016-2017,All,All,All,All,All,Glasgow City,23.45,23.79,23.62
+S12000017,2017,All,All,16-64 years,All,All,Highland,24.08,24.96,24.52
+S12000010,2016-2017,All,All,All,All,All,East Lothian,23.75,24.39,24.07
+S12000050,2017,All,With Children,All,All,All,North Lanarkshire,23.94,25.23,24.58
+S12000048,2017,All,All,All,Female,All,Perth and Kinross,22.94,24.22,23.58
+S12000050,2017,All,All,65 years and over,All,All,North Lanarkshire,23.96,25.39,24.67
+S12000049,2017,All,Adults,All,All,All,Glasgow City,23.11,23.77,23.44
+S12000049,2017,All,With Children,All,All,All,Glasgow City,23.47,24.54,24
+S12000050,2014,All,All,All,Male,All,North Lanarkshire,24.29,25.53,24.91
+S12000049,2014-2017,All,All,All,All,All,Glasgow City,23.64,23.88,23.76
+S12000050,2014,All,All,All,All,All,North Lanarkshire,24.22,25.01,24.61
+S12000050,2017,Owned Outright,All,All,All,All,North Lanarkshire,24.12,25.44,24.78
+S12000036,2017,All,All,16-64 years,All,All,City of Edinburgh,23.94,24.45,24.19
+S12000008,2017,All,All,16-64 years,All,All,East Ayrshire,22.8,23.88,23.34
+S12000026,2017,Rented,All,All,All,All,Scottish Borders,22.65,24.69,23.67
+S12000026,2017,Owned Mortgage/Loan,All,All,All,All,Scottish Borders,23.97,25.68,24.83
+S12000035,2014,All,All,16-34 years,All,All,Argyll and Bute,24.34,27.39,25.86
+S12000017,2014,Owned Outright,All,All,All,All,Highland,24.97,26.07,25.52
+S12000021,2017,Owned Outright,All,All,All,All,North Ayrshire,23.43,24.94,24.18
+S12000020,2017,Rented,All,All,All,All,Moray,22.7,24.67,23.68
+S12000036,2014,All,All,35-64 years,All,All,City of Edinburgh,24.28,25.06,24.67
+S12000035,2014,All,All,35-64 years,All,All,Argyll and Bute,24.83,26.27,25.55
+S12000023,2017,Owned Mortgage/Loan,All,All,All,All,Orkney Islands,24.76,26.24,25.5
+S12000026,2017,Owned Outright,All,All,All,All,Scottish Borders,23.89,25.17,24.53
+S12000027,2017,Owned Outright,All,All,All,All,Shetland Islands,24.34,26.31,25.33
+S12000014,2014,Rented,All,All,All,All,Falkirk,22.81,24.1,23.45
+S12000017,2015,All,All,16-64 years,All,All,Highland,24.08,24.93,24.5
+S12000023,2017,Rented,All,All,All,All,Orkney Islands,22.21,24.06,23.14
+S12000030,2017,Rented,All,All,All,All,Stirling,22.92,24.98,23.95
+S12000030,2017,Owned Outright,All,All,All,All,Stirling,24.22,25.59,24.91
+S12000030,2017,Owned Mortgage/Loan,All,All,All,All,Stirling,23.34,24.88,24.11
+S12000013,2014,Owned Mortgage/Loan,All,All,All,All,Na h-Eileanan Siar,23.56,27.33,25.44
+S12000029,2017,Rented,All,All,All,All,South Lanarkshire,22.97,24.33,23.65
+S12000034,2014,All,All,16-34 years,All,All,Aberdeenshire,23.73,25.36,24.54
+S12000023,2017,Owned Outright,All,All,All,All,Orkney Islands,24.32,26.17,25.24
+S12000020,2017,Owned Mortgage/Loan,All,All,All,All,Moray,24.65,27.03,25.84
+S12000036,2014,All,All,16-34 years,All,All,City of Edinburgh,24.52,25.4,24.96
+S12000020,2017,Owned Outright,All,All,All,All,Moray,23.7,25.11,24.41
+S12000021,2017,Owned Mortgage/Loan,All,All,All,All,North Ayrshire,23.13,24.71,23.92
+S12000021,2017,Rented,All,All,All,All,North Ayrshire,21.81,23.17,22.49
+S12000010,2016,Owned Outright,All,All,All,All,East Lothian,23.49,25.26,24.38
+S12000035,2015,All,Adults,All,All,All,Argyll and Bute,24.88,26.29,25.58
+S12000034,2016,All,All,All,All,All,Aberdeenshire,24.31,24.98,24.65
+S12000035,2016,All,All,All,All,All,Argyll and Bute,24.5,25.47,24.99
+S12000008,2016,Rented,All,All,All,All,East Ayrshire,22.54,23.9,23.22
+S12000011,2016,Owned Outright,All,All,All,All,East Renfrewshire,24.34,25.71,25.02
+S12000008,2016,Owned Mortgage/Loan,All,All,All,All,East Ayrshire,23.09,25.24,24.17
+S12000028,2016,All,All,All,All,All,South Ayrshire,23.85,24.95,24.4
+S12000029,2016,All,All,All,All,All,South Lanarkshire,23.92,24.72,24.32
+S12000033,2016,All,All,All,All,All,Aberdeen City,24.19,24.89,24.54
+S12000038,2015,All,With Children,All,All,All,Renfrewshire,23.84,25.3,24.57
+S12000038,2016,All,All,All,All,All,Renfrewshire,23.75,24.48,24.11
+S12000038,2015,All,Pensioners,All,All,All,Renfrewshire,23.69,24.81,24.25
+S12000036,2016,All,All,All,All,All,City of Edinburgh,23.8,24.24,24.02
+S12000005,2016,Owned Mortgage/Loan,All,All,All,All,Clackmannanshire,23.08,24.57,23.83
+S12000035,2015,All,With Children,All,All,All,Argyll and Bute,23.35,25.17,24.26
+S12000005,2016,Rented,All,All,All,All,Clackmannanshire,22.48,24.9,23.69
+S12000005,2016,Owned Outright,All,All,All,All,Clackmannanshire,23.55,25.74,24.64
+S12000006,2016,Rented,All,All,All,All,Dumfries and Galloway,22.9,24.29,23.6
+S12000035,2015,All,Pensioners,All,All,All,Argyll and Bute,24.53,25.87,25.2
+S12000008,2016,Owned Outright,All,All,All,All,East Ayrshire,23.86,25.24,24.55
+S12000006,2016,Owned Mortgage/Loan,All,All,All,All,Dumfries and Galloway,22.89,24.6,23.75
+S12000010,2016,Owned Mortgage/Loan,All,All,All,All,East Lothian,23.83,25.18,24.5
+S12000010,2016,Rented,All,All,All,All,East Lothian,22.42,24.44,23.43
+S12000011,2016,Owned Mortgage/Loan,All,All,All,All,East Renfrewshire,23.86,25.57,24.71
+S12000034,2015,All,With Children,All,All,All,Aberdeenshire,24.29,25.61,24.95
+S12000006,2016,Owned Outright,All,All,All,All,Dumfries and Galloway,24.08,25.15,24.61
+S12000034,2015,All,Pensioners,All,All,All,Aberdeenshire,24.72,25.84,25.28
+S12000036,2015,All,Adults,All,All,All,City of Edinburgh,24.12,24.94,24.53
+S12000008,2017,Owned Mortgage/Loan,All,All,All,All,East Ayrshire,23.34,24.92,24.13
+S12000038,2014,All,All,16-34 years,All,All,Renfrewshire,24.24,25.74,24.99
+S12000019,2014,Owned Mortgage/Loan,All,All,All,All,Midlothian,24.04,26.56,25.3
+S12000018,2017,Owned Outright,All,All,All,All,Inverclyde,23.89,25.31,24.6
+S12000017,2014,Rented,All,All,All,All,Highland,23.87,25.23,24.55
+S12000017,2017,Rented,All,All,All,All,Highland,22.25,23.48,22.87
+S12000018,2017,Owned Mortgage/Loan,All,All,All,All,Inverclyde,23.09,24.75,23.92
+S12000018,2017,Rented,All,All,All,All,Inverclyde,21.53,23.27,22.4
+S12000006,2017,Owned Outright,All,All,All,All,Dumfries and Galloway,24.12,25.38,24.75
+S12000006,2017,Owned Mortgage/Loan,All,All,All,All,Dumfries and Galloway,24.82,26.4,25.61
+S12000008,2017,Owned Outright,All,All,All,All,East Ayrshire,23.44,25.01,24.22
+S12000010,2017,Owned Outright,All,All,All,All,East Lothian,23.53,24.93,24.23
+S12000039,2014,All,All,35-64 years,All,All,West Dunbartonshire,23.38,24.64,24.01
+S12000011,2015,All,All,16-64 years,All,All,East Renfrewshire,23.58,24.94,24.26
+S12000008,2017,Rented,All,All,All,All,East Ayrshire,21.69,23.03,22.36
+S12000014,2017,Owned Mortgage/Loan,All,All,All,All,Falkirk,23.69,25.05,24.37
+S12000018,2014,Owned Mortgage/Loan,All,All,All,All,Inverclyde,23.51,25.5,24.5
+S12000014,2017,Owned Outright,All,All,All,All,Falkirk,23.94,25.28,24.61
+S12000013,2017,Rented,All,All,All,All,Na h-Eileanan Siar,22.82,24.55,23.68
+S12000018,2014,Owned Outright,All,All,All,All,Inverclyde,23.99,25.54,24.76
+S12000013,2017,Owned Mortgage/Loan,All,All,All,All,Na h-Eileanan Siar,22.92,25.04,23.98
+S12000018,2014,Rented,All,All,All,All,Inverclyde,21.59,23.28,22.43
+S12000017,2014,Owned Mortgage/Loan,All,All,All,All,Highland,23.88,25.45,24.67
+S12000014,2015,All,All,16-64 years,All,All,Falkirk,24.36,25.23,24.8
+S12000019,2017,Owned Mortgage/Loan,All,All,All,All,Midlothian,23.42,24.8,24.11
+S12000019,2017,Rented,All,All,All,All,Midlothian,22.21,23.65,22.93
+S12000019,2017,Owned Outright,All,All,All,All,Midlothian,24.08,26.34,25.21
+S12000014,2014,Owned Mortgage/Loan,All,All,All,All,Falkirk,23.92,25.3,24.61
+S12000028,2017,Owned Outright,All,All,All,All,South Ayrshire,23.71,25.03,24.37
+S12000027,2017,Rented,All,All,All,All,Shetland Islands,23.37,25.58,24.48
+S12000027,2017,Owned Mortgage/Loan,All,All,All,All,Shetland Islands,23.56,25.1,24.33
+S12000028,2017,Rented,All,All,All,All,South Ayrshire,21.87,23.89,22.88
+S12000029,2017,Owned Mortgage/Loan,All,All,All,All,South Lanarkshire,24.55,25.53,25.04
+S12000034,2014,All,All,35-64 years,All,All,Aberdeenshire,24.5,25.67,25.09
+S12000014,2014,Owned Outright,All,All,All,All,Falkirk,23.85,25.6,24.72
+S12000013,2014,Rented,All,All,All,All,Na h-Eileanan Siar,22.34,24.71,23.52
+S12000033,2017,Owned Outright,All,All,All,All,Aberdeen City,23.74,24.94,24.34
+S12000033,2017,Owned Mortgage/Loan,All,All,All,All,Aberdeen City,24.41,25.76,25.08
+S12000034,2017,Owned Outright,All,All,All,All,Aberdeenshire,25.07,25.97,25.52
+S12000033,2017,Rented,All,All,All,All,Aberdeen City,23.55,24.69,24.12
+S12000028,2017,Owned Mortgage/Loan,All,All,All,All,South Ayrshire,24.07,25.78,24.93
+S12000013,2017,Owned Outright,All,All,All,All,Na h-Eileanan Siar,23.2,24.89,24.04
+S12000011,2017,Owned Mortgage/Loan,All,All,All,All,East Renfrewshire,23.88,26.09,24.98
+S12000011,2017,Rented,All,All,All,All,East Renfrewshire,22.59,24.36,23.47
+S12000006,2017,Rented,All,All,All,All,Dumfries and Galloway,22.78,24.53,23.66
+S12000039,2014,All,All,16-34 years,All,All,West Dunbartonshire,24.69,26.51,25.6
+S12000019,2014,Rented,All,All,All,All,Midlothian,23.66,26.72,25.19
+S12000013,2015,All,All,16-64 years,All,All,Na h-Eileanan Siar,23.86,25.19,24.53
+S12000011,2017,Owned Outright,All,All,All,All,East Renfrewshire,24.1,25.3,24.7
+S12000029,2017,Owned Outright,All,All,All,All,South Lanarkshire,24.56,25.73,25.14
+S12000018,2015,All,All,16-64 years,All,All,Inverclyde,23.37,24.69,24.03
+S12000010,2017,Rented,All,All,All,All,East Lothian,22.14,23.74,22.94
+S12000019,2014,Owned Outright,All,All,All,All,Midlothian,24.98,27.26,26.12
+S12000010,2017,Owned Mortgage/Loan,All,All,All,All,East Lothian,24.17,25.27,24.72
+S12000041,2014-2017,All,All,All,All,All,Angus,24.09,24.64,24.36
+S12000006,2015,All,All,16-34 years,All,All,Dumfries and Galloway,23.85,25.79,24.82
+S12000010,2015,All,All,16-34 years,All,All,East Lothian,24.6,27.34,25.97
+S12000008,2015,All,All,35-64 years,All,All,East Ayrshire,23.03,24.14,23.59
+S12000005,2015,All,All,35-64 years,All,All,Clackmannanshire,23.31,24.91,24.11
+S12000006,2015,All,All,35-64 years,All,All,Dumfries and Galloway,23.06,24.23,23.65
+S12000045,2015,All,Pensioners,All,All,All,East Dunbartonshire,24.09,25.65,24.87
+S12000045,2015,All,With Children,All,All,All,East Dunbartonshire,23.46,25.35,24.41
+S92000003,2015,All,Pensioners,All,All,All,Scotland,24.46,24.71,24.58
+S12000040,2014-2017,All,All,All,All,All,West Lothian,24.22,24.74,24.48
+S12000008,2015,All,All,16-34 years,All,All,East Ayrshire,23.16,24.86,24.01
+S92000003,2015,All,Adults,All,All,All,Scotland,24.08,24.33,24.2
+S12000040,2015,All,Adults,All,All,All,West Lothian,23.93,27.05,25.49
+S12000023,2016,All,All,All,All,All,Orkney Islands,24.67,26.56,25.62
+S12000042,2015,All,Pensioners,All,All,All,Dundee City,24.08,26.13,25.1
+S12000021,2016,All,All,All,All,All,North Ayrshire,24.03,24.98,24.5
+S12000020,2016,All,All,All,All,All,Moray,23.56,24.59,24.07
+S12000041,2015,All,Pensioners,All,All,All,Angus,24,26.1,25.05
+S12000008,2016,All,All,All,All,All,East Ayrshire,23.42,24.4,23.91
+S12000045,2015,All,Adults,All,All,All,East Dunbartonshire,23.66,25.07,24.37
+S12000042,2015,All,With Children,All,All,All,Dundee City,24.44,27.14,25.79
+S12000013,2016,All,All,All,All,All,Na h-Eileanan Siar,24.54,25.68,25.11
+S12000040,2015,All,With Children,All,All,All,West Lothian,23.56,25.08,24.32
+S12000011,2016,All,All,All,All,All,East Renfrewshire,23.93,24.98,24.46
+S12000040,2015,All,Pensioners,All,All,All,West Lothian,23.82,25.33,24.58
+S12000017,2016,All,All,All,All,All,Highland,24.33,25.03,24.68
+S12000018,2016,All,All,All,All,All,Inverclyde,23.62,24.69,24.16
+S12000019,2016,All,All,All,All,All,Midlothian,24.27,25.35,24.81
+S12000048,2016,All,All,All,All,All,Perth and Kinross,24.05,25.03,24.54
+S12000026,2016,All,All,All,All,All,Scottish Borders,24.08,25.16,24.62
+S12000039,2015,All,With Children,All,All,All,West Dunbartonshire,23.98,25.8,24.89
+S12000027,2016,All,All,All,All,All,Shetland Islands,24.3,25.29,24.79
+S12000041,2015,All,Adults,All,All,All,Angus,23.43,25.18,24.31
+S12000047,2016,All,All,All,All,All,Fife,24.55,25.22,24.88
+S12000039,2015,All,Pensioners,All,All,All,West Dunbartonshire,23.88,25.18,24.53
+S12000014,2016,All,All,All,All,All,Falkirk,23.74,24.63,24.18
+S12000018,2016,Rented,All,All,All,All,Inverclyde,21.88,23.85,22.87
+S12000018,2016,Owned Mortgage/Loan,All,All,All,All,Inverclyde,23.65,25.59,24.62
+S12000030,2015,All,Adults,All,All,All,Stirling,23.56,25.02,24.29
+S12000018,2016,Owned Outright,All,All,All,All,Inverclyde,24.14,25.6,24.87
+S12000029,2015,All,With Children,All,All,All,South Lanarkshire,23.73,25.05,24.39
+S12000030,2015,All,With Children,All,All,All,Stirling,23.54,25,24.27
+S12000021,2016,Rented,All,All,All,All,North Ayrshire,22.32,23.86,23.09
+S12000020,2016,Owned Mortgage/Loan,All,All,All,All,Moray,23.99,25.36,24.68
+S12000020,2016,Owned Outright,All,All,All,All,Moray,24.39,25.91,25.15
+S12000021,2016,Owned Outright,All,All,All,All,North Ayrshire,24.87,26.17,25.52
+S12000021,2016,Owned Mortgage/Loan,All,All,All,All,North Ayrshire,24.35,25.98,25.16
+S12000028,2015,All,Pensioners,All,All,All,South Ayrshire,23.15,24.36,23.75
+S12000028,2015,All,With Children,All,All,All,South Ayrshire,23.67,25.2,24.44
+S12000023,2016,Owned Outright,All,All,All,All,Orkney Islands,24.5,26.66,25.58
+S92000003,2016,All,All,All,All,All,Scotland,24.24,24.39,24.31
+S12000036,2015,All,With Children,All,All,All,City of Edinburgh,23.87,25.09,24.48
+S12000036,2015,All,Pensioners,All,All,All,City of Edinburgh,24.7,25.79,25.25
+S12000030,2016,All,All,All,All,All,Stirling,23.65,24.86,24.25
+S12000042,2016,All,All,All,All,All,Dundee City,23.04,23.92,23.48
+S12000039,2015,All,Adults,All,All,All,West Dunbartonshire,23.5,24.8,24.15
+S12000041,2016,All,All,All,All,All,Angus,23.72,24.66,24.19
+S12000045,2016,All,All,All,All,All,East Dunbartonshire,24.6,25.63,25.11
+S12000019,2016,Owned Mortgage/Loan,All,All,All,All,Midlothian,24.47,25.76,25.11
+S12000029,2015,All,Pensioners,All,All,All,South Lanarkshire,23.56,24.48,24.02
+S12000019,2016,Rented,All,All,All,All,Midlothian,22.67,25.21,23.94
+S12000019,2016,Owned Outright,All,All,All,All,Midlothian,24.19,26.12,25.16
+S12000038,2015,All,Adults,All,All,All,Renfrewshire,23.85,25.06,24.45
+S12000039,2016,All,All,All,All,All,West Dunbartonshire,24.25,25.4,24.82
+S12000040,2016,All,All,All,All,All,West Lothian,24.26,25.22,24.74
+S12000033,2015,All,Adults,All,All,All,Aberdeen City,24.11,25.14,24.63
+S12000047,2016,Owned Mortgage/Loan,All,All,All,All,Fife,24.57,25.74,25.16
+S12000014,2016,Rented,All,All,All,All,Falkirk,22.7,24.38,23.54
+S12000047,2016,Owned Outright,All,All,All,All,Fife,25.03,26.13,25.58
+S12000017,2016,Owned Mortgage/Loan,All,All,All,All,Highland,24.1,25.27,24.69
+S12000017,2016,Rented,All,All,All,All,Highland,23.24,24.5,23.87
+S12000033,2015,All,With Children,All,All,All,Aberdeen City,24.19,25.77,24.98
+S12000005,2015,All,All,16-34 years,All,All,Clackmannanshire,22.37,25,23.68
+S92000003,2015,All,With Children,All,All,All,Scotland,24.42,24.71,24.57
+S12000014,2016,Owned Mortgage/Loan,All,All,All,All,Falkirk,24.06,25.28,24.67
+S12000011,2016,Rented,All,All,All,All,East Renfrewshire,21.32,23.68,22.5
+S12000014,2016,Owned Outright,All,All,All,All,Falkirk,23.75,25.15,24.45
+S12000020,2016,Rented,All,All,All,All,Moray,21.73,23.44,22.58
+S12000013,2016,Rented,All,All,All,All,Na h-Eileanan Siar,23.51,25.89,24.7
+S12000029,2015,All,Adults,All,All,All,South Lanarkshire,23.63,24.62,24.12
+S12000013,2016,Owned Mortgage/Loan,All,All,All,All,Na h-Eileanan Siar,23.58,25.77,24.68
+S12000033,2015,All,Pensioners,All,All,All,Aberdeen City,23.94,25.06,24.5
+S12000030,2015,All,Pensioners,All,All,All,Stirling,24.07,25.57,24.82
+S12000017,2016,Owned Outright,All,All,All,All,Highland,24.78,25.85,25.31
+S12000034,2015,All,Adults,All,All,All,Aberdeenshire,24.37,25.56,24.96
+S12000047,2016,Rented,All,All,All,All,Fife,23.42,24.45,23.93
+S12000013,2016,Owned Outright,All,All,All,All,Na h-Eileanan Siar,24.7,26.2,25.45
+S12000013,2014,All,All,All,Male,All,Na h-Eileanan Siar,23.61,25.98,24.79
+S12000033,2014,Rented,All,All,All,All,Aberdeen City,23.45,24.47,23.96
+S12000011,2014,All,All,All,Female,All,East Renfrewshire,24.83,26.28,25.56
+S12000011,2014,All,All,All,Male,All,East Renfrewshire,23.56,25.2,24.38
+S12000034,2014,Owned Outright,All,All,All,All,Aberdeenshire,24.62,25.76,25.19
+S92000003,2017,All,All,65 years and over,All,All,Scotland,24.37,24.63,24.5
+S12000008,2014,All,All,All,Male,All,East Ayrshire,23.2,24.58,23.89
+S12000030,2014,Owned Mortgage/Loan,All,All,All,All,Stirling,25.07,26.43,25.75
+S12000049,2014,All,Pensioners,All,All,All,Glasgow City,23.45,24.29,23.87
+S92000003,2017,All,All,16-64 years,All,All,Scotland,24.07,24.25,24.16
+S12000030,2014,Rented,All,All,All,All,Stirling,23.33,25.71,24.52
+S12000008,2014,All,All,All,Female,All,East Ayrshire,22.39,23.81,23.1
+S92000003,2014,All,All,16-64 years,All,All,Scotland,24.37,24.55,24.46
+S92000003,2017,All,All,All,Male,All,Scotland,24.17,24.4,24.29
+S12000034,2017,All,All,16-64 years,All,All,Aberdeenshire,24.69,25.51,25.1
+S12000029,2014,Owned Outright,All,All,All,All,South Lanarkshire,24.12,25.44,24.78
+S92000003,2014,All,All,35-64 years,All,All,Scotland,24.23,24.44,24.34
+S12000006,2014,All,All,All,Female,All,Dumfries and Galloway,23.54,24.67,24.1
+S12000028,2014,Rented,All,All,All,All,South Ayrshire,21.54,23.32,22.43
+S92000003,2017,All,All,All,Female,All,Scotland,24.08,24.29,24.19
+S12000028,2014,Owned Mortgage/Loan,All,All,All,All,South Ayrshire,23.5,24.98,24.24
+S12000005,2014,All,All,All,Male,All,Clackmannanshire,23.18,25.01,24.1
+S12000033,2014,Owned Mortgage/Loan,All,All,All,All,Aberdeen City,24.42,25.66,25.04
+S92000003,2017,All,All,16-34 years,All,All,Scotland,23.98,24.3,24.14
+S12000040,2014,All,All,16-64 years,All,All,West Lothian,23.62,25.01,24.31
+S92000003,2017,All,All,35-64 years,All,All,Scotland,24.07,24.28,24.17
+S12000005,2014,All,All,All,Female,All,Clackmannanshire,22.7,24.46,23.58
+S12000045,2017,All,All,All,All,All,East Dunbartonshire,23.88,25.01,24.44
+S12000042,2017,All,All,All,All,All,Dundee City,23.35,24.33,23.84
+S12000005,2017,Owned Outright,All,All,All,All,Clackmannanshire,23.7,25.64,24.67
+S12000040,2014,All,All,16-34 years,All,All,West Lothian,23.37,26.46,24.91
+S12000020,2014,Owned Outright,All,All,All,All,Moray,24.69,26.01,25.35
+S12000005,2017,Owned Mortgage/Loan,All,All,All,All,Clackmannanshire,24.38,25.6,24.99
+S12000005,2017,Rented,All,All,All,All,Clackmannanshire,22.36,24.59,23.48
+S12000019,2017,All,All,All,All,All,Midlothian,23.6,24.63,24.12
+S12000020,2017,All,All,All,All,All,Moray,23.95,25.12,24.54
+S12000021,2014,Rented,All,All,All,All,North Ayrshire,21.42,22.75,22.08
+S12000021,2017,All,All,All,All,All,North Ayrshire,23.04,23.95,23.5
+S12000048,2017,All,All,All,All,All,Perth and Kinross,23.28,24.19,23.73
+S12000040,2014,All,All,35-64 years,All,All,West Lothian,23.3,24.65,23.98
+S12000042,2014,All,All,16-34 years,All,All,Dundee City,23.75,25.3,24.52
+S12000047,2017,All,All,All,All,All,Fife,23.81,24.45,24.13
+S12000020,2014,Owned Mortgage/Loan,All,All,All,All,Moray,23.21,25.42,24.32
+S12000041,2017,All,All,All,All,All,Angus,23.8,24.84,24.32
+S12000035,2017,All,All,All,All,All,Argyll and Bute,25.22,26.35,25.79
+S12000039,2017,All,All,All,All,All,West Dunbartonshire,23.86,25.07,24.46
+S12000040,2017,All,All,All,All,All,West Lothian,23.68,24.71,24.2
+S12000027,2014,Owned Outright,All,All,All,All,Shetland Islands,24.9,26.97,25.94
+S12000020,2014,Rented,All,All,All,All,Moray,24.72,26.36,25.54
+S12000010,2015,All,All,16-64 years,All,All,East Lothian,25,26.33,25.67
+S12000036,2017,All,All,All,All,All,City of Edinburgh,23.96,24.42,24.19
+S12000038,2017,All,All,All,All,All,Renfrewshire,23.33,24.08,23.71
+S12000021,2014,Owned Outright,All,All,All,All,North Ayrshire,24.09,25.64,24.86
+S12000041,2014,All,All,16-34 years,All,All,Angus,23.66,26.17,24.92
+S12000034,2017,All,All,All,All,All,Aberdeenshire,24.81,25.5,25.16
+S12000049,2014,All,With Children,All,All,All,Glasgow City,24.28,25.29,24.78
+S12000028,2017,All,All,All,All,All,South Ayrshire,23.55,24.66,24.11
+S12000041,2014,All,All,16-64 years,All,All,Angus,23.93,25.2,24.57
+S12000027,2017,All,All,All,All,All,Shetland Islands,24.16,25.34,24.75
+S12000019,2016-2017,All,All,All,All,All,Midlothian,24.1,24.85,24.48
+S12000010,2014,All,All,All,Male,All,East Lothian,24.18,26.62,25.4
+S12000010,2014,All,All,All,Female,All,East Lothian,23.64,25.35,24.49
+S12000033,2014,Owned Outright,All,All,All,All,Aberdeen City,24.11,25.19,24.65
+S12000008,2015,All,All,16-64 years,All,All,East Ayrshire,23.27,24.2,23.73
+S12000017,2017,All,All,All,All,All,Highland,24.07,24.8,24.43
+S12000018,2017,All,All,All,All,All,Inverclyde,23.21,24.07,23.64
+S12000029,2017,All,All,All,All,All,South Lanarkshire,24.35,25.05,24.7
+S12000023,2014,Owned Outright,All,All,All,All,Orkney Islands,25.89,28.52,27.21
+S12000014,2017,All,All,All,All,All,Falkirk,23.63,24.44,24.04
+S12000013,2017,All,All,All,All,All,Na h-Eileanan Siar,23.39,24.47,23.93
+S12000030,2017,All,All,All,All,All,Stirling,23.83,24.84,24.34
+S12000026,2017,All,All,All,All,All,Scottish Borders,23.8,24.85,24.32
+S12000023,2017,All,All,All,All,All,Orkney Islands,24.24,25.38,24.81
+S12000021,2014,Owned Mortgage/Loan,All,All,All,All,North Ayrshire,24.45,26.12,25.28
+S12000041,2014,All,All,35-64 years,All,All,Angus,23.69,25.1,24.39
+S12000033,2017,All,All,All,All,All,Aberdeen City,24.15,24.88,24.51
+S12000049,2016,Owned Outright,All,All,All,All,Glasgow City,23.29,24.14,23.72
+S12000010,2017,All,With Children,All,All,All,East Lothian,23.61,25.02,24.32
+S12000014,2017,All,Adults,All,All,All,Falkirk,23.38,24.59,23.99
+S12000027,2014,All,All,16-34 years,All,All,Shetland Islands,23.98,26.85,25.42
+S12000008,2017,All,Pensioners,All,All,All,East Ayrshire,23.24,24.82,24.03
+S12000006,2014,Owned Mortgage/Loan,All,All,All,All,Dumfries and Galloway,23.4,25.26,24.33
+S12000010,2017,All,Pensioners,All,All,All,East Lothian,23.47,24.9,24.19
+S12000013,2017,All,Adults,All,All,All,Na h-Eileanan Siar,23.16,24.61,23.88
+S12000013,2017,All,With Children,All,All,All,Na h-Eileanan Siar,22.7,24.65,23.68
+S12000013,2017,All,Pensioners,All,All,All,Na h-Eileanan Siar,23.11,25.24,24.17
+S12000014,2017,All,Pensioners,All,All,All,Falkirk,23.68,25.12,24.4
+S12000014,2017,All,With Children,All,All,All,Falkirk,22.88,24.54,23.71
+S12000005,2014,Rented,All,All,All,All,Clackmannanshire,22.28,24.65,23.47
+S12000006,2014,Owned Outright,All,All,All,All,Dumfries and Galloway,24.34,25.63,24.99
+S12000027,2017,All,All,16-64 years,All,All,Shetland Islands,23.95,25.27,24.61
+S12000036,2017,Owned Mortgage/Loan,All,All,All,All,City of Edinburgh,23.9,24.7,24.3
+S12000038,2017,Owned Outright,All,All,All,All,Renfrewshire,23.74,25.06,24.4
+S12000011,2014,Rented,All,All,All,All,East Renfrewshire,21.89,24.8,23.35
+S12000039,2017,Owned Outright,All,All,All,All,West Dunbartonshire,24.61,26.5,25.55
+S12000036,2017,Rented,All,All,All,All,City of Edinburgh,23.69,24.43,24.06
+S12000011,2017,All,With Children,All,All,All,East Renfrewshire,23.84,26.57,25.2
+S12000027,2014,All,All,35-64 years,All,All,Shetland Islands,24.6,26.14,25.37
+S12000026,2015,All,All,16-64 years,All,All,Scottish Borders,23.87,25.27,24.57
+S12000010,2017,All,Adults,All,All,All,East Lothian,23.15,24.39,23.77
+S12000006,2014,Rented,All,All,All,All,Dumfries and Galloway,22.87,24.39,23.63
+S12000049,2016,All,All,All,All,All,Glasgow City,23.36,23.84,23.6
+S12000011,2017,All,Pensioners,All,All,All,East Renfrewshire,24,25.22,24.61
+S12000011,2017,All,Adults,All,All,All,East Renfrewshire,23.31,24.83,24.07
+S12000005,2017,All,Pensioners,All,All,All,Clackmannanshire,23.62,25.49,24.56
+S12000028,2014,All,All,35-64 years,All,All,South Ayrshire,23.38,24.78,24.08
+S12000036,2016-2017,All,All,All,All,All,City of Edinburgh,23.95,24.26,24.1
+S12000008,2014,Owned Outright,All,All,All,All,East Ayrshire,23.12,25.11,24.11
+S12000028,2014,All,All,16-34 years,All,All,South Ayrshire,22.36,24.15,23.25
+S12000006,2017,All,With Children,All,All,All,Dumfries and Galloway,23.68,25.26,24.47
+S12000008,2017,All,Adults,All,All,All,East Ayrshire,22.68,24.16,23.42
+S12000008,2017,All,With Children,All,All,All,East Ayrshire,22.66,24.15,23.41
+S12000014,2017,Rented,All,All,All,All,Falkirk,22.38,23.79,23.08
+S12000017,2017,Owned Mortgage/Loan,All,All,All,All,Highland,24.68,25.85,25.26
+S12000038,2014,All,All,35-64 years,All,All,Renfrewshire,23.82,25.06,24.44
+S12000023,2015,All,All,16-64 years,All,All,Orkney Islands,25.01,26.37,25.69
+S12000006,2017,All,Adults,All,All,All,Dumfries and Galloway,24.04,25.52,24.78
+S12000017,2017,Owned Outright,All,All,All,All,Highland,24.21,25.35,24.78
+S12000005,2017,All,With Children,All,All,All,Clackmannanshire,23.7,25.2,24.45
+S12000008,2014,Owned Mortgage/Loan,All,All,All,All,East Ayrshire,22.62,24.14,23.38
+S12000047,2017,Owned Mortgage/Loan,All,All,All,All,Fife,23.96,25.22,24.59
+S12000005,2017,All,Adults,All,All,All,Clackmannanshire,23.28,25.14,24.21
+S12000049,2015,All,All,16-64 years,All,All,Glasgow City,23.55,24.07,23.81
+S12000048,2017,Rented,All,All,All,All,Perth and Kinross,21.85,23.6,22.73
+S12000038,2016-2017,All,All,All,All,All,Renfrewshire,23.66,24.18,23.92
+S12000048,2017,Owned Mortgage/Loan,All,All,All,All,Perth and Kinross,23.51,25.26,24.38
+S12000008,2014,Rented,All,All,All,All,East Ayrshire,22.26,24.06,23.16
+S12000047,2017,Rented,All,All,All,All,Fife,22.57,23.57,23.07
+S12000006,2017,All,Pensioners,All,All,All,Dumfries and Galloway,23.81,25.27,24.54
+S12000049,2014-2015,All,All,All,All,All,Glasgow City,23.71,24.06,23.89
+S12000029,2014,All,All,16-34 years,All,All,South Lanarkshire,24.72,26.48,25.6
+S12000048,2017,Owned Outright,All,All,All,All,Perth and Kinross,23.39,24.51,23.95
+S12000021,2015,All,All,16-64 years,All,All,North Ayrshire,24.01,25.09,24.55
+S12000041,2017,Owned Outright,All,All,All,All,Angus,24.02,25.41,24.71
+S12000040,2017,Rented,All,All,All,All,West Lothian,21.92,23.79,22.86
+S12000030,2014,All,All,16-34 years,All,All,Stirling,23.94,26.78,25.36
+S12000006,2014,All,All,All,Male,All,Dumfries and Galloway,23.91,25.27,24.59
+S12000020,2015,All,All,16-64 years,All,All,Moray,23.73,24.8,24.26
+S12000039,2017,Rented,All,All,All,All,West Dunbartonshire,22.44,24.24,23.34
+S12000040,2017,Owned Outright,All,All,All,All,West Lothian,24.42,25.93,25.17
+S12000040,2017,Owned Mortgage/Loan,All,All,All,All,West Lothian,24.01,25.57,24.79
+S12000010,2014,Rented,All,All,All,All,East Lothian,22.79,24.83,23.81
+S12000041,2017,Owned Mortgage/Loan,All,All,All,All,Angus,23.8,25.63,24.72
+S12000011,2014,Owned Outright,All,All,All,All,East Renfrewshire,25.09,26.78,25.94
+S12000035,2016-2017,All,All,All,All,All,Argyll and Bute,25,25.75,25.37
+S12000020,2016-2017,All,All,All,All,All,Moray,23.91,24.68,24.3
+S12000049,2014,All,All,All,All,All,Glasgow City,24.01,24.49,24.25
+S12000029,2014,Rented,All,All,All,All,South Lanarkshire,22.74,24.13,23.44
+S12000042,2014,All,All,16-64 years,All,All,Dundee City,23.13,24.32,23.72
+S12000045,2014,All,All,16-64 years,All,All,East Dunbartonshire,24.42,25.57,25
+S12000029,2014,Owned Mortgage/Loan,All,All,All,All,South Lanarkshire,24.46,25.66,25.06
+S12000030,2014,Owned Outright,All,All,All,All,Stirling,24.91,26.06,25.48
+S12000035,2017,Rented,All,All,All,All,Argyll and Bute,24.09,25.84,24.96
+S12000034,2017,Owned Mortgage/Loan,All,All,All,All,Aberdeenshire,24.96,26.19,25.58
+S12000033,2014,All,All,35-64 years,All,All,Aberdeen City,24.04,24.94,24.49
+S12000013,2014,Owned Outright,All,All,All,All,Na h-Eileanan Siar,23.66,25.15,24.41
+S12000036,2017,Owned Outright,All,All,All,All,City of Edinburgh,23.89,24.62,24.25
+S12000033,2014,All,All,16-34 years,All,All,Aberdeen City,23.82,25,24.41
+S12000038,2017,Owned Mortgage/Loan,All,All,All,All,Renfrewshire,23.44,24.52,23.98
+S12000011,2014,Owned Mortgage/Loan,All,All,All,All,East Renfrewshire,24.08,25.67,24.88
+S12000038,2017,Rented,All,All,All,All,Renfrewshire,21.82,23.29,22.55
+S12000039,2017,Owned Mortgage/Loan,All,All,All,All,West Dunbartonshire,24.32,26.32,25.32
+S12000030,2014,All,All,35-64 years,All,All,Stirling,24.57,25.74,25.15
+S12000035,2017,Owned Outright,All,All,All,All,Argyll and Bute,25.96,27.49,26.72
+S12000034,2017,Rented,All,All,All,All,Aberdeenshire,23.3,24.8,24.05
+S12000019,2015,All,All,16-64 years,All,All,Midlothian,25.87,27.36,26.61
+S12000045,2017,Rented,All,All,All,All,East Dunbartonshire,22.48,26.04,24.26
+S12000047,2017,Owned Outright,All,All,All,All,Fife,24.23,25.18,24.71
+S12000010,2014,Owned Outright,All,All,All,All,East Lothian,23.91,26.34,25.13
+S12000049,2014,All,All,16-64 years,All,All,Glasgow City,24.05,24.59,24.32
+S12000045,2017,Owned Outright,All,All,All,All,East Dunbartonshire,23.98,25.44,24.71
+S12000045,2017,Owned Mortgage/Loan,All,All,All,All,East Dunbartonshire,23.41,25.09,24.25
+S12000029,2014,All,All,35-64 years,All,All,South Lanarkshire,23.53,24.52,24.02
+S12000010,2014,Owned Mortgage/Loan,All,All,All,All,East Lothian,24.29,26.89,25.59
+S12000042,2017,Rented,All,All,All,All,Dundee City,22.45,23.67,23.06
+S12000035,2017,Owned Mortgage/Loan,All,All,All,All,Argyll and Bute,24.25,26.53,25.39
+S12000042,2017,Owned Mortgage/Loan,All,All,All,All,Dundee City,23.82,25.92,24.87
+S12000042,2017,Owned Outright,All,All,All,All,Dundee City,23.66,25.42,24.54
+S12000041,2017,Rented,All,All,All,All,Angus,22.63,24.51,23.57
+S12000033,2015,All,All,All,Female,All,Aberdeen City,24.39,25.44,24.91
+S12000039,2015,All,All,All,Female,All,West Dunbartonshire,23.69,24.79,24.24
+S12000021,2015,All,All,All,Female,All,North Ayrshire,23.74,24.96,24.35
+S12000034,2015,All,All,All,Female,All,Aberdeenshire,24.55,25.54,25.05
+S12000035,2015,All,All,All,Male,All,Argyll and Bute,24.61,25.93,25.27
+S12000029,2015,All,All,All,Female,All,South Lanarkshire,23.54,24.38,23.96
+S12000035,2015,All,All,All,Female,All,Argyll and Bute,24.47,25.67,25.07
+S12000036,2015,All,All,All,Male,All,City of Edinburgh,24.07,24.93,24.5
+S12000034,2015,All,All,All,Male,All,Aberdeenshire,24.49,25.57,25.03
+S12000036,2015,All,All,All,Female,All,City of Edinburgh,24.45,25.22,24.83
+S12000020,2015,All,All,All,Female,All,Moray,23.98,25.4,24.69
+S12000027,2015,All,All,All,Female,All,Shetland Islands,24.44,25.94,25.19
+S12000028,2015,All,All,All,Male,All,South Ayrshire,22.83,24.57,23.7
+S12000026,2015,All,All,All,Female,All,Scottish Borders,23.94,25.37,24.66
+S12000028,2015,All,All,All,Female,All,South Ayrshire,23.75,24.79,24.27
+S12000023,2015,All,All,All,Male,All,Orkney Islands,24.98,26.87,25.93
+S12000023,2015,All,All,All,Female,All,Orkney Islands,25.31,26.87,26.09
+S12000020,2015,All,All,All,Male,All,Moray,23.42,24.52,23.97
+S12000021,2015,All,All,All,Male,All,North Ayrshire,24.22,25.48,24.85
+S12000008,2015,All,All,All,Female,All,East Ayrshire,23.33,24.37,23.85
+S12000010,2015,All,All,All,Female,All,East Lothian,24.33,25.84,25.08
+S12000010,2015,All,All,All,Male,All,East Lothian,24.87,26.42,25.64
+S12000041,2015,All,All,All,Female,All,Angus,24.21,25.76,24.98
+S12000006,2015,All,All,All,Female,All,Dumfries and Galloway,24.02,25.33,24.68
+S12000042,2015,All,All,All,Male,All,Dundee City,23.94,25.62,24.78
+S12000045,2015,All,All,35-64 years,All,All,East Dunbartonshire,24.37,25.57,24.97
+S12000045,2015,All,All,16-34 years,All,All,East Dunbartonshire,22.36,24.27,23.31
+S92000003,2015,All,All,16-34 years,All,All,Scotland,24.24,24.58,24.41
+S12000005,2014-2015,All,All,All,All,All,Clackmannanshire,23.6,24.4,24
+S12000033,2015,All,All,All,Male,All,Aberdeen City,23.97,24.96,24.47
+S12000038,2015,All,All,All,Male,All,Renfrewshire,23.9,24.97,24.44
+S12000030,2015,All,All,All,Male,All,Stirling,24.31,25.63,24.97
+S12000038,2015,All,All,All,Female,All,Renfrewshire,23.9,24.96,24.43
+S12000029,2015,All,All,All,Male,All,South Lanarkshire,23.91,24.88,24.4
+S12000006,2015,All,All,All,Male,All,Dumfries and Galloway,23.52,24.56,24.04
+S12000008,2015,All,All,All,Male,All,East Ayrshire,22.75,24.06,23.4
+S12000030,2015,All,All,All,Female,All,Stirling,23.33,24.47,23.9
+S12000048,2015,All,All,All,Female,All,Perth and Kinross,23.83,25.07,24.45
+S12000018,2015,All,All,16-34 years,All,All,Inverclyde,23.48,25.5,24.49
+S12000019,2015,All,All,16-34 years,All,All,Midlothian,25.73,27.98,26.85
+S12000017,2015,All,All,16-34 years,All,All,Highland,23.37,25.13,24.25
+S12000017,2015,All,All,35-64 years,All,All,Highland,24.17,25.09,24.63
+S12000045,2015,All,All,All,Male,All,East Dunbartonshire,23.84,25.38,24.61
+S12000033,2014-2015,All,All,All,All,All,Aberdeen City,24.29,24.78,24.53
+S12000014,2015,All,All,35-64 years,All,All,Falkirk,24.28,25.32,24.8
+S12000010,2015,All,All,35-64 years,All,All,East Lothian,24.82,26.2,25.51
+S92000003,2014-2017,All,All,All,All,All,Scotland,24.32,24.4,24.36
+S12000011,2015,All,All,35-64 years,All,All,East Renfrewshire,23.88,25.29,24.59
+S12000011,2015,All,All,16-34 years,All,All,East Renfrewshire,22.17,24.93,23.55
+S12000042,2014-2017,All,All,All,All,All,Dundee City,23.56,24.09,23.83
+S12000018,2015,All,All,35-64 years,All,All,Inverclyde,23.01,24.54,23.78
+S12000048,2014-2015,All,All,All,All,All,Perth and Kinross,24.15,24.83,24.49
+S12000048,2015,All,All,16-64 years,All,All,Perth and Kinross,24.11,25.14,24.62
+S12000045,2014-2017,All,All,All,All,All,East Dunbartonshire,24.42,24.94,24.68
+S12000048,2014,All,All,16-64 years,All,All,Perth and Kinross,24.14,25.5,24.82
+S12000038,2015,All,All,16-34 years,All,All,Renfrewshire,24.2,25.79,24.99
+S12000038,2015,All,All,35-64 years,All,All,Renfrewshire,23.68,24.76,24.22
+S12000039,2014-2015,All,All,All,All,All,West Dunbartonshire,23.9,24.58,24.24
+S12000042,2014-2015,All,All,All,All,All,Dundee City,23.56,24.39,23.98
+S12000036,2015,All,All,16-34 years,All,All,City of Edinburgh,24.12,25.17,24.65
+S12000038,2014-2015,All,All,All,All,All,Renfrewshire,24.14,24.68,24.41
+S12000036,2014-2015,All,All,All,All,All,City of Edinburgh,24.44,24.86,24.65
+S12000014,2014-2015,All,All,All,All,All,Falkirk,24.16,24.74,24.45
+S12000017,2014-2015,All,All,All,All,All,Highland,24.42,24.93,24.68
+S12000042,2015,All,All,35-64 years,All,All,Dundee City,23.5,24.99,24.25
+S12000008,2014-2015,All,All,All,All,All,East Ayrshire,23.36,23.94,23.65
+S12000013,2014-2015,All,All,All,All,All,Na h-Eileanan Siar,24.09,24.95,24.52
+S12000041,2015,All,All,35-64 years,All,All,Angus,23.4,24.71,24.05
+S12000042,2015,All,All,16-34 years,All,All,Dundee City,23.67,26.35,25.01
+S12000028,2014-2015,All,All,All,All,All,South Ayrshire,23.66,24.27,23.97
+S12000027,2014-2015,All,All,All,All,All,Shetland Islands,24.68,25.56,25.12
+S12000040,2015,All,All,16-34 years,All,All,West Lothian,23.24,27.74,25.49
+S12000039,2015,All,All,16-34 years,All,All,West Dunbartonshire,23.45,25.38,24.42
+S12000034,2014-2015,All,All,All,All,All,Aberdeenshire,24.54,25.08,24.81
+S12000035,2014-2015,All,All,All,All,All,Argyll and Bute,24.68,25.42,25.05
+S12000041,2014-2015,All,All,All,All,All,Angus,24.04,24.89,24.46
+S12000036,2015,All,All,35-64 years,All,All,City of Edinburgh,24.08,24.85,24.47
+S12000040,2014-2015,All,All,All,All,All,West Lothian,24.11,24.86,24.48
+S12000030,2014-2015,All,All,All,All,All,Stirling,24.29,25.04,24.67
+S12000029,2014-2015,All,All,All,All,All,South Lanarkshire,24.05,24.53,24.29
+S12000039,2015,All,All,35-64 years,All,All,West Dunbartonshire,23.91,25.15,24.53
+S12000019,2015,All,All,35-64 years,All,All,Midlothian,25.56,27.4,26.48
+S12000048,2015,All,All,16-34 years,All,All,Perth and Kinross,24.06,26.04,25.05
+S12000048,2015,All,All,35-64 years,All,All,Perth and Kinross,23.82,24.97,24.4
+S12000048,2015,All,All,All,Male,All,Perth and Kinross,23.94,25.15,24.55
+S12000048,2014,All,Pensioners,All,All,All,Perth and Kinross,23.6,25.07,24.33
+S12000021,2015,All,All,35-64 years,All,All,North Ayrshire,23.65,24.89,24.27
+S12000023,2015,All,All,16-34 years,All,All,Orkney Islands,23.86,26.46,25.16
+S12000048,2015,All,Pensioners,All,All,All,Perth and Kinross,23.66,25.15,24.4
+S12000020,2015,All,All,16-34 years,All,All,Moray,22.91,24.76,23.83
+S12000027,2015,All,All,16-34 years,All,All,Shetland Islands,24.6,27.05,25.83
+S12000048,2015,All,Adults,All,All,All,Perth and Kinross,23.73,25.13,24.43
+S12000048,2015,All,With Children,All,All,All,Perth and Kinross,23.91,25.51,24.71
+S12000020,2015,All,All,35-64 years,All,All,Moray,23.88,25.13,24.5
+S12000048,2015,Rented,All,All,All,All,Perth and Kinross,23.75,25.46,24.61
+S12000027,2015,All,All,All,Male,All,Shetland Islands,24.41,26.1,25.25
+S12000039,2015,All,All,All,Male,All,West Dunbartonshire,23.96,25.43,24.7
+S12000026,2015,All,All,All,Male,All,Scottish Borders,23.85,25.41,24.63
+S12000048,2015,All,All,All,All,All,Perth and Kinross,24.05,24.94,24.5
+S12000048,2015,Owned Mortgage/Loan,All,All,All,All,Perth and Kinross,24.08,25.46,24.77
+S12000048,2015,Owned Outright,All,All,All,All,Perth and Kinross,23.51,24.9,24.2
+S12000021,2015,All,All,16-34 years,All,All,North Ayrshire,24.18,25.99,25.09
+S12000026,2015,All,All,35-64 years,All,All,Scottish Borders,24.07,25.66,24.86
+S12000048,2014,Owned Outright,All,All,All,All,Perth and Kinross,23.87,25.95,24.91
+S12000048,2014,Owned Mortgage/Loan,All,All,All,All,Perth and Kinross,23.92,25.54,24.73
+S12000048,2014,Rented,All,All,All,All,Perth and Kinross,23.35,25.39,24.37
+S12000026,2015,All,All,16-34 years,All,All,Scottish Borders,22.46,25.34,23.9
+S12000013,2015,All,All,35-64 years,All,All,Na h-Eileanan Siar,23.85,25.07,24.46
+S12000013,2015,All,All,16-34 years,All,All,Na h-Eileanan Siar,22.95,26.41,24.68
+S12000014,2015,All,All,16-34 years,All,All,Falkirk,24,25.58,24.79
+S12000028,2015,All,All,16-34 years,All,All,South Ayrshire,21.74,24.49,23.11
+S92000003,2015,All,All,All,Female,All,Scotland,24.28,24.49,24.38
+S12000027,2015,All,All,35-64 years,All,All,Shetland Islands,24.12,25.51,24.81
+S12000047,2015,All,All,16-64 years,All,All,Fife,24.09,24.91,24.5
+S12000048,2014,All,All,All,All,All,Perth and Kinross,24.1,25.21,24.66
+S12000047,2014-2015,All,All,All,All,All,Fife,24.24,24.7,24.47
+S12000048,2014,All,All,16-34 years,All,All,Perth and Kinross,23.82,26.61,25.21
+S12000048,2014,All,All,35-64 years,All,All,Perth and Kinross,23.94,25.3,24.62
+S12000048,2014,All,With Children,All,All,All,Perth and Kinross,23.67,26.34,25.01
+S12000048,2014,All,All,All,Male,All,Perth and Kinross,24.03,25.6,24.81
+S12000048,2014,All,Adults,All,All,All,Perth and Kinross,23.81,25.57,24.69
+S12000047,2014,All,All,16-64 years,All,All,Fife,24.11,24.97,24.54
+S12000023,2015,All,All,35-64 years,All,All,Orkney Islands,25.17,26.7,25.93
+S12000048,2014,All,All,All,Female,All,Perth and Kinross,23.74,25.29,24.51
+S12000008,2015,All,Pensioners,All,All,All,East Ayrshire,22.76,23.97,23.37
+S12000019,2016,All,With Children,All,All,All,Midlothian,24.02,25.99,25
+S12000019,2016,All,Pensioners,All,All,All,Midlothian,23.98,25.74,24.86
+S12000018,2016,All,Adults,All,All,All,Inverclyde,22.54,24.14,23.34
+S12000010,2015,All,Adults,All,All,All,East Lothian,24.78,26.45,25.62
+S12000019,2016,All,Adults,All,All,All,Midlothian,23.82,25.49,24.66
+S12000018,2016,All,Pensioners,All,All,All,Inverclyde,23.67,24.97,24.32
+S12000021,2016,All,Adults,All,All,All,North Ayrshire,23.26,24.61,23.94
+S12000021,2016,All,With Children,All,All,All,North Ayrshire,23.79,25.76,24.78
+S12000006,2015,All,Pensioners,All,All,All,Dumfries and Galloway,24.4,25.68,25.04
+S12000008,2015,All,Adults,All,All,All,East Ayrshire,22.79,24.05,23.42
+S12000010,2015,All,With Children,All,All,All,East Lothian,24.72,26.83,25.77
+S12000018,2016,All,With Children,All,All,All,Inverclyde,24.58,26.74,25.66
+S12000005,2015,All,Adults,All,All,All,Clackmannanshire,22.5,24.35,23.43
+S12000006,2015,All,With Children,All,All,All,Dumfries and Galloway,23.44,25.14,24.29
+S12000027,2016,All,Pensioners,All,All,All,Shetland Islands,24.11,25.93,25.02
+S12000023,2016,All,With Children,All,All,All,Orkney Islands,23.41,28.81,26.11
+S12000023,2016,All,Pensioners,All,All,All,Orkney Islands,25.01,27.62,26.31
+S12000048,2016,All,Adults,All,All,All,Perth and Kinross,23.62,25.11,24.37
+S12000026,2016,All,Pensioners,All,All,All,Scottish Borders,24.51,25.72,25.12
+S12000027,2016,All,Adults,All,All,All,Shetland Islands,23.83,25.29,24.56
+S12000027,2016,All,With Children,All,All,All,Shetland Islands,24.14,25.9,25.02
+S92000003,2015,Rented,All,All,All,All,Scotland,23.51,23.79,23.65
+S12000028,2016,All,Adults,All,All,All,South Ayrshire,23.51,25.05,24.28
+S12000005,2015,All,With Children,All,All,All,Clackmannanshire,23.47,25.29,24.38
+S12000028,2016,All,With Children,All,All,All,South Ayrshire,23.17,25.85,24.51
+S12000023,2015,All,Adults,All,All,All,Orkney Islands,24.38,26.01,25.2
+S12000034,2016,Rented,All,All,All,All,Aberdeenshire,23.07,24.57,23.82
+S12000034,2016,Owned Mortgage/Loan,All,All,All,All,Aberdeenshire,24.3,25.39,24.84
+S12000026,2015,All,Adults,All,All,All,Scottish Borders,22.96,24.65,23.8
+S12000034,2016,Owned Outright,All,All,All,All,Aberdeenshire,24.44,25.41,24.92
+S12000029,2016,Owned Mortgage/Loan,All,All,All,All,South Lanarkshire,24.68,25.83,25.26
+S12000033,2016,Rented,All,All,All,All,Aberdeen City,23.26,24.31,23.79
+S12000048,2016,Rented,All,All,All,All,Perth and Kinross,23.12,24.6,23.86
+S12000033,2016,Owned Mortgage/Loan,All,All,All,All,Aberdeen City,24.33,25.52,24.92
+S12000021,2015,All,Pensioners,All,All,All,North Ayrshire,23.91,25.4,24.65
+S12000033,2016,Owned Outright,All,All,All,All,Aberdeen City,24.64,25.95,25.29
+S12000023,2015,All,With Children,All,All,All,Orkney Islands,24.97,27.51,26.24
+S12000020,2016,All,Pensioners,All,All,All,Moray,24.27,25.56,24.92
+S12000030,2016,Owned Outright,All,All,All,All,Stirling,23.63,25.16,24.39
+S12000008,2015,All,With Children,All,All,All,East Ayrshire,23.28,25.16,24.22
+S12000021,2016,All,Pensioners,All,All,All,North Ayrshire,24.39,25.87,25.13
+S12000020,2016,All,With Children,All,All,All,Moray,23.89,25.68,24.78
+S12000023,2016,All,Adults,All,All,All,Orkney Islands,23.88,25.9,24.89
+S12000020,2016,All,Adults,All,All,All,Moray,22.29,24.06,23.17
+S12000026,2015,All,With Children,All,All,All,Scottish Borders,24.8,27.09,25.94
+S12000030,2016,Owned Mortgage/Loan,All,All,All,All,Stirling,23.16,25.78,24.47
+S12000028,2016,Rented,All,All,All,All,South Ayrshire,22.66,24.36,23.51
+S12000029,2016,Owned Outright,All,All,All,All,South Lanarkshire,24.13,25.28,24.7
+S12000029,2016,Rented,All,All,All,All,South Lanarkshire,22.04,23.56,22.8
+S12000023,2015,All,Pensioners,All,All,All,Orkney Islands,26.01,28.27,27.14
+S12000030,2016,Rented,All,All,All,All,Stirling,22.98,24.72,23.85
+S12000017,2016,All,Adults,All,All,All,Highland,24.07,25.2,24.64
+S12000047,2016,All,Pensioners,All,All,All,Fife,24.29,25.28,24.78
+S12000010,2015,All,Pensioners,All,All,All,East Lothian,23.6,25.11,24.35
+S12000011,2015,All,Adults,All,All,All,East Renfrewshire,22.81,24.82,23.82
+S12000013,2016,All,Adults,All,All,All,Na h-Eileanan Siar,23.89,25.45,24.67
+S12000013,2016,All,With Children,All,All,All,Na h-Eileanan Siar,23.24,24.93,24.09
+S12000014,2016,All,Pensioners,All,All,All,Falkirk,23.56,25.4,24.48
+S12000047,2016,All,With Children,All,All,All,Fife,24,25.34,24.67
+S12000017,2016,All,With Children,All,All,All,Highland,23.66,24.97,24.31
+S12000017,2016,All,Pensioners,All,All,All,Highland,24.59,25.62,25.11
+S12000047,2016,All,Adults,All,All,All,Fife,24.57,25.6,25.09
+S12000011,2015,All,With Children,All,All,All,East Renfrewshire,23.65,25.38,24.52
+S12000005,2016,All,All,All,All,All,Clackmannanshire,23.42,24.69,24.06
+S12000013,2016,All,Pensioners,All,All,All,Na h-Eileanan Siar,25.29,27.42,26.35
+S12000010,2016,All,All,All,All,All,East Lothian,23.6,24.61,24.1
+S12000041,2015,All,With Children,All,All,All,Angus,23.19,25.26,24.23
+S12000006,2016,All,All,All,All,All,Dumfries and Galloway,23.63,24.45,24.04
+S12000042,2015,All,Adults,All,All,All,Dundee City,23.3,24.97,24.14
+S12000011,2015,All,Pensioners,All,All,All,East Renfrewshire,24.34,26.15,25.25
+S12000014,2016,All,With Children,All,All,All,Falkirk,23.41,24.82,24.11
+S12000013,2015,All,With Children,All,All,All,Na h-Eileanan Siar,24.1,25.62,24.86
+S12000011,2016,All,Pensioners,All,All,All,East Renfrewshire,24.18,25.62,24.9
+S12000014,2016,All,Adults,All,All,All,Falkirk,23.39,24.72,24.05
+S12000013,2015,All,Adults,All,All,All,Na h-Eileanan Siar,23.08,25.02,24.05
+S12000008,2016,All,With Children,All,All,All,East Ayrshire,22.86,25.03,23.95
+S12000008,2016,All,Pensioners,All,All,All,East Ayrshire,23.56,24.74,24.15
+S12000010,2016,All,Adults,All,All,All,East Lothian,23.01,24.43,23.72
+S12000011,2016,All,With Children,All,All,All,East Renfrewshire,23.86,25.6,24.73
+S12000013,2015,All,Pensioners,All,All,All,Na h-Eileanan Siar,24.6,26.07,25.34
+S12000014,2015,All,With Children,All,All,All,Falkirk,24.71,26.03,25.37
+S12000011,2016,All,Adults,All,All,All,East Renfrewshire,22.95,24.95,23.95
+S12000026,2016,All,With Children,All,All,All,Scottish Borders,23.35,25.9,24.63
+S12000005,2015,All,Pensioners,All,All,All,Clackmannanshire,24.22,26.21,25.21
+S12000026,2016,All,Adults,All,All,All,Scottish Borders,23.35,25.04,24.19
+S12000006,2015,All,Adults,All,All,All,Dumfries and Galloway,23.19,24.59,23.89
+S12000048,2016,All,Pensioners,All,All,All,Perth and Kinross,24.1,25.35,24.73
+S12000048,2016,All,With Children,All,All,All,Perth and Kinross,23.49,25.67,24.58
+S12000014,2015,All,Pensioners,All,All,All,Falkirk,24.42,25.84,25.13
+S12000017,2015,All,With Children,All,All,All,Highland,24.35,25.95,25.15
+S12000006,2016,All,Pensioners,All,All,All,Dumfries and Galloway,23.72,24.74,24.23
+S12000005,2016,All,With Children,All,All,All,Clackmannanshire,23.55,25.76,24.65
+S12000006,2016,All,Adults,All,All,All,Dumfries and Galloway,23.01,24.41,23.71
+S12000006,2016,All,With Children,All,All,All,Dumfries and Galloway,23.6,25.11,24.35
+S12000008,2016,All,Adults,All,All,All,East Ayrshire,22.94,24.52,23.73
+S12000010,2016,All,Pensioners,All,All,All,East Lothian,23.73,25.35,24.54
+S12000005,2016,All,Pensioners,All,All,All,Clackmannanshire,23.1,25.24,24.17
+S12000010,2016,All,With Children,All,All,All,East Lothian,23.15,25.32,24.23
+S12000014,2015,All,Adults,All,All,All,Falkirk,23.85,25.02,24.44
+S12000005,2016,All,Adults,All,All,All,Clackmannanshire,22.56,24.52,23.54
+S12000017,2015,All,Adults,All,All,All,Highland,23.59,24.6,24.09
+S12000041,2015,All,All,All,Male,All,Angus,23.17,24.85,24.01
+S12000011,2015,All,All,All,Male,All,East Renfrewshire,23.95,25.68,24.82
+S12000014,2015,All,All,All,Male,All,Falkirk,24.45,25.55,25
+S12000011,2015,All,All,All,Female,All,East Renfrewshire,23.31,24.82,24.06
+S12000013,2015,All,All,All,Male,All,Na h-Eileanan Siar,24,25.33,24.66
+S12000038,2016,Owned Mortgage/Loan,All,All,All,All,Renfrewshire,23.99,25.24,24.62
+S12000038,2016,Rented,All,All,All,All,Renfrewshire,21.85,23.28,22.56
+S12000039,2016,Owned Outright,All,All,All,All,West Dunbartonshire,23.7,25.47,24.58
+S12000040,2015,All,All,All,Female,All,West Lothian,24.13,25.46,24.79
+S12000014,2015,All,All,All,Female,All,Falkirk,24.26,25.29,24.78
+S12000013,2015,All,All,All,Female,All,Na h-Eileanan Siar,23.87,25.49,24.68
+S12000018,2015,All,All,All,Male,All,Inverclyde,23.32,24.73,24.02
+S12000017,2015,All,All,All,Male,All,Highland,24.11,25.13,24.62
+S12000005,2015,All,All,All,Female,All,Clackmannanshire,23.68,25.48,24.58
+S12000005,2015,All,All,All,Male,All,Clackmannanshire,23.04,24.49,23.77
+S92000003,2015,All,All,35-64 years,All,All,Scotland,24.22,24.43,24.33
+S12000019,2015,All,All,All,Female,All,Midlothian,25.51,27.3,26.41
+S12000040,2015,All,All,All,Male,All,West Lothian,23.6,26.42,25.01
+S12000018,2015,All,All,All,Female,All,Inverclyde,23.75,25.03,24.39
+S12000017,2015,All,All,All,Female,All,Highland,24.14,25.17,24.65
+S12000019,2015,All,All,All,Male,All,Midlothian,25.41,27.13,26.27
+S12000041,2016,Rented,All,All,All,All,Angus,22.42,23.94,23.18
+S12000042,2016,Owned Outright,All,All,All,All,Dundee City,23.07,24.62,23.84
+S12000019,2015,All,Adults,All,All,All,Midlothian,25.1,27,26.05
+S12000026,2016,Owned Mortgage/Loan,All,All,All,All,Scottish Borders,23.8,25.95,24.88
+S12000026,2016,Rented,All,All,All,All,Scottish Borders,22.92,24.83,23.88
+S12000027,2015,All,Adults,All,All,All,Shetland Islands,23.62,25.21,24.41
+S12000027,2016,Owned Outright,All,All,All,All,Shetland Islands,24.35,26.06,25.2
+S12000040,2016,Owned Mortgage/Loan,All,All,All,All,West Lothian,24.69,26.03,25.36
+S12000041,2016,Owned Mortgage/Loan,All,All,All,All,Angus,24.32,26.27,25.29
+S12000018,2015,All,Pensioners,All,All,All,Inverclyde,24.33,25.48,24.9
+S12000042,2016,Owned Mortgage/Loan,All,All,All,All,Dundee City,23.27,25.28,24.28
+S12000019,2015,All,With Children,All,All,All,Midlothian,26.19,28.38,27.28
+S12000040,2016,Rented,All,All,All,All,West Lothian,22.94,24.54,23.74
+S12000023,2016,Owned Mortgage/Loan,All,All,All,All,Orkney Islands,24.97,28.94,26.95
+S12000023,2016,Rented,All,All,All,All,Orkney Islands,22.85,24.97,23.91
+S12000048,2016,Owned Outright,All,All,All,All,Perth and Kinross,24.22,25.79,25
+S12000028,2015,All,Adults,All,All,All,South Ayrshire,23.02,24.87,23.94
+S12000048,2016,Owned Mortgage/Loan,All,All,All,All,Perth and Kinross,23.79,25.58,24.68
+S12000026,2016,Owned Outright,All,All,All,All,Scottish Borders,24.49,25.82,25.16
+S12000027,2015,All,Pensioners,All,All,All,Shetland Islands,24.6,26.69,25.64
+S12000028,2016,Owned Mortgage/Loan,All,All,All,All,South Ayrshire,23.46,25.6,24.53
+S12000027,2015,All,With Children,All,All,All,Shetland Islands,24.93,26.98,25.96
+S12000028,2016,Owned Outright,All,All,All,All,South Ayrshire,24.1,25.78,24.94
+S12000027,2016,Rented,All,All,All,All,Shetland Islands,23.34,25.2,24.27
+S12000027,2016,Owned Mortgage/Loan,All,All,All,All,Shetland Islands,24.17,25.34,24.75
+S12000026,2015,All,Pensioners,All,All,All,Scottish Borders,23.99,25.22,24.6
+S12000035,2016,Owned Outright,All,All,All,All,Argyll and Bute,25.03,26.27,25.65
+S12000021,2015,All,With Children,All,All,All,North Ayrshire,23.6,25.12,24.36
+S12000021,2015,All,Adults,All,All,All,North Ayrshire,23.96,25.41,24.68
+S12000038,2016,Owned Outright,All,All,All,All,Renfrewshire,24.55,25.69,25.12
+S12000020,2015,All,Pensioners,All,All,All,Moray,23.98,25.51,24.74
+S12000036,2016,Owned Mortgage/Loan,All,All,All,All,City of Edinburgh,23.75,24.41,24.08
+S12000035,2016,Owned Mortgage/Loan,All,All,All,All,Argyll and Bute,24.43,25.85,25.14
+S12000039,2016,Rented,All,All,All,All,West Dunbartonshire,23.35,25.04,24.19
+S12000040,2016,Owned Outright,All,All,All,All,West Lothian,24.11,25.62,24.86
+S12000020,2015,All,With Children,All,All,All,Moray,23.17,24.99,24.08
+S12000019,2015,All,Pensioners,All,All,All,Midlothian,24.55,26.86,25.71
+S12000035,2016,Rented,All,All,All,All,Argyll and Bute,22.84,24.76,23.8
+S12000039,2016,Owned Mortgage/Loan,All,All,All,All,West Dunbartonshire,25.09,26.92,26
+S12000020,2015,All,Adults,All,All,All,Moray,23.57,24.91,24.24
+S92000003,2016,Rented,All,All,All,All,Scotland,23.34,23.59,23.46
+S92000003,2016,Owned Mortgage/Loan,All,All,All,All,Scotland,24.6,24.86,24.73
+S12000017,2015,All,Pensioners,All,All,All,Highland,24.37,25.56,24.97
+S12000018,2015,All,With Children,All,All,All,Inverclyde,23.16,25.19,24.17
+S92000003,2016,Owned Outright,All,All,All,All,Scotland,24.71,24.95,24.83
+S12000041,2016,Owned Outright,All,All,All,All,Angus,23.51,24.51,24.01
+S12000018,2015,All,Adults,All,All,All,Inverclyde,23.02,24.72,23.87
+S12000045,2016,Rented,All,All,All,All,East Dunbartonshire,23.34,25.47,24.41
+S12000045,2016,Owned Mortgage/Loan,All,All,All,All,East Dunbartonshire,24.28,25.78,25.03
+S12000036,2016,Owned Outright,All,All,All,All,City of Edinburgh,24.01,24.79,24.4
+S12000036,2016,Rented,All,All,All,All,City of Edinburgh,23.4,24.1,23.75
+S12000042,2016,Rented,All,All,All,All,Dundee City,22.32,23.5,22.91
+S12000045,2016,Owned Outright,All,All,All,All,East Dunbartonshire,24.57,26.32,25.45
+S12000013,2017,All,All,65 years and over,All,All,Na h-Eileanan Siar,22.41,24.76,23.59
+S12000013,2017,All,All,35-64 years,All,All,Na h-Eileanan Siar,23.31,24.62,23.96
+S12000042,2017,All,With Children,All,All,All,Dundee City,22.44,24.06,23.25
+S12000011,2017,All,All,65 years and over,All,All,East Renfrewshire,24.28,25.57,24.93
+S12000014,2017,All,All,16-34 years,All,All,Falkirk,23.13,24.8,23.97
+S12000045,2017,All,Adults,All,All,All,East Dunbartonshire,23.07,25,24.04
+S12000042,2017,All,Pensioners,All,All,All,Dundee City,23.61,25.04,24.33
+S12000040,2017,All,Pensioners,All,All,All,West Lothian,24.2,25.78,24.99
+S12000042,2017,All,Adults,All,All,All,Dundee City,23.13,24.69,23.91
+S12000045,2017,All,With Children,All,All,All,East Dunbartonshire,23.53,25.45,24.49
+S12000008,2017,All,All,35-64 years,All,All,East Ayrshire,22.76,24.05,23.4
+S12000008,2017,All,All,16-34 years,All,All,East Ayrshire,22.32,24.11,23.21
+S12000014,2017,All,All,65 years and over,All,All,Falkirk,23.46,24.93,24.19
+S12000006,2017,All,All,35-64 years,All,All,Dumfries and Galloway,23.84,24.92,24.38
+S12000008,2017,All,All,65 years and over,All,All,East Ayrshire,23.54,25.15,24.35
+S12000017,2017,All,All,35-64 years,All,All,Highland,24.4,25.46,24.93
+S12000017,2017,All,All,16-34 years,All,All,Highland,22.98,24.37,23.67
+S12000013,2017,All,All,16-34 years,All,All,Na h-Eileanan Siar,23.19,25.48,24.34
+S12000014,2017,All,All,35-64 years,All,All,Falkirk,23.42,24.6,24.01
+S12000017,2017,All,All,65 years and over,All,All,Highland,23.54,24.84,24.19
+S12000047,2017,All,Pensioners,All,All,All,Fife,24.27,25.23,24.75
+S12000048,2017,All,With Children,All,All,All,Perth and Kinross,22.97,24.6,23.78
+S12000048,2017,All,Adults,All,All,All,Perth and Kinross,22.77,24.33,23.55
+S12000045,2017,All,Pensioners,All,All,All,East Dunbartonshire,24.28,25.65,24.97
+S12000047,2017,All,Adults,All,All,All,Fife,23.08,23.98,23.53
+S12000030,2017,All,All,35-64 years,All,All,Stirling,23.04,24.51,23.78
+S12000033,2017,All,All,16-34 years,All,All,Aberdeen City,23.89,25.03,24.46
+S12000030,2017,All,All,65 years and over,All,All,Stirling,24.36,26.02,25.19
+S12000030,2017,All,All,16-34 years,All,All,Stirling,23.68,25.51,24.59
+S12000029,2017,All,All,65 years and over,All,All,South Lanarkshire,23.92,25.19,24.56
+S12000041,2017,All,With Children,All,All,All,Angus,23.56,25.72,24.64
+S12000041,2017,All,Adults,All,All,All,Angus,23.15,24.58,23.87
+S12000005,2017,All,All,16-34 years,All,All,Clackmannanshire,23.54,25.51,24.53
+S12000040,2017,All,With Children,All,All,All,West Lothian,23.61,25.71,24.66
+S12000041,2017,All,Pensioners,All,All,All,Angus,23.82,25.4,24.61
+S12000005,2017,All,All,65 years and over,All,All,Clackmannanshire,23.29,25.28,24.29
+S12000005,2017,All,All,35-64 years,All,All,Clackmannanshire,23.64,24.99,24.32
+S12000047,2017,All,With Children,All,All,All,Fife,23.7,25.13,24.42
+S12000048,2017,All,Pensioners,All,All,All,Perth and Kinross,23.33,24.55,23.94
+S12000006,2017,All,All,16-34 years,All,All,Dumfries and Galloway,23.88,26.47,25.18
+S12000021,2017,All,All,All,Male,All,North Ayrshire,23.07,24.4,23.73
+S12000021,2017,All,All,All,Female,All,North Ayrshire,22.71,23.87,23.29
+S12000026,2017,All,All,All,Male,All,Scottish Borders,23.91,25.27,24.59
+S12000041,2017,All,All,All,Female,All,Angus,23.9,25.26,24.58
+S12000042,2017,All,All,All,Male,All,Dundee City,22.91,24.27,23.59
+S12000018,2017,All,All,All,Female,All,Inverclyde,23.29,24.44,23.86
+S12000019,2017,All,All,All,Male,All,Midlothian,23.18,24.75,23.97
+S12000020,2017,All,All,All,Female,All,Moray,23.65,24.98,24.31
+S12000023,2017,All,All,All,Male,All,Orkney Islands,23.6,24.79,24.2
+S12000023,2017,All,All,All,Female,All,Orkney Islands,24.5,26.31,25.4
+S12000048,2017,All,All,All,Male,All,Perth and Kinross,23.29,24.51,23.9
+S12000045,2017,All,All,All,Male,All,East Dunbartonshire,23.24,24.74,23.99
+S12000047,2017,All,All,All,Male,All,Fife,23.65,24.64,24.14
+S12000035,2017,All,All,All,Female,All,Argyll and Bute,25.26,26.56,25.91
+S12000045,2017,All,All,All,Female,All,East Dunbartonshire,24.09,25.61,24.85
+S12000040,2017,All,All,All,Female,All,West Lothian,23.28,24.62,23.95
+S12000040,2017,All,All,All,Male,All,West Lothian,23.77,25.15,24.46
+S12000042,2017,All,All,All,Female,All,Dundee City,23.4,24.7,24.05
+S12000047,2017,All,All,All,Female,All,Fife,23.72,24.53,24.12
+S12000041,2017,All,All,All,Male,All,Angus,23.33,24.76,24.05
+S12000028,2017,All,All,All,Female,All,South Ayrshire,23.52,24.87,24.2
+S12000028,2017,All,All,All,Male,All,South Ayrshire,23.29,24.72,24
+S12000010,2017,All,All,35-64 years,All,All,East Lothian,23.44,24.56,24
+S12000027,2017,All,All,All,Male,All,Shetland Islands,23.98,25.43,24.7
+S12000029,2017,All,All,All,Male,All,South Lanarkshire,24.45,25.44,24.95
+S12000011,2017,All,All,16-34 years,All,All,East Renfrewshire,22.98,26.42,24.7
+S12000010,2017,All,All,65 years and over,All,All,East Lothian,23.65,25.2,24.42
+S12000006,2017,All,All,65 years and over,All,All,Dumfries and Galloway,23.89,25.25,24.57
+S12000010,2017,All,All,16-34 years,All,All,East Lothian,22.87,24.6,23.73
+S12000011,2017,All,All,35-64 years,All,All,East Renfrewshire,23.72,25.17,24.45
+S12000029,2017,All,All,All,Female,All,South Lanarkshire,24,24.93,24.46
+S12000030,2017,All,All,All,Male,All,Stirling,23.79,25.17,24.48
+S12000033,2017,All,All,All,Female,All,Aberdeen City,24,24.99,24.5
+S12000019,2017,All,All,All,Female,All,Midlothian,23.59,24.93,24.26
+S12000020,2017,All,All,All,Male,All,Moray,23.87,25.66,24.76
+S12000027,2017,All,All,All,Female,All,Shetland Islands,23.9,25.69,24.79
+S12000026,2017,All,All,All,Female,All,Scottish Borders,23.35,24.8,24.08
+S12000030,2017,All,All,All,Female,All,Stirling,23.51,24.89,24.2
+S12000033,2017,All,All,All,Male,All,Aberdeen City,24.05,25.01,24.53
+S92000003,2017,All,All,All,All,All,Scotland,24.16,24.31,24.23
+S12000048,2016,All,All,65 years and over,All,All,Perth and Kinross,23.96,25.34,24.65
+S12000048,2015,All,All,65 years and over,All,All,Perth and Kinross,23.37,24.92,24.15
+S12000047,2016,All,All,65 years and over,All,All,Fife,24.28,25.39,24.84
+S12000047,2014,All,All,65 years and over,All,All,Fife,24.16,25.29,24.72
+S12000047,2015,All,All,65 years and over,All,All,Fife,23.91,24.94,24.42
+S12000048,2014,All,All,65 years and over,All,All,Perth and Kinross,23.21,25.18,24.19
+S12000035,2017,All,All,16-34 years,All,All,Argyll and Bute,24.49,26.94,25.71
+S12000033,2017,All,All,65 years and over,All,All,Aberdeen City,24.13,25.49,24.81
+S12000034,2017,All,All,35-64 years,All,All,Aberdeenshire,24.46,25.27,24.87
+S12000034,2017,All,All,16-34 years,All,All,Aberdeenshire,24.74,26.48,25.61
+S12000033,2017,All,All,35-64 years,All,All,Aberdeen City,23.89,24.99,24.44
+S12000021,2017,All,All,16-34 years,All,All,North Ayrshire,22.49,24.3,23.39
+S12000019,2017,All,All,65 years and over,All,All,Midlothian,23.43,25.25,24.34
+S12000020,2017,All,All,35-64 years,All,All,Moray,23.4,24.87,24.14
+S12000034,2017,All,All,65 years and over,All,All,Aberdeenshire,24.74,25.97,25.36
+S12000020,2017,All,All,16-34 years,All,All,Moray,23.85,26.58,25.22
+S12000028,2017,All,All,65 years and over,All,All,South Ayrshire,23.57,24.98,24.28
+S12000029,2017,All,All,35-64 years,All,All,South Lanarkshire,24.18,25.13,24.65
+S12000029,2017,All,All,16-34 years,All,All,South Lanarkshire,24.22,25.57,24.89
+S12000028,2017,All,All,35-64 years,All,All,South Ayrshire,23.03,24.31,23.67
+S12000028,2017,All,All,16-34 years,All,All,South Ayrshire,23.6,26,24.8
+S12000036,2017,All,All,16-34 years,All,All,City of Edinburgh,24.02,24.81,24.41
+S12000036,2017,All,All,65 years and over,All,All,City of Edinburgh,23.75,24.62,24.19
+S12000036,2017,All,All,35-64 years,All,All,City of Edinburgh,23.68,24.31,23.99
+S12000035,2017,All,All,65 years and over,All,All,Argyll and Bute,25.57,26.95,26.26
+S12000035,2017,All,All,35-64 years,All,All,Argyll and Bute,24.66,26.39,25.53
+S12000021,2017,All,All,35-64 years,All,All,North Ayrshire,22.47,23.73,23.1
+S12000023,2017,All,All,16-34 years,All,All,Orkney Islands,22.33,24.24,23.29
+S12000021,2017,All,All,65 years and over,All,All,North Ayrshire,23.55,25.15,24.35
+S12000027,2017,All,All,16-34 years,All,All,Shetland Islands,23.51,25.82,24.67
+S12000027,2017,All,All,35-64 years,All,All,Shetland Islands,23.79,25.37,24.58
+S12000023,2017,All,All,65 years and over,All,All,Orkney Islands,24.82,27.13,25.97
+S12000026,2017,All,All,16-34 years,All,All,Scottish Borders,23.08,25.61,24.35
+S12000023,2017,All,All,35-64 years,All,All,Orkney Islands,24.21,25.58,24.9
+S12000019,2017,All,All,35-64 years,All,All,Midlothian,23.42,24.7,24.06
+S12000018,2017,All,All,16-34 years,All,All,Inverclyde,21.98,24.15,23.07
+S12000018,2017,All,All,65 years and over,All,All,Inverclyde,23.11,24.44,23.78
+S12000020,2017,All,All,65 years and over,All,All,Moray,23.86,25.44,24.65
+S12000018,2017,All,All,35-64 years,All,All,Inverclyde,23.28,24.48,23.88
+S12000026,2017,All,All,35-64 years,All,All,Scottish Borders,23.82,25.24,24.53
+S12000027,2017,All,All,65 years and over,All,All,Shetland Islands,23.97,26.43,25.2
+S12000019,2017,All,All,16-34 years,All,All,Midlothian,22.84,25.28,24.06
+S12000026,2017,All,All,65 years and over,All,All,Scottish Borders,23.21,24.67,23.94
+S12000029,2017,All,With Children,All,All,All,South Lanarkshire,24.34,25.6,24.97
+S12000021,2017,All,Pensioners,All,All,All,North Ayrshire,23.46,25.06,24.26
+S12000029,2017,All,Adults,All,All,All,South Lanarkshire,24.07,25.14,24.61
+S12000023,2017,All,Adults,All,All,All,Orkney Islands,23.42,24.79,24.11
+S12000021,2017,All,With Children,All,All,All,North Ayrshire,22.45,24.19,23.32
+S12000027,2017,All,Pensioners,All,All,All,Shetland Islands,24.24,26.59,25.41
+S12000030,2017,All,Adults,All,All,All,Stirling,23.11,24.75,23.93
+S12000027,2017,All,Adults,All,All,All,Shetland Islands,23.31,24.79,24.05
+S12000030,2017,All,With Children,All,All,All,Stirling,23.69,25.49,24.59
+S12000029,2017,All,Pensioners,All,All,All,South Lanarkshire,24.03,25.09,24.56
+S12000023,2017,All,Pensioners,All,All,All,Orkney Islands,24.43,26.62,25.53
+S12000038,2017,All,Adults,All,All,All,Renfrewshire,22.91,24.07,23.49
+S12000023,2017,All,With Children,All,All,All,Orkney Islands,24.06,26.2,25.13
+S12000038,2017,All,With Children,All,All,All,Renfrewshire,22.87,24.09,23.48
+S12000036,2017,All,Pensioners,All,All,All,City of Edinburgh,23.77,24.57,24.17
+S12000021,2017,All,Adults,All,All,All,North Ayrshire,22.44,23.71,23.07
+S12000026,2017,All,With Children,All,All,All,Scottish Borders,23.36,25.41,24.39
+S12000020,2017,All,Pensioners,All,All,All,Moray,23.71,25.11,24.41
+S12000026,2017,All,Pensioners,All,All,All,Scottish Borders,23.39,24.67,24.03
+S12000026,2017,All,Adults,All,All,All,Scottish Borders,23.64,25.4,24.52
+S12000028,2017,All,With Children,All,All,All,South Ayrshire,23.68,25.5,24.59
+S12000028,2017,All,Adults,All,All,All,South Ayrshire,22.97,24.76,23.87
+S12000027,2017,All,With Children,All,All,All,Shetland Islands,23.98,26.12,25.05
+S12000028,2017,All,Pensioners,All,All,All,South Ayrshire,23.49,24.78,24.14
+S12000040,2017,All,All,65 years and over,All,All,West Lothian,23.75,25.35,24.55
+S12000040,2017,All,All,35-64 years,All,All,West Lothian,23.79,24.98,24.39
+S12000038,2017,All,All,35-64 years,All,All,Renfrewshire,23.02,23.96,23.49
+S12000039,2017,All,All,65 years and over,All,All,West Dunbartonshire,23.9,25.91,24.9
+S12000041,2017,All,All,16-34 years,All,All,Angus,22.75,25.06,23.91
+S12000039,2017,All,All,16-34 years,All,All,West Dunbartonshire,23.17,26,24.58
+S12000038,2017,All,All,65 years and over,All,All,Renfrewshire,23.79,25.44,24.61
+S12000045,2017,All,All,65 years and over,All,All,East Dunbartonshire,24.08,25.63,24.86
+S12000038,2017,All,All,16-34 years,All,All,Renfrewshire,22.65,24.09,23.37
+S12000039,2017,All,All,35-64 years,All,All,West Dunbartonshire,23.48,24.91,24.2
+S12000017,2017,All,All,All,Female,All,Highland,24.11,25.06,24.59
+S12000017,2017,All,All,All,Male,All,Highland,23.76,24.79,24.27
+S12000011,2017,All,All,All,Male,All,East Renfrewshire,23.71,25.46,24.58
+S12000014,2017,All,All,All,Male,All,Falkirk,23.62,24.91,24.26
+S12000018,2017,All,All,All,Male,All,Inverclyde,22.67,24.12,23.39
+S12000013,2017,All,All,All,Male,All,Na h-Eileanan Siar,23.19,24.92,24.05
+S12000011,2017,All,All,All,Female,All,East Renfrewshire,23.87,25.45,24.66
+S12000040,2017,All,All,16-34 years,All,All,West Lothian,22.52,24.74,23.63
+S12000010,2017,All,All,All,Female,All,East Lothian,23.35,24.4,23.87
+S12000013,2017,All,All,All,Female,All,Na h-Eileanan Siar,23.19,24.45,23.82
+S12000039,2017,All,All,All,Female,All,West Dunbartonshire,23.29,24.63,23.96
+S12000036,2017,All,All,All,Female,All,City of Edinburgh,23.99,24.56,24.28
+S12000038,2017,All,All,All,Female,All,Renfrewshire,23.13,24.19,23.66
+S12000042,2017,All,All,65 years and over,All,All,Dundee City,23.51,25.02,24.27
+S12000038,2017,All,All,All,Male,All,Renfrewshire,23.26,24.27,23.76
+S12000036,2017,All,All,All,Male,All,City of Edinburgh,23.75,24.46,24.1
+S12000034,2017,All,All,All,Male,All,Aberdeenshire,24.63,25.65,25.14
+S12000035,2017,All,All,All,Male,All,Argyll and Bute,24.88,26.45,25.67
+S12000039,2017,All,All,All,Male,All,West Dunbartonshire,24.09,26.01,25.05
+S12000034,2017,All,All,All,Female,All,Aberdeenshire,24.73,25.62,25.17
+S12000047,2017,All,All,35-64 years,All,All,Fife,23.72,24.62,24.17
+S12000047,2017,All,All,16-34 years,All,All,Fife,23.01,24.44,23.72
+S12000042,2017,All,All,16-34 years,All,All,Dundee City,22.87,24.58,23.72
+S12000045,2017,All,All,35-64 years,All,All,East Dunbartonshire,23.76,25.13,24.45
+S12000047,2017,All,All,65 years and over,All,All,Fife,24.02,25.02,24.52
+S12000045,2017,All,All,16-34 years,All,All,East Dunbartonshire,22.55,25.43,23.99
+S12000042,2017,All,All,35-64 years,All,All,Dundee City,23.04,24.44,23.74
+S12000041,2017,All,All,35-64 years,All,All,Angus,23.57,24.95,24.26
+S12000041,2017,All,All,65 years and over,All,All,Angus,24.05,25.54,24.79
+S12000008,2017,All,All,All,Female,All,East Ayrshire,22.52,23.63,23.07
+S12000008,2017,All,All,All,Male,All,East Ayrshire,23.44,24.78,24.11
+S12000048,2017,All,All,35-64 years,All,All,Perth and Kinross,23.3,24.68,23.99
+S12000006,2017,All,All,All,Male,All,Dumfries and Galloway,23.99,25.24,24.62
+S12000010,2017,All,All,All,Male,All,East Lothian,23.64,24.78,24.21
+S12000005,2017,All,All,All,Male,All,Clackmannanshire,23.52,24.91,24.22
+S12000048,2017,All,All,65 years and over,All,All,Perth and Kinross,23.41,24.76,24.08
+S12000014,2017,All,All,All,Female,All,Falkirk,23.34,24.33,23.83
+S12000048,2017,All,All,16-34 years,All,All,Perth and Kinross,22,23.71,22.86
+S12000005,2017,All,All,All,Female,All,Clackmannanshire,23.65,25.37,24.51
+S12000006,2017,All,All,All,Female,All,Dumfries and Galloway,24,25.24,24.62
+S92000003,2017,All,Adults,All,All,All,Scotland,23.88,24.11,23.99
+S92000003,2017,All,Pensioners,All,All,All,Scotland,24.38,24.62,24.5
+S92000003,2017,All,With Children,All,All,All,Scotland,24.25,24.55,24.4
+S12000010,2017,All,All,All,All,All,East Lothian,23.64,24.43,24.03
+S12000008,2017,All,All,All,All,All,East Ayrshire,23.11,24.04,23.57
+S12000006,2017,All,All,All,All,All,Dumfries and Galloway,24.17,25.06,24.62
+S12000005,2017,All,All,All,All,All,Clackmannanshire,23.84,24.89,24.36
+S12000011,2017,All,All,All,All,All,East Renfrewshire,24.03,25.21,24.62
+S12000029,2016,All,All,65 years and over,All,All,South Lanarkshire,24.11,25.5,24.81
+S12000021,2015,All,All,65 years and over,All,All,North Ayrshire,23.93,25.46,24.7
+S12000028,2015,All,All,65 years and over,All,All,South Ayrshire,23.16,24.62,23.89
+S12000023,2015,All,All,65 years and over,All,All,Orkney Islands,25.59,28.2,26.89
+S12000021,2016,All,All,65 years and over,All,All,North Ayrshire,24.39,26.02,25.2
+S12000027,2015,All,All,65 years and over,All,All,Shetland Islands,24.3,26.47,25.39
+S12000029,2014,All,All,65 years and over,All,All,South Lanarkshire,23.95,25.17,24.56
+S12000027,2014,All,All,65 years and over,All,All,Shetland Islands,23.55,27.1,25.33
+S12000030,2016,All,All,65 years and over,All,All,Stirling,23.47,24.96,24.21
+S12000029,2015,All,All,65 years and over,All,All,South Lanarkshire,23.39,24.34,23.86
+S12000023,2014,All,All,65 years and over,All,All,Orkney Islands,26.05,29.48,27.77
+S12000023,2016,All,All,65 years and over,All,All,Orkney Islands,24.87,27.7,26.28
+S12000021,2014,All,All,65 years and over,All,All,North Ayrshire,23.72,25.35,24.53
+S12000026,2016,All,All,65 years and over,All,All,Scottish Borders,24.69,26.12,25.4
+S12000020,2016,All,All,65 years and over,All,All,Moray,24.39,25.88,25.13
+S12000026,2014,All,All,65 years and over,All,All,Scottish Borders,23.98,25.81,24.9
+S12000026,2015,All,All,65 years and over,All,All,Scottish Borders,24.17,25.49,24.83
+S12000019,2014,All,All,65 years and over,All,All,Midlothian,23.83,25.91,24.87
+S12000011,2016,All,All,65 years and over,All,All,East Renfrewshire,24.09,25.58,24.83
+S12000019,2016,All,All,65 years and over,All,All,Midlothian,24.32,26.31,25.32
+S12000013,2016,All,All,65 years and over,All,All,Na h-Eileanan Siar,24.85,26.4,25.63
+S12000011,2015,All,All,65 years and over,All,All,East Renfrewshire,23.98,25.9,24.94
+S12000017,2016,All,All,65 years and over,All,All,Highland,24.41,25.61,25.01
+S12000020,2014,All,All,65 years and over,All,All,Moray,24.08,25.88,24.98
+S12000017,2015,All,All,65 years and over,All,All,Highland,24.38,25.72,25.05
+S12000020,2015,All,All,65 years and over,All,All,Moray,23.7,25.44,24.57
+S12000019,2015,All,All,65 years and over,All,All,Midlothian,24.2,26.5,25.35
+S12000013,2015,All,All,65 years and over,All,All,Na h-Eileanan Siar,24.3,25.81,25.05
+S12000028,2016,All,All,65 years and over,All,All,South Ayrshire,24.01,25.5,24.76
+S12000013,2014,All,All,65 years and over,All,All,Na h-Eileanan Siar,23.45,25.22,24.34
+S12000028,2014,All,All,65 years and over,All,All,South Ayrshire,23.36,24.89,24.12
+S12000027,2016,All,All,65 years and over,All,All,Shetland Islands,24.28,26.24,25.26
+S12000011,2014,All,All,65 years and over,All,All,East Renfrewshire,24.64,26.64,25.64
+S12000014,2015,All,All,65 years and over,All,All,Falkirk,24.46,25.94,25.2
+S12000010,2015,All,All,65 years and over,All,All,East Lothian,23.41,25.11,24.26
+S12000014,2014,All,All,65 years and over,All,All,Falkirk,23.6,25.06,24.33
+S12000014,2016,All,All,65 years and over,All,All,Falkirk,23.28,25.29,24.28
+S92000003,2017,Rented,All,All,All,All,Scotland,23.27,23.54,23.41
+S92000003,2017,Owned Outright,All,All,All,All,Scotland,24.56,24.8,24.68
+S92000003,2017,Owned Mortgage/Loan,All,All,All,All,Scotland,24.54,24.81,24.67
+S12000036,2015,All,All,65 years and over,All,All,City of Edinburgh,24.62,25.88,25.25
+S12000035,2014,All,All,65 years and over,All,All,Argyll and Bute,24.41,25.89,25.15
+S12000038,2014,All,All,65 years and over,All,All,Renfrewshire,22.92,24.09,23.51
+S12000041,2016,All,All,65 years and over,All,All,Angus,23.42,24.93,24.18
+S12000036,2016,All,All,65 years and over,All,All,City of Edinburgh,23.66,24.57,24.11
+S12000036,2014,All,All,65 years and over,All,All,City of Edinburgh,24.42,25.49,24.95
+S12000038,2015,All,All,65 years and over,All,All,Renfrewshire,23.53,24.78,24.16
+S12000045,2016,All,All,65 years and over,All,All,East Dunbartonshire,24.05,25.86,24.95
+S12000045,2014,All,All,65 years and over,All,All,East Dunbartonshire,23.82,25.23,24.52
+S12000042,2014,All,All,65 years and over,All,All,Dundee City,22.79,24.39,23.59
+S12000045,2015,All,All,65 years and over,All,All,East Dunbartonshire,23.91,25.6,24.75
+S12000018,2015,All,All,65 years and over,All,All,Inverclyde,24.2,25.45,24.82
+S12000018,2014,All,All,65 years and over,All,All,Inverclyde,23.06,24.83,23.95
+S12000017,2014,All,All,65 years and over,All,All,Highland,25.09,26.44,25.77
+S12000018,2016,All,All,65 years and over,All,All,Inverclyde,23.45,24.83,24.14
+S12000042,2015,All,All,65 years and over,All,All,Dundee City,24.04,26.3,25.17
+S12000033,2014,All,All,65 years and over,All,All,Aberdeen City,23.81,25.25,24.53
+S12000030,2014,All,All,65 years and over,All,All,Stirling,24.35,25.76,25.05
+S12000033,2016,All,All,65 years and over,All,All,Aberdeen City,24.39,25.86,25.13
+S12000035,2015,All,All,65 years and over,All,All,Argyll and Bute,24.72,26.24,25.48
+S12000030,2015,All,All,65 years and over,All,All,Stirling,23.95,25.74,24.85
+S12000042,2016,All,All,65 years and over,All,All,Dundee City,23.1,24.78,23.94
+S12000038,2016,All,All,65 years and over,All,All,Renfrewshire,23.89,25.24,24.57
+S12000041,2014,All,All,65 years and over,All,All,Angus,23.73,25.73,24.73
+S12000033,2015,All,All,65 years and over,All,All,Aberdeen City,24.11,25.36,24.73
+S12000041,2015,All,All,65 years and over,All,All,Angus,24.1,26.35,25.23
+S12000035,2016,All,All,65 years and over,All,All,Argyll and Bute,24.85,26.32,25.58
+S12000034,2015,All,All,65 years and over,All,All,Aberdeenshire,24.74,25.87,25.31
+S12000034,2014,All,All,65 years and over,All,All,Aberdeenshire,23.95,25.35,24.65
+S12000034,2016,All,All,65 years and over,All,All,Aberdeenshire,24.88,26.1,25.49
+S12000006,2015,All,All,65 years and over,All,All,Dumfries and Galloway,24.51,25.97,25.24
+S12000006,2014,All,All,65 years and over,All,All,Dumfries and Galloway,23.57,25.05,24.31
+S12000006,2016,All,All,65 years and over,All,All,Dumfries and Galloway,23.59,24.73,24.16
+S12000005,2016,All,All,65 years and over,All,All,Clackmannanshire,23.25,25.75,24.5
+S12000005,2014,All,All,65 years and over,All,All,Clackmannanshire,23.52,25.72,24.62
+S12000039,2016,All,All,65 years and over,All,All,West Dunbartonshire,22.66,24.76,23.71
+S12000039,2015,All,All,65 years and over,All,All,West Dunbartonshire,23.6,25.06,24.33
+S12000008,2015,All,All,65 years and over,All,All,East Ayrshire,22.41,24.18,23.3
+S12000039,2014,All,All,65 years and over,All,All,West Dunbartonshire,22.77,24.47,23.62
+S12000040,2016,All,All,65 years and over,All,All,West Lothian,23.13,24.78,23.96
+S12000010,2014,All,All,65 years and over,All,All,East Lothian,23.16,25.22,24.19
+S12000008,2016,All,All,65 years and over,All,All,East Ayrshire,23.49,24.88,24.19
+S12000005,2015,All,All,65 years and over,All,All,Clackmannanshire,24,25.87,24.94
+S12000008,2014,All,All,65 years and over,All,All,East Ayrshire,22.82,24.6,23.71
+S12000010,2016,All,All,65 years and over,All,All,East Lothian,23.64,25.3,24.47
+S12000040,2015,All,All,65 years and over,All,All,West Lothian,23.53,25.09,24.31
+S92000003,2016,All,All,65 years and over,All,All,Scotland,24.41,24.68,24.54
+S92000003,2015,All,All,65 years and over,All,All,Scotland,24.41,24.68,24.54
+S12000040,2014,All,All,65 years and over,All,All,West Lothian,23.48,25.04,24.26
+S92000003,2014,All,All,65 years and over,All,All,Scotland,24.36,24.63,24.49
+S12000018,2017,All,With Children,All,All,All,Inverclyde,22.5,23.98,23.24
+S12000039,2017,All,Adults,All,All,All,West Dunbartonshire,23.44,25.33,24.39
+S12000033,2017,All,Pensioners,All,All,All,Aberdeen City,24.07,25.29,24.68
+S12000038,2017,All,Pensioners,All,All,All,Renfrewshire,23.6,25.02,24.31
+S12000034,2017,All,Adults,All,All,All,Aberdeenshire,24.26,25.35,24.81
+S12000033,2017,All,With Children,All,All,All,Aberdeen City,23.98,25.39,24.68
+S12000036,2017,All,With Children,All,All,All,City of Edinburgh,23.98,24.86,24.42
+S12000039,2017,All,Pensioners,All,All,All,West Dunbartonshire,23.88,25.69,24.78
+S12000036,2017,All,Adults,All,All,All,City of Edinburgh,23.78,24.43,24.1
+S12000040,2017,All,Adults,All,All,All,West Lothian,22.9,24.17,23.54
+S12000039,2017,All,With Children,All,All,All,West Dunbartonshire,23.26,25.29,24.27
+S12000034,2017,All,With Children,All,All,All,Aberdeenshire,24.74,26.14,25.44
+S12000034,2017,All,Pensioners,All,All,All,Aberdeenshire,24.85,25.88,25.36
+S12000035,2017,All,Pensioners,All,All,All,Argyll and Bute,25.72,27.1,26.41
+S12000033,2017,All,Adults,All,All,All,Aberdeen City,23.88,24.85,24.36
+S12000030,2017,All,Pensioners,All,All,All,Stirling,24.12,25.62,24.87
+S12000035,2017,All,Adults,All,All,All,Argyll and Bute,24.33,25.9,25.12
+S12000035,2017,All,With Children,All,All,All,Argyll and Bute,24.67,27.24,25.95
+S12000020,2017,All,With Children,All,All,All,Moray,23.78,25.82,24.8
+S12000019,2017,All,Adults,All,All,All,Midlothian,22.71,23.95,23.33
+S12000019,2017,All,Pensioners,All,All,All,Midlothian,23.9,25.51,24.71
+S12000019,2017,All,With Children,All,All,All,Midlothian,23.53,25.83,24.68
+S12000018,2017,All,Pensioners,All,All,All,Inverclyde,23.09,24.32,23.7
+S12000017,2017,All,With Children,All,All,All,Highland,23.75,25.17,24.46
+S12000018,2017,All,Adults,All,All,All,Inverclyde,23.01,24.56,23.78
+S12000020,2017,All,Adults,All,All,All,Moray,23.5,25.45,24.48
+S12000017,2017,All,Pensioners,All,All,All,Highland,24.02,25.03,24.52
+S12000017,2017,All,Adults,All,All,All,Highland,23.74,24.95,24.35
+S12000038,2014,All,All,16-64 years,All,All,Renfrewshire,24.15,25.11,24.63
+S12000033,2014,All,All,16-64 years,All,All,Aberdeen City,24.07,24.83,24.45
+S12000035,2014,All,All,16-64 years,All,All,Argyll and Bute,24.96,26.34,25.65
+S12000034,2014,All,All,16-64 years,All,All,Aberdeenshire,24.43,25.39,24.91
+S12000039,2014,All,All,16-64 years,All,All,West Dunbartonshire,24.06,25.14,24.6
+S12000019,2014,All,All,16-64 years,All,All,Midlothian,24.76,26.66,25.71
+S12000005,2014,All,All,16-64 years,All,All,Clackmannanshire,22.94,24.27,23.61
+S12000018,2014,All,All,16-64 years,All,All,Inverclyde,23.17,24.44,23.8
+S12000006,2014,All,All,16-64 years,All,All,Dumfries and Galloway,23.81,24.88,24.34
+S12000030,2014,All,All,16-64 years,All,All,Stirling,24.58,25.89,25.23
+S12000026,2014,All,All,16-64 years,All,All,Scottish Borders,23.82,25.8,24.81
+S12000028,2014,All,All,16-64 years,All,All,South Ayrshire,23.24,24.38,23.81
+S12000036,2014,All,All,16-64 years,All,All,City of Edinburgh,24.5,25.11,24.8
+S12000027,2014,All,All,16-64 years,All,All,Shetland Islands,24.67,26.1,25.39
+S12000006,2015,All,All,16-64 years,All,All,Dumfries and Galloway,23.53,24.53,24.03
+S12000029,2014,All,All,16-64 years,All,All,South Lanarkshire,24.11,25.02,24.56
+S12000005,2015,All,All,16-64 years,All,All,Clackmannanshire,23.28,24.64,23.96
+S12000030,2015,All,All,16-64 years,All,All,Stirling,23.81,24.78,24.3
+S12000033,2015,All,All,16-64 years,All,All,Aberdeen City,24.25,25.11,24.68
+S12000040,2015,All,All,16-64 years,All,All,West Lothian,24.11,25.97,25.04
+S12000035,2015,All,All,16-64 years,All,All,Argyll and Bute,24.5,25.58,25.04
+S12000038,2015,All,All,16-64 years,All,All,Renfrewshire,24.06,24.95,24.51
+S12000036,2015,All,All,16-64 years,All,All,City of Edinburgh,24.22,24.88,24.55
+S12000028,2015,All,All,16-64 years,All,All,South Ayrshire,23.41,24.68,24.05
+S12000027,2015,All,All,16-64 years,All,All,Shetland Islands,24.51,25.84,25.18
+S12000034,2015,All,All,16-64 years,All,All,Aberdeenshire,24.52,25.41,24.96
+S12000039,2015,All,All,16-64 years,All,All,West Dunbartonshire,23.97,25.01,24.49
+S12000029,2015,All,All,16-64 years,All,All,South Lanarkshire,23.87,24.63,24.25
+S12000042,2015,All,All,16-64 years,All,All,Dundee City,23.88,25.33,24.61
+S92000003,2015,All,All,16-64 years,All,All,Scotland,24.26,24.45,24.36
+S12000045,2015,All,All,16-64 years,All,All,East Dunbartonshire,23.91,25,24.45
+S12000041,2015,All,All,16-64 years,All,All,Angus,23.61,24.91,24.26
+S12000011,2014,All,All,16-64 years,All,All,East Renfrewshire,24.15,25.46,24.81
+S12000021,2014,All,All,16-64 years,All,All,North Ayrshire,23.32,24.48,23.9
+S12000008,2014,All,All,16-64 years,All,All,East Ayrshire,22.81,24.01,23.41
+S12000023,2014,All,All,16-64 years,All,All,Orkney Islands,24.98,27.28,26.13
+S12000020,2014,All,All,16-64 years,All,All,Moray,24.54,25.76,25.15
+S12000014,2014,All,All,16-64 years,All,All,Falkirk,23.7,24.69,24.2
+S12000013,2014,All,All,16-64 years,All,All,Na h-Eileanan Siar,23.58,25.44,24.51
+S12000010,2014,All,All,16-64 years,All,All,East Lothian,24.23,26,25.11
+S12000017,2014,All,All,16-64 years,All,All,Highland,24.24,25.16,24.7
+S12000050,2015,All,All,All,Male,All,North Lanarkshire,23.92,25.34,24.63
+S12000049,2016,Owned Mortgage/Loan,All,All,All,All,Glasgow City,23.82,24.62,24.22
+S12000050,2014,All,All,16-64 years,All,All,North Lanarkshire,24.32,25.22,24.77
+S12000050,2015,All,All,All,Female,All,North Lanarkshire,24.57,25.56,25.06
+S12000050,2015,All,Pensioners,All,All,All,North Lanarkshire,24.16,25.48,24.82
+S12000018,2016-2017,All,All,All,All,All,Inverclyde,23.56,24.26,23.91
+S12000050,2016,All,All,65 years and over,All,All,North Lanarkshire,23.59,24.92,24.25
+S12000049,2016,All,All,16-34 years,All,All,Glasgow City,23.74,24.52,24.13
+S12000049,2016,All,Pensioners,All,All,All,Glasgow City,22.71,23.59,23.15
+S12000040,2017,All,All,16-64 years,All,All,West Lothian,23.52,24.69,24.11
+S12000045,2017,All,All,16-64 years,All,All,East Dunbartonshire,23.61,24.99,24.3
+S12000005,2014,Owned Mortgage/Loan,All,All,All,All,Clackmannanshire,23.57,24.8,24.19
+S12000039,2014,All,All,All,All,All,West Dunbartonshire,23.9,24.89,24.4
+S12000040,2014,All,All,All,All,All,West Lothian,23.72,24.89,24.3
+S12000026,2014,All,All,16-34 years,All,All,Scottish Borders,23.52,28.35,25.93
+S12000026,2014,All,All,35-64 years,All,All,Scottish Borders,23.49,25.17,24.33
+S12000005,2014,Owned Outright,All,All,All,All,Clackmannanshire,22.78,24.98,23.88
+S12000023,2014,Owned Mortgage/Loan,All,All,All,All,Orkney Islands,25.73,28.84,27.29
+S12000045,2014,All,All,16-34 years,All,All,East Dunbartonshire,23.11,24.93,24.02
+S12000023,2014,Rented,All,All,All,All,Orkney Islands,22.82,26.44,24.63
+S12000045,2014,All,All,35-64 years,All,All,East Dunbartonshire,24.78,26.13,25.46
+S12000026,2014,Owned Outright,All,All,All,All,Scottish Borders,24.21,26.93,25.57
+S12000026,2014,Rented,All,All,All,All,Scottish Borders,22.79,25.15,23.97
+S12000042,2014,All,All,35-64 years,All,All,Dundee City,22.18,23.85,23.01
+S12000026,2014,Owned Mortgage/Loan,All,All,All,All,Scottish Borders,23.75,26.16,24.96
+S12000041,2014,All,All,All,All,All,Angus,24.07,25.15,24.61
+S12000023,2014,All,All,35-64 years,All,All,Orkney Islands,24.42,26.49,25.45
+S92000003,2014,All,All,All,All,All,Scotland,24.39,24.55,24.47
+S12000038,2014,All,All,All,All,All,Renfrewshire,23.99,24.78,24.39
+S12000021,2014,All,All,35-64 years,All,All,North Ayrshire,23.57,24.97,24.27
+S12000023,2014,All,All,16-34 years,All,All,Orkney Islands,24.98,30.17,27.57
+S12000042,2014,All,All,All,All,All,Dundee City,23.2,24.2,23.7
+S12000045,2014,All,All,All,All,All,East Dunbartonshire,24.41,25.35,24.88
+S12000028,2014,All,Pensioners,All,All,All,South Ayrshire,23.36,24.91,24.13
+S12000028,2014,All,Adults,All,All,All,South Ayrshire,22.8,24.27,23.53
+S12000029,2014,All,Adults,All,All,All,South Lanarkshire,23.94,25.18,24.56
+S12000028,2014,All,With Children,All,All,All,South Ayrshire,23.8,25.07,24.43
+S12000027,2014,All,Adults,All,All,All,Shetland Islands,23.95,26.04,24.99
+S12000026,2014,All,Pensioners,All,All,All,Scottish Borders,24.02,25.7,24.86
+S12000026,2014,All,Adults,All,All,All,Scottish Borders,23.83,26.48,25.16
+S12000026,2014,All,With Children,All,All,All,Scottish Borders,22.73,25.66,24.19
+S12000027,2014,All,With Children,All,All,All,Shetland Islands,24.87,26.7,25.78
+S12000027,2014,All,Pensioners,All,All,All,Shetland Islands,24.08,27.08,25.58
+S12000042,2014,Owned Outright,All,All,All,All,Dundee City,23.69,25.34,24.51
+S12000042,2014,Owned Mortgage/Loan,All,All,All,All,Dundee City,23.7,25.21,24.46
+S12000026,2014,All,All,All,Female,All,Scottish Borders,24.32,25.93,25.13
+S12000026,2014,All,All,All,Male,All,Scottish Borders,23.21,25.84,24.53
+S12000041,2014,Rented,All,All,All,All,Angus,23.16,25.16,24.16
+S12000033,2014,All,All,All,Female,All,Aberdeen City,24.16,25.08,24.62
+S92000003,2014,Owned Outright,All,All,All,All,Scotland,24.74,25,24.87
+S12000034,2014,All,All,All,Male,All,Aberdeenshire,24.24,25.5,24.87
+S12000033,2014,All,All,All,Male,All,Aberdeen City,23.85,24.76,24.3
+S12000030,2014,All,All,All,Female,All,Stirling,24.14,25.66,24.9
+S12000027,2014,All,All,All,Female,All,Shetland Islands,24.25,25.85,25.05
+S12000028,2014,All,All,All,Female,All,South Ayrshire,23.53,24.72,24.12
+S12000028,2014,All,All,All,Male,All,South Ayrshire,22.95,24.34,23.65
+S12000042,2014,Rented,All,All,All,All,Dundee City,22.16,23.71,22.94
+S12000027,2014,All,All,All,Male,All,Shetland Islands,24.62,26.77,25.7
+S12000019,2014,All,All,All,Male,All,Midlothian,24.23,26.7,25.47
+S12000018,2014,All,All,All,Male,All,Inverclyde,23.8,25.49,24.64
+S12000018,2014,All,All,All,Female,All,Inverclyde,22.52,23.81,23.16
+S12000020,2014,All,All,All,Male,All,Moray,24.65,26.07,25.36
+S12000038,2014,Owned Outright,All,All,All,All,Renfrewshire,23.87,25.07,24.47
+S12000041,2014,Owned Mortgage/Loan,All,All,All,All,Angus,23.74,25.51,24.63
+S12000023,2014,All,All,All,Male,All,Orkney Islands,25.53,28.68,27.11
+S12000023,2014,All,All,All,Female,All,Orkney Islands,24.94,27.13,26.03
+S12000038,2014,Owned Mortgage/Loan,All,All,All,All,Renfrewshire,24.37,25.82,25.1
+S12000040,2014,Rented,All,All,All,All,West Lothian,21.79,24.2,23
+S12000045,2014,Rented,All,All,All,All,East Dunbartonshire,23.35,25.85,24.6
+S12000045,2014,Owned Outright,All,All,All,All,East Dunbartonshire,23.96,25.37,24.67
+S12000045,2014,Owned Mortgage/Loan,All,All,All,All,East Dunbartonshire,24.44,25.86,25.15
+S12000029,2014,All,All,All,Female,All,South Lanarkshire,24.14,25.23,24.69
+S12000029,2014,All,All,All,Male,All,South Lanarkshire,23.91,24.94,24.43
+S12000039,2014,Owned Mortgage/Loan,All,All,All,All,West Dunbartonshire,24.36,26.04,25.2
+S12000038,2014,Rented,All,All,All,All,Renfrewshire,23,24.39,23.7
+S12000039,2014,Owned Outright,All,All,All,All,West Dunbartonshire,24.27,25.86,25.06
+S12000030,2014,All,All,All,Male,All,Stirling,24.8,26.24,25.52
+S12000019,2014,All,All,All,Female,All,Midlothian,24.57,26.6,25.59
+S12000017,2014,All,All,All,Male,All,Highland,24.66,25.72,25.19
+S12000036,2014,Owned Outright,All,All,All,All,City of Edinburgh,24.84,25.81,25.33
+S12000035,2014,Owned Outright,All,All,All,All,Argyll and Bute,24.74,26.3,25.52
+S12000017,2014,All,All,All,Female,All,Highland,24.2,25.3,24.75
+S12000014,2014,All,All,All,Male,All,Falkirk,23.77,24.96,24.36
+S12000036,2014,Rented,All,All,All,All,City of Edinburgh,24.26,25.09,24.68
+S12000036,2014,Owned Mortgage/Loan,All,All,All,All,City of Edinburgh,24.12,25.05,24.58
+S12000018,2014,All,With Children,All,All,All,Inverclyde,22.93,24.66,23.8
+S12000018,2014,All,Adults,All,All,All,Inverclyde,22.78,24.63,23.7
+S12000018,2014,All,Pensioners,All,All,All,Inverclyde,23.23,24.95,24.09
+S12000013,2014,All,All,All,Female,All,Na h-Eileanan Siar,23.34,24.96,24.15
+S12000034,2014,Rented,All,All,All,All,Aberdeenshire,23.44,24.96,24.2
+S12000034,2014,Owned Mortgage/Loan,All,All,All,All,Aberdeenshire,24.3,25.86,25.08
+S12000028,2014,Owned Outright,All,All,All,All,South Ayrshire,23.97,25.36,24.67
+S92000003,2014,All,All,16-34 years,All,All,Scotland,24.5,24.83,24.67
+S12000027,2014,Owned Mortgage/Loan,All,All,All,All,Shetland Islands,24.67,26.66,25.67
+S12000035,2014,Owned Mortgage/Loan,All,All,All,All,Argyll and Bute,25.32,26.87,26.09
+S12000035,2014,Rented,All,All,All,All,Argyll and Bute,23.89,26.22,25.06
+S12000014,2014,All,All,All,Female,All,Falkirk,23.47,24.71,24.09
+S12000027,2014,Rented,All,All,All,All,Shetland Islands,22.95,25.71,24.33
+S12000039,2014,Rented,All,All,All,All,West Dunbartonshire,22.51,24.06,23.29
+S12000020,2014,All,All,All,Female,All,Moray,24.17,25.58,24.88
+S12000040,2014,Owned Mortgage/Loan,All,All,All,All,West Lothian,24.41,25.87,25.14
+S12000041,2014,Owned Outright,All,All,All,All,Angus,24.25,25.92,25.08
+S12000021,2014,All,All,All,Male,All,North Ayrshire,23.08,24.55,23.81
+S12000040,2014,Owned Outright,All,All,All,All,West Lothian,23.9,25.53,24.72
+S12000021,2014,All,All,All,Female,All,North Ayrshire,23.64,24.91,24.28
+S12000034,2014,All,Pensioners,All,All,All,Aberdeenshire,23.74,25.08,24.41
+S12000035,2014,All,With Children,All,All,All,Argyll and Bute,24.71,27.03,25.87
+S12000035,2014,All,Adults,All,All,All,Argyll and Bute,24.68,26.54,25.61
+S12000038,2014,All,With Children,All,All,All,Renfrewshire,24.06,25.7,24.88
+S12000038,2014,All,Pensioners,All,All,All,Renfrewshire,23.13,24.18,23.65
+S12000026,2014,All,All,All,All,All,Scottish Borders,24.07,25.6,24.84
+S12000036,2014,All,Adults,All,All,All,City of Edinburgh,24.39,25.11,24.75
+S12000018,2014,All,All,16-34 years,All,All,Inverclyde,23.23,25.59,24.41
+S12000036,2014,All,With Children,All,All,All,City of Edinburgh,24.35,25.42,24.88
+S12000035,2014,All,Pensioners,All,All,All,Argyll and Bute,24.38,25.73,25.05
+S12000029,2014,All,With Children,All,All,All,South Lanarkshire,23.91,25.33,24.62
+S12000029,2014,All,Pensioners,All,All,All,South Lanarkshire,24,25.02,24.51
+S12000030,2014,All,Pensioners,All,All,All,Stirling,24.43,25.62,25.02
+S12000033,2014,All,Pensioners,All,All,All,Aberdeen City,23.77,25.12,24.45
+S12000034,2014,All,Adults,All,All,All,Aberdeenshire,24.12,25.37,24.75
+S12000036,2014,All,Pensioners,All,All,All,City of Edinburgh,24.47,25.51,24.99
+S12000038,2014,All,Adults,All,All,All,Renfrewshire,23.88,25.11,24.49
+S12000039,2014,All,Adults,All,All,All,West Dunbartonshire,24.15,25.69,24.92
+S12000030,2014,All,Adults,All,All,All,Stirling,24.41,26.23,25.32
+S12000030,2014,All,With Children,All,All,All,Stirling,24.25,25.96,25.11
+S12000036,2014,All,All,All,All,All,City of Edinburgh,24.56,25.1,24.83
+S12000035,2014,All,All,All,All,All,Argyll and Bute,24.97,26.05,25.51
+S12000019,2014,All,All,35-64 years,All,All,Midlothian,24.28,26.17,25.22
+S12000034,2014,All,All,All,All,All,Aberdeenshire,24.44,25.27,24.85
+S12000021,2014,All,All,16-34 years,All,All,North Ayrshire,22.22,24.17,23.19
+S12000030,2014,All,All,All,All,All,Stirling,24.66,25.73,25.19
+S12000020,2014,All,All,16-34 years,All,All,Moray,24.77,26.84,25.81
+S12000033,2014,All,All,All,All,All,Aberdeen City,24.13,24.8,24.47
+S12000019,2014,All,All,16-34 years,All,All,Midlothian,24.65,28.59,26.62
+S12000029,2014,All,All,All,All,All,South Lanarkshire,24.18,24.94,24.56
+S12000017,2014,All,All,16-34 years,All,All,Highland,24.85,26.25,25.55
+S12000027,2014,All,All,All,All,All,Shetland Islands,24.69,26.06,25.37
+S12000020,2014,All,All,All,All,All,Moray,24.58,25.64,25.11
+S12000028,2014,All,All,All,All,All,South Ayrshire,23.42,24.38,23.9
+S12000018,2014,All,All,35-64 years,All,All,Inverclyde,22.73,24.22,23.48
+S12000017,2014,All,All,35-64 years,All,All,Highland,23.71,24.86,24.29
+S12000020,2014,All,All,35-64 years,All,All,Moray,24,25.62,24.81
+S12000023,2014,All,All,All,All,All,Orkney Islands,25.55,27.57,26.56
+S12000021,2014,All,All,All,All,All,North Ayrshire,23.57,24.55,24.06
+S12000042,2014,All,With Children,All,All,All,Dundee City,23.01,25.24,24.13
+S12000041,2014,All,Adults,All,All,All,Angus,23.99,25.77,24.88
+S12000041,2014,All,Pensioners,All,All,All,Angus,23.62,25.26,24.44
+S12000041,2014,All,With Children,All,All,All,Angus,23.25,25.37,24.31
+S12000042,2014,All,Pensioners,All,All,All,Dundee City,22.87,24.34,23.6
+S12000045,2014,All,Adults,All,All,All,East Dunbartonshire,24.15,25.7,24.93
+S92000003,2014,All,Adults,All,All,All,Scotland,24.23,24.46,24.34
+S12000005,2014,All,All,16-34 years,All,All,Clackmannanshire,23.02,26.11,24.57
+S12000005,2014,All,All,35-64 years,All,All,Clackmannanshire,22.46,23.81,23.14
+S12000033,2014,All,Adults,All,All,All,Aberdeen City,23.86,24.79,24.33
+S12000033,2014,All,With Children,All,All,All,Aberdeen City,24.22,25.4,24.81
+S12000034,2014,All,With Children,All,All,All,Aberdeenshire,24.65,26.23,25.44
+S12000045,2014,All,With Children,All,All,All,East Dunbartonshire,24.34,26.09,25.21
+S12000045,2014,All,Pensioners,All,All,All,East Dunbartonshire,23.76,25.09,24.43
+S12000040,2014,All,Pensioners,All,All,All,West Lothian,23.61,25.07,24.34
+S12000039,2014,All,With Children,All,All,All,West Dunbartonshire,23.57,25.04,24.31
+S12000040,2014,All,Adults,All,All,All,West Lothian,23.49,25.16,24.33
+S12000042,2014,All,Adults,All,All,All,Dundee City,22.85,24.22,23.53
+S12000039,2014,All,Pensioners,All,All,All,West Dunbartonshire,22.73,24.58,23.66
+S92000003,2014,All,With Children,All,All,All,Scotland,24.49,24.8,24.64
+S12000006,2014,All,All,16-34 years,All,All,Dumfries and Galloway,23.11,25.3,24.2
+S12000040,2014,All,With Children,All,All,All,West Lothian,22.97,25.52,24.25
+S92000003,2014,All,Pensioners,All,All,All,Scotland,24.39,24.63,24.51
+S12000039,2014,All,All,All,Female,All,West Dunbartonshire,23.37,24.75,24.06
+S12000008,2014,All,Adults,All,All,All,East Ayrshire,22.11,23.72,22.91
+S12000040,2014,All,All,All,Female,All,West Lothian,23.83,25.34,24.59
+S12000035,2014,All,All,All,Male,All,Argyll and Bute,24.81,26.5,25.66
+S92000003,2014,Rented,All,All,All,All,Scotland,23.66,23.92,23.79
+S12000038,2014,All,All,All,Male,All,Renfrewshire,23.77,25.1,24.44
+S12000038,2014,All,All,All,Female,All,Renfrewshire,23.9,24.79,24.34
+S12000006,2014,All,Adults,All,All,All,Dumfries and Galloway,23.53,24.89,24.21
+S12000040,2014,All,All,All,Male,All,West Lothian,23.15,24.86,24.01
+S12000008,2014,All,With Children,All,All,All,East Ayrshire,22.76,24.49,23.63
+S12000005,2014,All,Adults,All,All,All,Clackmannanshire,22.21,23.78,22.99
+S12000036,2014,All,All,All,Male,All,City of Edinburgh,24.22,24.98,24.6
+S12000005,2014,All,Pensioners,All,All,All,Clackmannanshire,23.34,25.29,24.32
+S12000013,2014,All,Adults,All,All,All,Na h-Eileanan Siar,23.42,25.7,24.56
+S12000045,2014,All,All,All,Female,All,East Dunbartonshire,24.28,25.48,24.88
+S12000034,2014,All,All,All,Female,All,Aberdeenshire,24.31,25.36,24.84
+S92000003,2014,Owned Mortgage/Loan,All,All,All,All,Scotland,24.7,24.97,24.83
+S12000035,2014,All,All,All,Female,All,Argyll and Bute,24.69,26.05,25.37
+S12000005,2014,All,With Children,All,All,All,Clackmannanshire,23.18,25.68,24.43
+S12000036,2014,All,All,All,Female,All,City of Edinburgh,24.69,25.4,25.04
+S12000023,2014,All,With Children,All,All,All,Orkney Islands,24.82,29.25,27.03
+S12000021,2014,All,Pensioners,All,All,All,North Ayrshire,24.18,25.62,24.9
+S12000017,2014,All,Adults,All,All,All,Highland,24.08,25.24,24.66
+S12000023,2014,All,Pensioners,All,All,All,Orkney Islands,25.96,28.42,27.19
+S12000023,2014,All,Adults,All,All,All,Orkney Islands,24.42,27.21,25.81
+S12000019,2014,All,Adults,All,All,All,Midlothian,24.73,27.45,26.09
+S12000014,2014,All,Pensioners,All,All,All,Falkirk,23.75,25.22,24.49
+S12000019,2014,All,With Children,All,All,All,Midlothian,23.79,26.35,25.07
+S12000017,2014,All,Pensioners,All,All,All,Highland,24.83,26.01,25.42
+S12000017,2014,All,With Children,All,All,All,Highland,24.2,25.77,24.98
+S12000021,2014,All,Adults,All,All,All,North Ayrshire,22.7,24.23,23.46
+S12000039,2014,All,All,All,Male,All,West Dunbartonshire,24.15,25.37,24.76
+S12000020,2014,All,Pensioners,All,All,All,Moray,23.83,25.51,24.67
+S12000006,2014,All,Pensioners,All,All,All,Dumfries and Galloway,23.77,25.22,24.5
+S12000006,2014,All,With Children,All,All,All,Dumfries and Galloway,23.48,25.22,24.35
+S12000020,2014,All,With Children,All,All,All,Moray,25.32,27.36,26.34
+S12000020,2014,All,Adults,All,All,All,Moray,23.97,25.59,24.78
+S12000021,2014,All,With Children,All,All,All,North Ayrshire,23.12,25.07,24.09
+S12000019,2014,All,Pensioners,All,All,All,Midlothian,24.12,25.86,24.99
+S12000017,2014,All,All,All,All,All,Highland,24.58,25.35,24.97
+S12000019,2014,All,All,All,All,All,Midlothian,24.74,26.32,25.53
+S12000018,2014,All,All,All,All,All,Inverclyde,23.31,24.37,23.84
+S12000014,2014,All,All,35-64 years,All,All,Falkirk,23.6,24.74,24.17
+S12000014,2014,All,All,All,All,All,Falkirk,23.79,24.66,24.22
+S12000014,2014,All,All,16-34 years,All,All,Falkirk,23.37,25.1,24.24
+S12000010,2014,All,All,All,All,All,East Lothian,24.17,25.65,24.91
+S12000011,2014,All,All,All,All,All,East Renfrewshire,24.44,25.57,25.01
+S12000013,2014,All,All,35-64 years,All,All,Na h-Eileanan Siar,23.32,24.81,24.07
+S12000013,2014,All,All,16-34 years,All,All,Na h-Eileanan Siar,23.12,27.96,25.54
+S12000011,2014,All,All,35-64 years,All,All,East Renfrewshire,24.47,26.04,25.26
+S12000008,2014,All,All,All,All,All,East Ayrshire,22.97,23.99,23.48
+S12000006,2014,All,All,All,All,All,Dumfries and Galloway,23.9,24.77,24.33
+S12000005,2014,All,All,All,All,All,Clackmannanshire,23.25,24.41,23.83
+S12000011,2014,All,All,16-34 years,All,All,East Renfrewshire,22.64,25.08,23.86
+S12000008,2014,All,All,35-64 years,All,All,East Ayrshire,22.67,24.08,23.38
+S12000010,2014,All,All,35-64 years,All,All,East Lothian,24.39,26.47,25.43
+S12000010,2014,All,All,16-34 years,All,All,East Lothian,22.89,26.05,24.47
+S12000008,2014,All,All,16-34 years,All,All,East Ayrshire,22.4,24.54,23.47
+S12000006,2014,All,All,35-64 years,All,All,Dumfries and Galloway,23.79,25.03,24.41
+S12000013,2014,All,Pensioners,All,All,All,Na h-Eileanan Siar,23.71,25.31,24.51
+S12000014,2014,All,Adults,All,All,All,Falkirk,23.11,24.43,23.77
+S92000003,2014,All,All,All,Female,All,Scotland,24.33,24.53,24.43
+S12000010,2014,All,Adults,All,All,All,East Lothian,23.5,25.91,24.71
+S12000041,2014,All,All,All,Female,All,Angus,24.15,25.46,24.81
+S12000011,2014,All,Pensioners,All,All,All,East Renfrewshire,24.9,26.78,25.84
+S12000045,2014,All,All,All,Male,All,East Dunbartonshire,24.18,25.57,24.87
+S12000013,2014,All,With Children,All,All,All,Na h-Eileanan Siar,22.38,25.98,24.18
+S92000003,2014,All,All,All,Male,All,Scotland,24.39,24.62,24.51
+S12000014,2014,All,With Children,All,All,All,Falkirk,24.01,25.44,24.72
+S12000011,2014,All,With Children,All,All,All,East Renfrewshire,23.88,25.97,24.93
+S12000042,2014,All,All,All,Male,All,Dundee City,22.76,24.12,23.44
+S12000042,2014,All,All,All,Female,All,Dundee City,23.18,24.67,23.93
+S12000013,2014,All,All,All,All,All,Na h-Eileanan Siar,23.74,25.19,24.46
+S12000010,2014,All,Pensioners,All,All,All,East Lothian,23.81,25.74,24.78
+S12000008,2014,All,Pensioners,All,All,All,East Ayrshire,23.39,25.17,24.28
+S12000010,2014,All,With Children,All,All,All,East Lothian,23.83,26.67,25.25
+S12000011,2014,All,Adults,All,All,All,East Renfrewshire,23.57,25.34,24.45
+S12000041,2014,All,All,All,Male,All,Angus,23.55,25.24,24.4
+S12000010,2014,All,All,All,All,Limiting condition,East Lothian,22.43,24.89,23.66
+S12000029,2017,All,All,All,All,Limiting condition,South Lanarkshire,21.42,22.65,22.04
+S12000011,2014,All,All,All,All,Limiting condition,East Renfrewshire,21.94,24.46,23.2
+S12000008,2014,All,All,All,All,Limiting condition,East Ayrshire,20.84,22.73,21.78
+S12000021,2014,All,All,All,All,Limiting condition,North Ayrshire,21.42,22.81,22.12
+S12000011,2015,All,All,All,All,Limiting condition,East Renfrewshire,21.62,23.91,22.76
+S12000010,2015,All,All,All,All,Limiting condition,East Lothian,22.43,24.47,23.45
+S12000050,2016,All,All,All,All,Limiting condition,North Lanarkshire,21.75,22.95,22.35
+S12000005,2014,All,All,All,All,Limiting condition,Clackmannanshire,19.91,22.38,21.15
+S12000020,2014,All,All,All,All,Limiting condition,Moray,21.8,23.96,22.88
+S12000017,2014,All,All,All,All,Limiting condition,Highland,22.02,23.77,22.89
+S12000033,2017,All,All,All,All,Limiting condition,Aberdeen City,21.48,23.17,22.33
+S12000006,2014,All,All,All,All,Limiting condition,Dumfries and Galloway,21.85,23.47,22.66
+S12000019,2014,All,All,All,All,Limiting condition,Midlothian,21.17,24.01,22.59
+S12000018,2014,All,All,All,All,Limiting condition,Inverclyde,19.74,21.57,20.66
+S12000014,2014,All,All,All,All,Limiting condition,Falkirk,20.93,22.5,21.71
+S12000026,2014,All,All,All,All,Limiting condition,Scottish Borders,21.15,23.55,22.35
+S12000030,2017,All,All,All,All,Limiting condition,Stirling,20.37,22.96,21.66
+S12000019,2015,All,All,All,All,Limiting condition,Midlothian,21.65,23.48,22.57
+S12000050,2015,All,All,All,All,Limiting condition,North Lanarkshire,21.49,22.93,22.21
+S12000013,2014,All,All,All,All,Limiting condition,Na h-Eileanan Siar,21.77,23.49,22.63
+S12000049,2014,All,All,All,All,Limiting condition,Glasgow City,21.51,22.4,21.96
+S12000048,2015,All,All,All,All,Limiting condition,Perth and Kinross,21.93,23.37,22.65
+S12000020,2017,All,All,All,All,Limiting condition,Moray,21.44,23.24,22.34
+S12000018,2017,All,All,All,All,Limiting condition,Inverclyde,20.85,22.46,21.65
+S12000021,2017,All,All,All,All,Limiting condition,North Ayrshire,20.59,22.07,21.33
+S12000008,2016,All,All,All,All,Limiting condition,East Ayrshire,21.88,23.07,22.47
+S12000019,2017,All,All,All,All,Limiting condition,Midlothian,21.38,23.35,22.37
+S12000048,2014,All,All,All,All,Limiting condition,Perth and Kinross,21.45,23.21,22.33
+S12000030,2014,All,All,All,All,Limiting condition,Stirling,22.18,24.15,23.16
+S12000036,2014,All,All,All,All,Limiting condition,City of Edinburgh,22.44,23.54,22.99
+S12000010,2017,All,All,All,All,Limiting condition,East Lothian,21.9,23.57,22.74
+S12000033,2014,All,All,All,All,Limiting condition,Aberdeen City,21.73,23.1,22.41
+S12000029,2014,All,All,All,All,Limiting condition,South Lanarkshire,21.22,22.61,21.91
+S12000027,2014,All,All,All,All,Limiting condition,Shetland Islands,21.83,23.84,22.83
+S12000050,2014,All,All,All,All,Limiting condition,North Lanarkshire,21.86,23.31,22.59
+S12000005,2017,All,All,All,All,Limiting condition,Clackmannanshire,21.83,23.84,22.83
+S12000034,2014,All,All,All,All,Limiting condition,Aberdeenshire,21.52,23.03,22.28
+S12000035,2014,All,All,All,All,Limiting condition,Argyll and Bute,22.24,24.57,23.4
+S12000028,2017,All,All,All,All,Limiting condition,South Ayrshire,21.4,23.14,22.27
+S12000027,2017,All,All,All,All,Limiting condition,Shetland Islands,22.13,25.12,23.63
+S12000026,2017,All,All,All,All,Limiting condition,Scottish Borders,21.44,23.28,22.36
+S12000023,2017,All,All,All,All,Limiting condition,Orkney Islands,23.32,26.41,24.86
+S12000049,2015,All,All,All,All,Limiting condition,Glasgow City,21.2,21.99,21.59
+S12000008,2017,All,All,All,All,Limiting condition,East Ayrshire,21.01,22.66,21.84
+S12000047,2015,All,All,All,All,Limiting condition,Fife,21.17,22.24,21.7
+S12000038,2016,All,All,All,All,Limiting condition,Renfrewshire,21.32,22.9,22.11
+S12000035,2016,All,All,All,All,Limiting condition,Argyll and Bute,21.96,23.75,22.86
+S12000036,2016,All,All,All,All,Limiting condition,City of Edinburgh,21.86,22.96,22.41
+S12000039,2016,All,All,All,All,Limiting condition,West Dunbartonshire,20.9,22.24,21.57
+S12000029,2016,All,All,All,All,Limiting condition,South Lanarkshire,21.62,22.8,22.21
+S12000040,2016,All,All,All,All,Limiting condition,West Lothian,21.66,23.71,22.69
+S12000042,2016,All,All,All,All,Limiting condition,Dundee City,20.49,21.71,21.1
+S12000041,2016,All,All,All,All,Limiting condition,Angus,22.42,24.12,23.27
+S92000003,2016,All,All,All,All,Limiting condition,Scotland,22.21,22.49,22.35
+S12000045,2016,All,All,All,All,Limiting condition,East Dunbartonshire,22.22,23.91,23.07
+S12000033,2016,All,All,All,All,Limiting condition,Aberdeen City,22.09,23.62,22.86
+S12000034,2016,All,All,All,All,Limiting condition,Aberdeenshire,22.43,24.12,23.27
+S12000028,2016,All,All,All,All,Limiting condition,South Ayrshire,21.84,23.28,22.56
+S12000030,2016,All,All,All,All,Limiting condition,Stirling,20.97,22.82,21.9
+S12000021,2016,All,All,All,All,Limiting condition,North Ayrshire,21.9,23.42,22.66
+S12000026,2016,All,All,All,All,Limiting condition,Scottish Borders,21.23,22.88,22.06
+S12000023,2016,All,All,All,All,Limiting condition,Orkney Islands,22.49,26.21,24.35
+S12000020,2016,All,All,All,All,Limiting condition,Moray,21.83,23.82,22.83
+S12000048,2016,All,All,All,All,Limiting condition,Perth and Kinross,21.82,23.3,22.56
+S12000047,2016,All,All,All,All,Limiting condition,Fife,22.21,23.33,22.77
+S12000027,2016,All,All,All,All,Limiting condition,Shetland Islands,22.2,23.63,22.91
+S12000006,2016,All,All,All,All,Limiting condition,Dumfries and Galloway,21.99,23.24,22.62
+S12000013,2016,All,All,All,All,Limiting condition,Na h-Eileanan Siar,23.04,25.03,24.04
+S12000010,2016,All,All,All,All,Limiting condition,East Lothian,21.63,23.43,22.53
+S12000005,2016,All,All,All,All,Limiting condition,Clackmannanshire,20.71,24.58,22.64
+S12000011,2016,All,All,All,All,Limiting condition,East Renfrewshire,21.77,23.56,22.66
+S92000003,2017,All,All,All,All,Limiting condition,Scotland,22.08,22.37,22.23
+S12000014,2016,All,All,All,All,Limiting condition,Falkirk,22.04,23.98,23.01
+S12000019,2016,All,All,All,All,Limiting condition,Midlothian,22.04,24.17,23.1
+S12000017,2016,All,All,All,All,Limiting condition,Highland,22.38,23.66,23.02
+S12000018,2016,All,All,All,All,Limiting condition,Inverclyde,20.63,22.45,21.54
+S12000034,2017,All,All,All,All,Limiting condition,Aberdeenshire,22.46,23.98,23.22
+S12000035,2017,All,All,All,All,Limiting condition,Argyll and Bute,23.28,25.23,24.25
+S12000036,2017,All,All,All,All,Limiting condition,City of Edinburgh,21.5,22.48,21.99
+S12000013,2015,All,All,All,All,Limiting condition,Na h-Eileanan Siar,20.77,23.17,21.97
+S12000038,2017,All,All,All,All,Limiting condition,Renfrewshire,20.77,22.6,21.69
+S12000049,2017,All,All,All,All,Limiting condition,Glasgow City,21.05,21.99,21.52
+S12000050,2017,All,All,All,All,Limiting condition,North Lanarkshire,21.7,22.87,22.28
+S12000047,2017,All,All,All,All,Limiting condition,Fife,21.99,22.9,22.44
+S12000017,2017,All,All,All,All,Limiting condition,Highland,22.18,23.56,22.87
+S12000048,2017,All,All,All,All,Limiting condition,Perth and Kinross,21.43,22.61,22.02
+S12000011,2017,All,All,All,All,Limiting condition,East Renfrewshire,22.18,24.04,23.11
+S12000013,2017,All,All,All,All,Limiting condition,Na h-Eileanan Siar,20.82,22.4,21.61
+S12000049,2016,All,All,All,All,Limiting condition,Glasgow City,20.5,21.25,20.87
+S12000040,2017,All,All,All,All,Limiting condition,West Lothian,20.77,22.64,21.7
+S12000039,2017,All,All,All,All,Limiting condition,West Dunbartonshire,21.47,23.28,22.38
+S12000008,2015,All,All,All,All,Limiting condition,East Ayrshire,21.56,22.85,22.21
+S12000041,2017,All,All,All,All,Limiting condition,Angus,21.11,22.98,22.05
+S12000042,2017,All,All,All,All,Limiting condition,Dundee City,21.58,23.05,22.32
+S12000014,2015,All,All,All,All,Limiting condition,Falkirk,21.96,23.56,22.76
+S12000041,2014,All,All,All,All,Limiting condition,Angus,21.85,23.76,22.8
+S12000040,2014,All,All,All,All,Limiting condition,West Lothian,21.64,23.97,22.81
+S12000038,2014,All,All,All,All,Limiting condition,Renfrewshire,21.17,22.67,21.92
+S12000042,2014,All,All,All,All,Limiting condition,Dundee City,20.33,22.22,21.27
+S12000014,2017,All,All,All,All,Limiting condition,Falkirk,21.74,23.21,22.47
+S12000045,2014,All,All,All,All,Limiting condition,East Dunbartonshire,22.22,24.12,23.17
+S12000028,2014,All,All,All,All,Limiting condition,South Ayrshire,20.8,22.41,21.61
+S92000003,2014,All,All,All,All,Limiting condition,Scotland,22.15,22.43,22.29
+S12000006,2017,All,All,All,All,Limiting condition,Dumfries and Galloway,21.57,23.19,22.38
+S12000039,2014,All,All,All,All,Limiting condition,West Dunbartonshire,21.45,23.16,22.3
+S12000045,2017,All,All,All,All,Limiting condition,East Dunbartonshire,21.71,23.5,22.61
+S12000017,2015,All,All,All,All,Limiting condition,Highland,22.58,24.09,23.33
+S12000047,2014,All,All,All,All,Limiting condition,Fife,22.07,23.27,22.67
+S12000045,2015,All,All,All,All,Limiting condition,East Dunbartonshire,21.9,23.67,22.79
+S12000034,2015,All,All,All,All,Limiting condition,Aberdeenshire,22.22,23.68,22.95
+S12000027,2015,All,All,All,All,Limiting condition,Shetland Islands,22.46,24.66,23.56
+S12000035,2015,All,All,All,All,Limiting condition,Argyll and Bute,22.91,24.63,23.77
+S12000021,2015,All,All,All,All,Limiting condition,North Ayrshire,22.59,24.47,23.53
+S12000023,2014,All,All,All,All,Limiting condition,Orkney Islands,23.09,25.47,24.28
+S92000003,2015,All,All,All,All,Limiting condition,Scotland,22.16,22.43,22.29
+S12000030,2015,All,All,All,All,Limiting condition,Stirling,21.01,23.25,22.13
+S12000036,2015,All,All,All,All,Limiting condition,City of Edinburgh,21.63,22.64,22.13
+S12000042,2015,All,All,All,All,Limiting condition,Dundee City,21.18,23.49,22.34
+S12000028,2015,All,All,All,All,Limiting condition,South Ayrshire,21.46,22.98,22.22
+S12000020,2015,All,All,All,All,Limiting condition,Moray,22.26,24.31,23.28
+S12000038,2015,All,All,All,All,Limiting condition,Renfrewshire,21.67,23.36,22.51
+S12000041,2015,All,All,All,All,Limiting condition,Angus,21.41,23.24,22.32
+S12000033,2015,All,All,All,All,Limiting condition,Aberdeen City,21.57,23.05,22.31
+S12000006,2015,All,All,All,All,Limiting condition,Dumfries and Galloway,21.59,23,22.29
+S12000023,2015,All,All,All,All,Limiting condition,Orkney Islands,23.22,25.5,24.36
+S12000005,2015,All,All,All,All,Limiting condition,Clackmannanshire,20.77,22.79,21.78
+S12000039,2015,All,All,All,All,Limiting condition,West Dunbartonshire,21.94,23.41,22.67
+S12000026,2015,All,All,All,All,Limiting condition,Scottish Borders,21.22,23.05,22.13
+S12000018,2015,All,All,All,All,Limiting condition,Inverclyde,20.44,22.27,21.36
+S12000029,2015,All,All,All,All,Limiting condition,South Lanarkshire,22,23.13,22.57
+S12000040,2015,All,All,All,All,Limiting condition,West Lothian,21.6,23.63,22.62
+S12000030,2015,All,All,All,All,No limiting condition,Stirling,24.48,25.35,24.92
+S12000029,2017,All,All,All,All,No limiting condition,South Lanarkshire,25.11,25.86,25.48
+S12000018,2017,All,All,All,All,No limiting condition,Inverclyde,23.85,24.84,24.35
+S12000027,2015,All,All,All,All,No limiting condition,Shetland Islands,25.09,26.35,25.72
+S12000045,2017,All,All,All,All,No limiting condition,East Dunbartonshire,24.31,25.54,24.93
+S12000017,2015,All,All,All,All,No limiting condition,Highland,24.58,25.38,24.98
+S12000019,2017,All,All,All,All,No limiting condition,Midlothian,24.01,25.16,24.59
+S12000029,2015,All,All,All,All,No limiting condition,South Lanarkshire,24.33,25.08,24.7
+S12000035,2017,All,All,All,All,No limiting condition,Argyll and Bute,25.61,26.92,26.26
+S12000020,2017,All,All,All,All,No limiting condition,Moray,24.6,25.85,25.22
+S92000003,2015,All,All,All,All,No limiting condition,Scotland,24.93,25.12,25.02
+S12000034,2017,All,All,All,All,No limiting condition,Aberdeenshire,25.29,26.04,25.67
+S12000040,2015,All,All,All,All,No limiting condition,West Lothian,24.43,26.19,25.31
+S12000038,2017,All,All,All,All,No limiting condition,Renfrewshire,23.81,24.6,24.21
+S12000028,2015,All,All,All,All,No limiting condition,South Ayrshire,24.01,25.29,24.65
+S12000038,2015,All,All,All,All,No limiting condition,Renfrewshire,24.5,25.32,24.91
+S92000003,2017,All,All,All,All,No limiting condition,Scotland,24.77,24.94,24.85
+S12000010,2015,All,All,All,All,No limiting condition,East Lothian,25.24,26.46,25.85
+S12000047,2014,All,All,All,All,No limiting condition,Fife,24.76,25.58,25.17
+S12000033,2015,All,All,All,All,No limiting condition,Aberdeen City,24.66,25.46,25.06
+S12000005,2014,All,All,All,All,No limiting condition,Clackmannanshire,23.88,25.21,24.54
+S12000017,2017,All,All,All,All,No limiting condition,Highland,24.61,25.38,25
+S12000042,2017,All,All,All,All,No limiting condition,Dundee City,23.79,24.96,24.37
+S12000028,2017,All,All,All,All,No limiting condition,South Ayrshire,24.43,25.49,24.96
+S12000005,2015,All,All,All,All,No limiting condition,Clackmannanshire,24.35,25.69,25.02
+S12000027,2017,All,All,All,All,No limiting condition,Shetland Islands,24.45,25.71,25.08
+S12000011,2015,All,All,All,All,No limiting condition,East Renfrewshire,24.08,25.38,24.73
+S12000049,2015,All,All,All,All,No limiting condition,Glasgow City,24.32,24.85,24.59
+S12000048,2015,All,All,All,All,No limiting condition,Perth and Kinross,24.51,25.53,25.02
+S12000021,2015,All,All,All,All,No limiting condition,North Ayrshire,24.68,25.57,25.13
+S12000026,2017,All,All,All,All,No limiting condition,Scottish Borders,24.4,25.57,24.99
+S12000050,2017,All,All,All,All,No limiting condition,North Lanarkshire,25.01,25.98,25.49
+S12000026,2015,All,All,All,All,No limiting condition,Scottish Borders,24.78,25.93,25.36
+S12000006,2014,All,All,All,All,No limiting condition,Dumfries and Galloway,24.32,25.36,24.84
+S12000036,2015,All,All,All,All,No limiting condition,City of Edinburgh,24.85,25.52,25.19
+S12000013,2015,All,All,All,All,No limiting condition,Na h-Eileanan Siar,25.08,26.05,25.57
+S12000006,2015,All,All,All,All,No limiting condition,Dumfries and Galloway,24.58,25.56,25.07
+S12000042,2014,All,All,All,All,No limiting condition,Dundee City,24.01,25.09,24.55
+S12000008,2015,All,All,All,All,No limiting condition,East Ayrshire,23.75,24.75,24.25
+S12000041,2014,All,All,All,All,No limiting condition,Angus,24.79,25.97,25.38
+S12000010,2017,All,All,All,All,No limiting condition,East Lothian,24,24.88,24.44
+S12000021,2017,All,All,All,All,No limiting condition,North Ayrshire,23.9,24.89,24.39
+S12000008,2017,All,All,All,All,No limiting condition,East Ayrshire,23.67,24.67,24.17
+S12000023,2015,All,All,All,All,No limiting condition,Orkney Islands,25.89,27.27,26.58
+S12000047,2015,All,All,All,All,No limiting condition,Fife,25.04,25.78,25.41
+S12000034,2015,All,All,All,All,No limiting condition,Aberdeenshire,25.06,25.9,25.48
+S12000045,2014,All,All,All,All,No limiting condition,East Dunbartonshire,24.71,25.71,25.21
+S12000013,2014,All,All,All,All,No limiting condition,Na h-Eileanan Siar,24.05,25.71,24.88
+S12000008,2014,All,All,All,All,No limiting condition,East Ayrshire,23.63,24.76,24.19
+S12000040,2017,All,All,All,All,No limiting condition,West Lothian,24.33,25.36,24.85
+S12000039,2017,All,All,All,All,No limiting condition,West Dunbartonshire,24.46,25.83,25.14
+S12000014,2014,All,All,All,All,No limiting condition,Falkirk,24.51,25.4,24.96
+S12000041,2017,All,All,All,All,No limiting condition,Angus,24.47,25.57,25.02
+S12000045,2015,All,All,All,All,No limiting condition,East Dunbartonshire,24.4,25.45,24.92
+S12000050,2015,All,All,All,All,No limiting condition,North Lanarkshire,25.17,26.15,25.66
+S12000010,2014,All,All,All,All,No limiting condition,East Lothian,24.37,26.09,25.23
+S12000018,2014,All,All,All,All,No limiting condition,Inverclyde,24.25,25.41,24.83
+S12000020,2014,All,All,All,All,No limiting condition,Moray,25.24,26.32,25.78
+S12000017,2014,All,All,All,All,No limiting condition,Highland,25.1,25.95,25.52
+S12000006,2016,All,All,All,All,No limiting condition,Dumfries and Galloway,24.15,25.11,24.63
+S12000019,2015,All,All,All,All,No limiting condition,Midlothian,26.46,27.82,27.14
+S12000019,2014,All,All,All,All,No limiting condition,Midlothian,25.62,27.34,26.48
+S12000011,2016,All,All,All,All,No limiting condition,East Renfrewshire,24.31,25.52,24.92
+S12000005,2017,All,All,All,All,No limiting condition,Clackmannanshire,24.24,25.39,24.81
+S12000020,2015,All,All,All,All,No limiting condition,Moray,24.09,25.07,24.58
+S12000013,2016,All,All,All,All,No limiting condition,Na h-Eileanan Siar,24.82,26.13,25.48
+S12000014,2016,All,All,All,All,No limiting condition,Falkirk,24.24,25.19,24.72
+S12000049,2014,All,All,All,All,No limiting condition,Glasgow City,24.73,25.27,25
+S12000008,2016,All,All,All,All,No limiting condition,East Ayrshire,24.11,25.33,24.72
+S12000010,2016,All,All,All,All,No limiting condition,East Lothian,23.96,25.1,24.53
+S12000048,2017,All,All,All,All,No limiting condition,Perth and Kinross,23.95,25.05,24.5
+S12000011,2014,All,All,All,All,No limiting condition,East Renfrewshire,24.9,26.1,25.5
+S12000030,2016,All,All,All,All,No limiting condition,Stirling,24.03,25.4,24.71
+S12000021,2014,All,All,All,All,No limiting condition,North Ayrshire,24.35,25.54,24.95
+S92000003,2016,All,All,All,All,No limiting condition,Scotland,24.85,25.02,24.93
+S12000014,2017,All,All,All,All,No limiting condition,Falkirk,24.04,24.96,24.5
+S12000013,2017,All,All,All,All,No limiting condition,Na h-Eileanan Siar,24.06,25.22,24.64
+S12000045,2016,All,All,All,All,No limiting condition,East Dunbartonshire,25.11,26.27,25.69
+S12000005,2016,All,All,All,All,No limiting condition,Clackmannanshire,23.91,25.06,24.48
+S12000042,2016,All,All,All,All,No limiting condition,Dundee City,23.95,25.03,24.49
+S12000041,2016,All,All,All,All,No limiting condition,Angus,24.03,25.06,24.54
+S12000011,2017,All,All,All,All,No limiting condition,East Renfrewshire,24.29,25.66,24.98
+S12000034,2016,All,All,All,All,No limiting condition,Aberdeenshire,24.61,25.31,24.96
+S12000047,2017,All,All,All,All,No limiting condition,Fife,24.33,25.1,24.72
+S12000035,2016,All,All,All,All,No limiting condition,Argyll and Bute,25.08,26.01,25.55
+S12000006,2017,All,All,All,All,No limiting condition,Dumfries and Galloway,24.88,25.86,25.37
+S12000036,2016,All,All,All,All,No limiting condition,City of Edinburgh,24.15,24.6,24.37
+S12000029,2016,All,All,All,All,No limiting condition,South Lanarkshire,24.55,25.47,25.01
+S12000027,2016,All,All,All,All,No limiting condition,Shetland Islands,24.66,25.78,25.22
+S12000028,2016,All,All,All,All,No limiting condition,South Ayrshire,24.54,25.85,25.19
+S12000033,2016,All,All,All,All,No limiting condition,Aberdeen City,24.55,25.29,24.92
+S12000040,2016,All,All,All,All,No limiting condition,West Lothian,24.87,25.82,25.34
+S12000039,2016,All,All,All,All,No limiting condition,West Dunbartonshire,25.59,26.68,26.13
+S12000023,2014,All,All,All,All,No limiting condition,Orkney Islands,26.13,28.34,27.24
+S12000038,2016,All,All,All,All,No limiting condition,Renfrewshire,24.33,25.11,24.72
+S12000021,2016,All,All,All,All,No limiting condition,North Ayrshire,24.9,25.99,25.44
+S12000023,2016,All,All,All,All,No limiting condition,Orkney Islands,24.94,27,25.97
+S12000020,2016,All,All,All,All,No limiting condition,Moray,23.95,25.09,24.52
+S12000035,2015,All,All,All,All,No limiting condition,Argyll and Bute,25.14,26.16,25.65
+S12000047,2016,All,All,All,All,No limiting condition,Fife,25.18,25.93,25.56
+S12000018,2015,All,All,All,All,No limiting condition,Inverclyde,24.58,25.59,25.08
+S12000048,2016,All,All,All,All,No limiting condition,Perth and Kinross,24.52,25.68,25.1
+S12000026,2016,All,All,All,All,No limiting condition,Scottish Borders,24.75,25.94,25.34
+S12000039,2015,All,All,All,All,No limiting condition,West Dunbartonshire,24.6,25.66,25.13
+S12000036,2017,All,All,All,All,No limiting condition,City of Edinburgh,24.4,24.87,24.63
+S12000050,2016,All,All,All,All,No limiting condition,North Lanarkshire,24.77,25.58,25.18
+S12000033,2017,All,All,All,All,No limiting condition,Aberdeen City,24.7,25.45,25.08
+S12000023,2017,All,All,All,All,No limiting condition,Orkney Islands,24.26,25.32,24.79
+S12000030,2017,All,All,All,All,No limiting condition,Stirling,24.35,25.35,24.85
+S12000014,2015,All,All,All,All,No limiting condition,Falkirk,25.06,25.89,25.48
+S12000017,2016,All,All,All,All,No limiting condition,Highland,24.78,25.53,25.15
+S12000019,2016,All,All,All,All,No limiting condition,Midlothian,24.65,25.79,25.22
+S12000018,2016,All,All,All,All,No limiting condition,Inverclyde,24.49,25.68,25.09
+S12000042,2015,All,All,All,All,No limiting condition,Dundee City,24.69,26.12,25.4
+S12000048,2014,All,All,All,All,No limiting condition,Perth and Kinross,24.61,25.88,25.25
+S12000036,2014,All,All,All,All,No limiting condition,City of Edinburgh,24.97,25.56,25.27
+S12000050,2014,All,All,All,All,No limiting condition,North Lanarkshire,24.8,25.69,25.24
+S12000026,2014,All,All,All,All,No limiting condition,Scottish Borders,24.9,26.67,25.79
+S12000034,2014,All,All,All,All,No limiting condition,Aberdeenshire,25.12,25.98,25.55
+S12000049,2017,All,All,All,All,No limiting condition,Glasgow City,24.07,24.62,24.34
+S12000049,2016,All,All,All,All,No limiting condition,Glasgow City,24.24,24.75,24.5
+S12000041,2015,All,All,All,All,No limiting condition,Angus,24.54,25.85,25.19
+S12000039,2014,All,All,All,All,No limiting condition,West Dunbartonshire,24.57,25.62,25.1
+S12000027,2014,All,All,All,All,No limiting condition,Shetland Islands,25.25,26.82,26.03
+S12000028,2014,All,All,All,All,No limiting condition,South Ayrshire,24.23,25.27,24.75
+S12000029,2014,All,All,All,All,No limiting condition,South Lanarkshire,24.89,25.73,25.31
+S12000038,2014,All,All,All,All,No limiting condition,Renfrewshire,24.65,25.49,25.07
+S12000040,2014,All,All,All,All,No limiting condition,West Lothian,24.02,25.37,24.69
+S92000003,2014,All,All,All,All,No limiting condition,Scotland,25.04,25.21,25.12
+S12000035,2014,All,All,All,All,No limiting condition,Argyll and Bute,25.67,26.82,26.25
+S12000033,2014,All,All,All,All,No limiting condition,Aberdeen City,24.61,25.34,24.98
+S12000030,2014,All,All,All,All,No limiting condition,Stirling,24.98,26.17,25.58

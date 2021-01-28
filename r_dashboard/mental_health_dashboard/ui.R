@@ -27,8 +27,6 @@ ui <- dashboardPage(
             menuItem("Where are the problems?", tabName = "geo"),
             menuItem("Who is affected", tabName = "demographics"),
             menuItem("Mental Health Indicators", tabName = "mh_indicators"),
-            menuItem("Self Assessed Health", tabName = "self_assessed"),
-            menuItem("Summary", tabName = "summary"),
             menuItem("About", tabName = "about")
         )
     ),
@@ -205,42 +203,18 @@ ui <- dashboardPage(
                             solidHeader = TRUE,
                              status = "primary",
                             plotOutput("actlevels_shs", height = 250)
+                        ),
+                        
+                        box(
+                            title = "Longterm Conditions and Mental Health", 
+                            plotOutput("longterm_conditions_mental_health_plot", 
+                                       height = 250)
                         )
                     )
             ),
 
-            # Fourth tab content
-            tabItem(tabName = "self_assessed",
-                    h2("Self Assessed General Health"),
-                    fluidRow(
-                        box(
-                            title = "Longterm Conditions and Mental Health", 
-                            plotOutput("longterm_conditions_mental_health_plot", height = 250),
-                        ),
-                        
-                        box(
-                            title = "Life Expectancy",
-                            plotOutput("plot7", height = 250),
-                        ),
-                        
-                        box(
-                            title = "Life Expectancy", 
-                            plotOutput("plot8", height = 250),
-                        )
-                    )
-            ),
-            
-            
-            # Fifth tab content
-            tabItem(tabName = "summary",
-                    h2("Summary"),
-                    fluidRow(
-                        box(
-                            title = "Life Expectancy",
-                            plotOutput("plot9", height = 250),
-                        )
-                    )
-            ),
+    
+        
             
             # Sixth tab content
             tabItem(tabName = "about",

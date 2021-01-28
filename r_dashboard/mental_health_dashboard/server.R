@@ -531,11 +531,8 @@ output$general_health_plot <- renderPlot({
                                    "#35B779FF", 
                                    "#FDE725FF")) 
 
-    
   })
-  
-  
-  
+
   
 ############Fourth tab content - Self Assessed & Longterm Conditions
   output$longterm_conditions_mental_health_plot <- renderPlot({

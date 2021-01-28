@@ -406,7 +406,9 @@ server <- function(input, output) {
       ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
       geom_bar(stat="identity") +
       geom_text(aes(y=value, label = ""),
-                position = position_stack(vjust = 0.5), colour="white")
+                position = position_stack(vjust = 0.5), colour="white") +
+      labs(x = "Years",
+           y = "Percentage")
     
   })
   
@@ -417,7 +419,9 @@ server <- function(input, output) {
       ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
       geom_bar(stat="identity") +
       geom_text(aes(y=value, label = ""),
-                position = position_stack(vjust = 0.5), colour="white")
+                position = position_stack(vjust = 0.5), colour="white") +
+      labs(x = "Years",
+           y = "Percentage")
     
     
     
@@ -430,7 +434,9 @@ server <- function(input, output) {
       ggplot(aes(x = date_code, y = value, fill = scottish_health_survey_indicator)) +
       geom_bar(stat="identity") +
       geom_text(aes(y=value, label = ""),
-                position = position_stack(vjust = 0.5), colour="white")
+                position = position_stack(vjust = 0.5), colour="white") +
+      labs(x = "Years",
+           y = "Percentage")
     
   })
   

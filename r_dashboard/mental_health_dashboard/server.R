@@ -375,7 +375,7 @@ server <- function(input, output) {
       filter(gender != "All") %>%
       ggplot() +
       aes(x = gender, y = mean) +
-      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci), col = "#95D840FF") +
       theme_bw() +
       labs(x = NULL,
            y = "Mean SWEMWBS Score")
@@ -388,7 +388,7 @@ server <- function(input, output) {
       filter(age != "All") %>%
       ggplot() +
       aes(x = age, y = mean) +
-      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci), col = "#482677FF") +
       theme_bw() +
       labs(x = NULL,
            y = "Mean SWEMWBS Score")
@@ -401,7 +401,19 @@ server <- function(input, output) {
       filter(limiting_cond != "All") %>%
       ggplot() +
       aes(x = limiting_cond, y = mean) +
-      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci)) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci), col = "#2D708EFF") +
+      theme_bw() +
+      labs(x = NULL,
+           y = "Mean SWEMWBS Score") 
+    
+  })
+  
+  output$tenure_mh <- renderPlot({
+    mental_wb_to_plot() %>%
+      filter(type_of_tenure != "All") %>%
+      ggplot() +
+      aes(x = type_of_tenure, y = mean) +
+      geom_pointrange(aes(ymin = lower_ci, ymax = upper_ci), col = "#1F989BFF") +
       theme_bw() +
       labs(x = NULL,
            y = "Mean SWEMWBS Score")

@@ -104,7 +104,7 @@ ui <- dashboardPage(
                     
                     fluidRow(
                         box(width = 12,
-                            background = "blue",
+                            background = "light-blue",
                             column(width = 6, 
                                    selectInput(inputId = "area",
                                                label = "Area",
@@ -129,7 +129,7 @@ ui <- dashboardPage(
                         box(
                             title = "Gender", 
                             solidHeader = TRUE,
-                            status = "warning",
+                             status = "primary",
                             plotOutput("gender_mh", height = 250)
                         ), 
                         
@@ -137,21 +137,21 @@ ui <- dashboardPage(
                         box(
                             title = "Age", 
                             solidHeader = TRUE,
-                            status = "warning",
+                             status = "primary",
                             plotOutput("age_mh", height = 250)
                         ), 
                         
                         box(
                             title = "Limiting Health Condition", 
                             solidHeader = TRUE,
-                            status = "warning",
+                             status = "primary",
                             plotOutput("limiting_hc", height = 250)
                         ),
                         
                         box(
                             title = "House Ownership", 
                             solidHeader = TRUE,
-                            status = "warning",
+                             status = "primary",
                             plotOutput("tenure_mh", height = 250)
                         )
                     )
@@ -163,7 +163,7 @@ ui <- dashboardPage(
                     
                     fluidRow(
                         box(width = 12,
-                            background = "blue",
+                            background = "light-blue",
                             column(width = 6, 
                                    selectInput(inputId = "area_shs",
                                                label = "Area",
@@ -188,7 +188,7 @@ ui <- dashboardPage(
                         box(
                             title = "Alcohol Use", 
                             solidHeader = TRUE,
-                            status = "warning",
+                             status = "primary",
                             plotOutput("al_shs", height = 250)
                         ), 
                         
@@ -196,14 +196,14 @@ ui <- dashboardPage(
                         box(
                             title = "Life Satisfaction", 
                             solidHeader = TRUE,
-                            status = "warning",
+                             status = "primary",
                             plotOutput("lifesat_shs", height = 250)
                         ), 
                         
                         box(
                             title = "Activity Levels", 
                             solidHeader = TRUE,
-                            status = "warning",
+                             status = "primary",
                             plotOutput("actlevels_shs", height = 250)
                         )
                     )

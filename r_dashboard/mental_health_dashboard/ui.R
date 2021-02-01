@@ -91,7 +91,7 @@ ui <- dashboardPage(
                             column(width = 6, 
                                    selectInput(inputId = "area",
                                                label = "Area",
-                                               choices = unique(mental_wb$la_name),
+                                               choices = sort(unique(mental_wb$la_name)),
                                                selected = "Scotland"
                                    )
                             ),

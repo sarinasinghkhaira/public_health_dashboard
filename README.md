@@ -28,6 +28,40 @@
 * Graeme Anderson
 
 
-### Example Images
+### App Demo
+![](screenshots/overview1.png)
+<br>
+<br>
+![](screenshots/map.png)
+<br>
+<br>
+![](screenshots/demographics.png)
+<br>
+<br>
+![](screenshots/other_mh_indicators.png)
+<br>
+<br>
+![](screenshots/deaths.png)
+### Credits and Links to Data Sources
 
-### Credits
+[Mental Wellbeing Survey](https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fmental-wellbeing-sscq)
+ 
+ 
+[Life Expectancy in Scotland](https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2FLife-Expectancy)
+
+[Life Expectency UK Wide](https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2FLife-Expectancy)
+ 
+ 
+[General Health Survey](https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fgeneral-health-sscq)
+                                  
+[Scottish Index of Multiple Deprivation 2020](https://www.gov.scot/publications/scottish-index-of-multiple-deprivation-2020v2-ranks/)
+                    
+[Scottish Health Survey](https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fscottish-health-survey-local-area-level-data",
+                                   "Scottish Health Survey")
+[Hospital Admissions](https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fhospital-admissions)
+
+
+[Probable Suicides](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/deaths/suicides)
+                            
+
+
